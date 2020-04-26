@@ -33,7 +33,7 @@ This will take several rounds to do.
 
 Note that the room below the webladder is in a lake, which means that either
 boats or excellent swimming are required, for the same reason as mentioned in
-the strategy for [The Kraken](/smobs/kraken.md).
+the strategy for [The Kraken](/docs/smobs/kraken.md).
 
 ### Forces of Dark
 
@@ -51,5 +51,5 @@ A sticky piece of flesh in the corpse of Ungambar. *TODO: What is this?*
 
 Butcher either:
 
-* [a pale-green spider's fang](/items/weapons.md#a-pale-green-spiders-fang)
-* [a black spider's heart](/items/magic.md#a-black-spiders-heart)
+* [a pale-green spider's fang](/docs/items/weapons.md#a-pale-green-spiders-fang)
+* [a black spider's heart](/docs/items/magic.md#a-black-spiders-heart)

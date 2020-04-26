@@ -34,7 +34,7 @@ who will be hiding down and north from the room he started in. Give it to him
 and he will eat it and disappear--having been cured of his madness--leaving
 behind:
 
-* [an enruned mithril spear](/items/weapons.md#an-enruned mithril-spear)
+* [an enruned mithril spear](/docs/items/weapons.md#an-enruned mithril-spear)
 * [a green amulet](/docs/items/magic.md#a-green-amulet)
 * [a red bracelet](/docs/items/clothing.md#a-red-bracelet)
 
