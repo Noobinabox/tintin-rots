@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-* [Armour](/items/armour.md)
-* [Clothing](/items/clothing.md)
-* [Containers](/items/containers.md)
-* [Food](/items/food.md)
-* [Light](/items/light.md)
-* [Magic](/items/magic.md)
-* [Shields](/items/shields.md)
-* [Weapons](/items/weapons.md)
+* [Armour](/docs/items/armour.md)
+* [Clothing](/docs/items/clothing.md)
+* [Containers](/docs/items/containers.md)
+* [Food](/docs/items/food.md)
+* [Light](/docs/items/light.md)
+* [Magic](/docs/items/magic.md)
+* [Shields](/docs/items/shields.md)
+* [Weapons](/docs/items/weapons.md)

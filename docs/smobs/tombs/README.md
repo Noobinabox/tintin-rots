@@ -31,10 +31,10 @@ can manage all super mobs except the necromancer this way.
 
 ## Table of Contents
 
-1. [The Undead Necromancer](/smobs/tombs/necromancer.md)
-1. [hi-Akallabeth](/smobs/tombs/hi-akallabeth.md)
-1. [Bithdaur](/smobs/tombs/bithdaur.md)
-1. [Mano](/smobs/tombs/mano.md)
-1. [Puh](/smobs/tombs/mano.md#puh)
-1. [Ar-Belzagar](/smobs/tombs/ar-belzagar.md)
-1. [The Undead King](/smobs/tombs/undead-king.md)
+1. [The Undead Necromancer](/docs/smobs/tombs/necromancer.md)
+1. [hi-Akallabeth](/docs/smobs/tombs/hi-akallabeth.md)
+1. [Bithdaur](/docs/smobs/tombs/bithdaur.md)
+1. [Mano](/docs/smobs/tombs/mano.md)
+1. [Puh](/docs/smobs/tombs/mano.md#puh)
+1. [Ar-Belzagar](/docs/smobs/tombs/ar-belzagar.md)
+1. [The Undead King](/docs/smobs/tombs/undead-king.md)

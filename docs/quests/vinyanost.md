@@ -63,14 +63,14 @@ Go to [a lieutenant of the guard](#a-lieutenant-of-the-guard) in Vinyanost and
 
 ##### On Buris's Corpse
 
-* [an old bottle](/items/containers.md#an-old-bottle)
-* [a blue bandana](/items/clothing.md#a-blue-bandana)
-* [a steel scimitar](/items/weapons.md#a-steel-scimitar)
+* [an old bottle](/docs/items/containers.md#an-old-bottle)
+* [a blue bandana](/docs/items/clothing.md#a-blue-bandana)
+* [a steel scimitar](/docs/items/weapons.md#a-steel-scimitar)
 
 ##### From lieutenant
 
-* [a leather helmet](/items/armour.md#a-leather-helmet)
-* [a bastard sword](/items/weapons.md#a-bastard-sword)
+* [a leather helmet](/docs/items/armour.md#a-leather-helmet)
+* [a bastard sword](/docs/items/weapons.md#a-bastard-sword)
 
 ### Conrad
 
@@ -173,18 +173,18 @@ Go to [a lieutenant of the guard](#a-lieutenant-of-the-guard) in Vinyanost and
 
 ##### On man's corpse
 
-* [a long black knife](/items/weapons.md#a-long-black-knife)
-* [a black pair of cotton pants](/items/clothing.md#a-black-pair-of-cotton-pants)
+* [a long black knife](/docs/items/weapons.md#a-long-black-knife)
+* [a black pair of cotton pants](/docs/items/clothing.md#a-black-pair-of-cotton-pants)
 
 ##### On woman's corpse
 
-* [a dagger](/items/weapons.md#a-dagger)
-* [a black pair of cotton pants](/items/clothing.md#a-black-pair-of-cotton-pants)
-* [a black cotton blouse](/items/clothing.md#a-black-cotton-blouse)
+* [a dagger](/docs/items/weapons.md#a-dagger)
+* [a black pair of cotton pants](/docs/items/clothing.md#a-black-pair-of-cotton-pants)
+* [a black cotton blouse](/docs/items/clothing.md#a-black-cotton-blouse)
 
 ##### From lieutenant
 
-* [a soldier's ration](#/items/food.md#a-soldiers-ration) (2x)
+* [a soldier's ration](#/docs/items/food.md#a-soldiers-ration) (2x)
 
 ### Heros
 
@@ -262,7 +262,7 @@ in Vinyansot.
 
 #### Reward
 
-[a shield with the crest of Lake-town](/items/shields.md#a-shield-with-the-crest-of-lake-town)
+[a shield with the crest of Lake-town](/docs/items/shields.md#a-shield-with-the-crest-of-lake-town)
 
 ### The Logger's Foreman
 
@@ -306,8 +306,8 @@ Leave Vinyanost to the west and immediately start traveling north.
 
 #### Rewards
 
-* [a pair of soft leather boots](/items/weapons.md#a-pair-of-soft-leather-boots)
-* [a forester's axe](/items/weapons.md#a-foresters-axe)
+* [a pair of soft leather boots](/docs/items/weapons.md#a-pair-of-soft-leather-boots)
+* [a forester's axe](/docs/items/weapons.md#a-foresters-axe)
 
 ### Weaponsmith's Apprentice
 
@@ -332,7 +332,7 @@ Find the weaponsmith's apprentice in Vinyanost and `say quest`.
 
 #### Rewards
 
-##### [a fine dagger](/items/weapons.md#a-fine-dagger)
+##### [a fine dagger](/docs/items/weapons.md#a-fine-dagger)
 
 Requires a dagger hilt and a shard of metal. The hilt can be found in a crate
 guarded by a veteran bandit of [Zark Valemspur](#zark-valemspur).
@@ -380,7 +380,7 @@ the [Logger's Foreman](#loggers-foreman).
 
 </details>
 
-##### [a fine longsword](/items/weapons.md#a-fine-longsword)
+##### [a fine longsword](/docs/items/weapons.md#a-fine-longsword)
 
 Requires [a sword hilt](#heros) and the shards of a long blade. The shards can
 be found in crate guarded by [Buris the Drunk](#buris-the-drunk).
@@ -399,7 +399,7 @@ be found in crate guarded by [Buris the Drunk](#buris-the-drunk).
 
 </details>
 
-##### [a fine shortsword](/items/weapons.md#a-fine-shortsword)
+##### [a fine shortsword](/docs/items/weapons.md#a-fine-shortsword)
 
 Requires [a sword hilt](#heros) and the shards of a short blade. The shards can
 be found on a corpse a shallow depression off of the Northern Road. The
@@ -490,17 +490,17 @@ to Kara north of Mathelberg.
 
 ##### On Zark's corpse
 
-* [a long, wooden spear](/items/weapons.md#a-long-wooden-spear)
-* [a studded leather belt](/items/clothing.md#a-studded-leather-belt)
-* [a thick pair of leather sleeves](/items/armour.md#a-thick-pair-of-leather-sleeves)
-* [a pair of thin metal boots](/items/armour.md#a-pair-of-thin-metal-boots)
-* [a pair of thin chain mail leggings](/items/armour.md#a-pair-of-thin-chain-mail-leggings)
-* [a heavy leather jerkin](/items/armour.md#a-heavy-leather-jerkin)
+* [a long, wooden spear](/docs/items/weapons.md#a-long-wooden-spear)
+* [a studded leather belt](/docs/items/clothing.md#a-studded-leather-belt)
+* [a thick pair of leather sleeves](/docs/items/armour.md#a-thick-pair-of-leather-sleeves)
+* [a pair of thin metal boots](/docs/items/armour.md#a-pair-of-thin-metal-boots)
+* [a pair of thin chain mail leggings](/docs/items/armour.md#a-pair-of-thin-chain-mail-leggings)
+* [a heavy leather jerkin](/docs/items/armour.md#a-heavy-leather-jerkin)
 
 ##### From lieutenant
 
-* [an encrusted ring](/items/clothing.md#an-encrusted-ring)
+* [an encrusted ring](/docs/items/clothing.md#an-encrusted-ring)
 
 ##### From Kara
 
-* [a blue candle](/items/light.md#a-blue-candle)
+* [a blue candle](/docs/items/light.md#a-blue-candle)

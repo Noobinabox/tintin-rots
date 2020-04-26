@@ -48,5 +48,5 @@ happens to have a spare key.
 
 ## Rewards
 
-* [an emerald encrusted robe](/items/clothing.md#an-emerald-encrusted-robe)
-* [a wicked black knife](/items/weapons.md#a-wicked-black-knife)
+* [an emerald encrusted robe](/docs/items/clothing.md#an-emerald-encrusted-robe)
+* [a wicked black knife](/docs/items/weapons.md#a-wicked-black-knife)

@@ -24,11 +24,11 @@ mob has two scripted effects that can separate the group.
 ## Reward
 
 This mob butchers
-[a strange, black limb](/items/weapons.md#a-strange-black-limb) which can be
-traded for [an engraved staff](/items/weapons.md#an-engraved-staff).
+[a strange, black limb](/docs/items/weapons.md#a-strange-black-limb) which can be
+traded for [an engraved staff](/docs/items/weapons.md#an-engraved-staff).
 
 ### Trading
 
 Player must be an elf or have a silver leaf. Travel to Thranduil's Hall and
 find the weaponsmith. He will craft the limb into
-[an engraved staff](/items/weapons.md#an-engraved-staff).
+[an engraved staff](/docs/items/weapons.md#an-engraved-staff).

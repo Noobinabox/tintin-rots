@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Items](/items/README.md)
-* [Logs](/logs/README.md)
-* [Quests](/quests/README.md)
-* [Super Mobs](/smobs/README.md)
+* [Items](/docs/items/README.md)
+* [Logs](/docs/logs/README.md)
+* [Quests](/docs/quests/README.md)
+* [Super Mobs](/docs/smobs/README.md)

@@ -20,5 +20,5 @@ Note that this mob has keyword `ranger`.
 
 ## Reward
 
-[a black two-handed rapier](/items/weapoons.md#a-black-two-handed-rapier) on
+[a black two-handed rapier](/docs/items/weapoons.md#a-black-two-handed-rapier) on
 hi-Akallabeth.

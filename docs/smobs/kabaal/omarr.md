@@ -44,5 +44,5 @@ damage mental hits.
 
 ## Reward
 
-Either [a dark runed mace](/items/weapons.md#a-dark-runed-mace) or
-[a white mace](/items/weapons.md#a-white-mace) on Omarr.
+Either [a dark runed mace](/docs/items/weapons.md#a-dark-runed-mace) or
+[a white mace](/docs/items/weapons.md#a-white-mace) on Omarr.

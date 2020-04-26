@@ -7,8 +7,8 @@ you must do Teff before Omarr, etc.
 
 ## Table of Contents
 
-1. [Teff](/smobs/kabaal/teff.md)
-1. [Omarr](/smobs/kabaal/omarr.md)
-1. [Garvin](/smobs/kabaal/garvin.md)
-1. [The Cowled Figure](/smobs/kabaal/cowled.md)
-1. [Kabaal the Madman](/smobs/kabaal/kabaal.md)
+1. [Teff](/docs/smobs/kabaal/teff.md)
+1. [Omarr](/docs/smobs/kabaal/omarr.md)
+1. [Garvin](/docs/smobs/kabaal/garvin.md)
+1. [The Cowled Figure](/docs/smobs/kabaal/cowled.md)
+1. [Kabaal the Madman](/docs/smobs/kabaal/kabaal.md)

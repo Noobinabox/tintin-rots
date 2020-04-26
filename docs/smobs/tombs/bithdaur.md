@@ -14,4 +14,4 @@ Note that this mob has keyword `mage`.
 
 ## Reward
 
-[a ruby-tipped staff](/items/weapons.md#a-ruby-tipped-staff) on Bithdaur.
+[a ruby-tipped staff](/docs/items/weapons.md#a-ruby-tipped-staff) on Bithdaur.

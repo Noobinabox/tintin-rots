@@ -2,4 +2,4 @@
 
 ## Table of Contents
 
-* [Vinyanost](/quests/vinyanost.md)
+* [Vinyanost](/docs/quests/vinyanost.md)

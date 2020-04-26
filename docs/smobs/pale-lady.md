@@ -27,7 +27,7 @@ tower open.
 
 Second, you need the sun plate. This item is located in the tombs just
 southwest of Lake-town on the ground. You need the ornate key from
-[The Warlock](/smobs/warlock.md) to access it.
+[The Warlock](/docs/smobs/warlock.md) to access it.
 
 Once you have these items, you need to lure Ar-Grimlakik into the room that you
 will be fighting. This mob has an enormous amount of hitpoints and is aggressive
@@ -72,7 +72,7 @@ starting over at the luring of Ar-Grimlakik, once he respawns.
 
 Dropped on the ground after the Pale Lady vanishes:
 
-* [a plain golden ring](/items/clothing.md#a-plain-golden-ring)
-* [a silvery-white robe](/items/clothing.md#a-silvery-white-robe)
-* [a golden shield](/items/shields.md#a-golden-shield)
-* [a quicksilver rapier](/items/weapons.md#a-quicksilver-rapier)
+* [a plain golden ring](/docs/items/clothing.md#a-plain-golden-ring)
+* [a silvery-white robe](/docs/items/clothing.md#a-silvery-white-robe)
+* [a golden shield](/docs/items/shields.md#a-golden-shield)
+* [a quicksilver rapier](/docs/items/weapons.md#a-quicksilver-rapier)

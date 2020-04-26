@@ -30,5 +30,5 @@ interrupted by a repop--then hallucinate the Interloper and curse/flee it.
 
 ## Reward
 
-* [a pair of shiny black sleeves](/items/clothing.md#a-pair-of-shiny-black-sleeves)
-* [an ivory ring](/items/clothing.md#an-ivory-ring)
+* [a pair of shiny black sleeves](/docs/items/clothing.md#a-pair-of-shiny-black-sleeves)
+* [an ivory ring](/docs/items/clothing.md#an-ivory-ring)

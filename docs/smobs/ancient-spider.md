@@ -32,4 +32,4 @@ difficult to butcher item.
 ## Reward
 
 This mob butchers
-[a bulbous spider's eye](/items/magic.md#a-bulbous-spiders-eye).
+[a bulbous spider's eye](/docs/items/magic.md#a-bulbous-spiders-eye).

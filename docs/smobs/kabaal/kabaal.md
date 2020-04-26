@@ -35,8 +35,8 @@ and he will eat it and disappear--having been cured of his madness--leaving
 behind:
 
 * [an enruned mithril spear](/items/weapons.md#an-enruned mithril-spear)
-* [a green amulet](/items/magic.md#a-green-amulet)
-* [a red bracelet](/items/clothing.md#a-red-bracelet)
+* [a green amulet](/docs/items/magic.md#a-green-amulet)
+* [a red bracelet](/docs/items/clothing.md#a-red-bracelet)
 
 A random assortment of etched leather armour pieces also load on the ground
 in this room. *TODO: Add references to etched leather gear.*
@@ -45,10 +45,10 @@ The second load does not require the crocodile flesh; east and down from the
 room Kabaal started in is a chest, in which can load one or more pieces of the
 obsidian armour set, and any of the following:
 
-* [a crescent axe](/items/weapons.md#a-crescent-axe)
-* [a steel-shafted maul](/items/weapons.md#a-steel-shafted-maul)
-* [a many-coloured sword](/items/weapons.md#a-many-coloured-sword)
-* [a blood-encrusted sickle](/items/weapons.md#a-blood-encrusted-sickle)
+* [a crescent axe](/docs/items/weapons.md#a-crescent-axe)
+* [a steel-shafted maul](/docs/items/weapons.md#a-steel-shafted-maul)
+* [a many-coloured sword](/docs/items/weapons.md#a-many-coloured-sword)
+* [a blood-encrusted sickle](/docs/items/weapons.md#a-blood-encrusted-sickle)
 
 It is unlikely to find more than two or three pieces of obsidian armour each
 time. *TODO: Add references to obsidian armour.*

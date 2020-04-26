@@ -31,5 +31,5 @@ has keyword `woman` instead of `man`.
 
 ## Reward
 
-* [a sapphirine kite shield](/items/shields.md#a-sapphirine-kite-shield)
-* [a fine blue robe](/items/clothing.md#a-fine-blue-robe)
+* [a sapphirine kite shield](/docs/items/shields.md#a-sapphirine-kite-shield)
+* [a fine blue robe](/docs/items/clothing.md#a-fine-blue-robe)

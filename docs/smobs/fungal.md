@@ -53,7 +53,7 @@ mobs.
 
 ### Reward
 
-[an iridescent flail](/items/weapons.md#an-iridescent-flail) on the fungal
+[an iridescent flail](/docs/items/weapons.md#an-iridescent-flail) on the fungal
 abomination
 
 ## Lazora
@@ -80,4 +80,4 @@ Abomination.
 
 ### Reward
 
-[a twisted, black stick](/items/weapons.md#a-twisted-black-stick) on Lazora.
+[a twisted, black stick](/docs/items/weapons.md#a-twisted-black-stick) on Lazora.

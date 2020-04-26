@@ -24,4 +24,4 @@ rescue the warlock.
 
 ## Reward
 
-* [a stone ring](/items/clothing.md#a-stone-ring) (2x)
+* [a stone ring](/docs/items/clothing.md#a-stone-ring) (2x)

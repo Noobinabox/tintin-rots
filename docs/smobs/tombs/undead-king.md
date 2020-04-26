@@ -36,5 +36,5 @@ hallucinate/flee.
 
 ## Rewards
 
-* [an ancient mithril breastplate](/items/armour.md#an-ancient-mithril-breastplate)
-* [a long bone sceptre](/items/weapons.md#a-long-bone-sceptre)
+* [an ancient mithril breastplate](/docs/items/armour.md#an-ancient-mithril-breastplate)
+* [a long bone sceptre](/docs/items/weapons.md#a-long-bone-sceptre)

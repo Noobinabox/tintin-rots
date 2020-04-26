@@ -42,5 +42,5 @@ chest that loads the silver coin.
 
 ## Reward
 
-[a silver inscribed medallion](/items/clothing.md#a-silver-inscribed-medallion)
+[a silver inscribed medallion](/docs/items/clothing.md#a-silver-inscribed-medallion)
 in the chest above the spider.

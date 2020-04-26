@@ -24,13 +24,13 @@ targets. Not bashable.
 Exactly one item can be obtained from this super mob each time it is run.
 
 * Any race.
-	[a triple-headed morningstar](/items/weapons.md#a-triple-headed-morningstar).
+	[a triple-headed morningstar](/docs/items/weapons.md#a-triple-headed-morningstar).
 	Loads behind a hidden door near	where Targen was first found.
 * A dwarf gives Targen's corpse to his spirit, get
-	[a mithril mask](/items/weapons.md#a-mithril-mask).
+	[a mithril mask](/docs/items/weapons.md#a-mithril-mask).
 * A hobbit gives Targen's corpse to his spirit, get
-	[light mithril mail shirt](/items/weapons.md#light-mithril-mail-shirt).
+	[light mithril mail shirt](/docs/items/weapons.md#light-mithril-mail-shirt).
 * A human gives Targen's corpse to his spirit, get
-	[light mithril mail boots](/items/weapons.md#light-mithril-mail-boots).
+	[light mithril mail boots](/docs/items/weapons.md#light-mithril-mail-boots).
 * An elf gives Targen's corpse to his spirit, get
-	[an ornate mithril sword](/items/weapons.md#an-ornate-mithril-sword).
+	[an ornate mithril sword](/docs/items/weapons.md#an-ornate-mithril-sword).

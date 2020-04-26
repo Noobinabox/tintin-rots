@@ -62,7 +62,7 @@ will work normally.
 
 One of the following:
 
-* [an ivory mallet](/items/weapons.md#an-ivory-mallet) from the shard of tusk
+* [an ivory mallet](/docs/items/weapons.md#an-ivory-mallet) from the shard of tusk
 	in the mumak's corpse
-* [a spiked ivory club](/items/weapons.md#a-spiked-ivory-club) butcherable
+* [a spiked ivory club](/docs/items/weapons.md#a-spiked-ivory-club) butcherable
 	from the larger shard of tusk

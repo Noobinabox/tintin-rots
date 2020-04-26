@@ -25,5 +25,5 @@ ability to do damage while defensive.
 
 ## Rewards
 
-* [a tower shield](/items/shields.md#a-tower-shield)
-* chance for [a shadowy blade](/items/weapons.md#a-shadowy-blade)
+* [a tower shield](/docs/items/shields.md#a-tower-shield)
+* chance for [a shadowy blade](/docs/items/weapons.md#a-shadowy-blade)

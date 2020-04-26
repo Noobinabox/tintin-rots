@@ -87,6 +87,6 @@ zone.
 A chest north of the Kraken may load each of the following. The chest is
 unlocked with [a jade key](#hideous-amoeba).
 
-* [an old green cloak](/items/clothing.md#an-old-green-cloak)
-* [a fine, silver shield](/items/shields.md#a-fine-silver-shield)
-* [a pair of supple leather boots](/items/clothing.md#a-pair-of-supple-leather-boots)
+* [an old green cloak](/docs/items/clothing.md#an-old-green-cloak)
+* [a fine, silver shield](/docs/items/shields.md#a-fine-silver-shield)
+* [a pair of supple leather boots](/docs/items/clothing.md#a-pair-of-supple-leather-boots)
