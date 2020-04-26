@@ -1,0 +1,14 @@
+#nop Door settings
+
+#class doors open
+
+#action {The %1 seems to be closed.} {#var door %1}
+#alias {od} {open $door}
+#alias {cd} {close $door}
+#alias {pd} {pick $door}
+#alias {kd} {knock $door}
+#alias {kg} {knock $door}
+#alias {ud} {unlock $door}
+#alias {ld} {lock $door}
+
+#class doors close

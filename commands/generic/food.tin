@@ -1,0 +1,8 @@
+#nop Settings for foods
+
+#class food open
+
+#alias {food %1} {#var food %1}
+#alias {gg} {get $food all;eat $food}
+
+#class food close

@@ -1,0 +1,10 @@
+#nop XP Triggers
+
+#class xptrigger open
+
+#action {A cave troll is standing here, pounding his two huge fists together.} {k troll}
+#action {A massive mirkwolf stares at you through blood red eyes.} {kill massive}
+#action {A huge mirkwolf tenses its massive frame in readiness.} {kill huge}
+#action {A hunched forest troll moves around here, arms dragging on the ground.} {k troll}
+
+#class xptrigger close

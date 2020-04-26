@@ -1,0 +1,10 @@
+#nop Generic functions...
+
+#class functions open
+
+#function getTime
+{
+	#format result %t %Y-%m-%d::%H:%M:%S;
+};
+
+#class functions close

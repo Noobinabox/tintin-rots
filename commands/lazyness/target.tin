@@ -1,0 +1,10 @@
+#nop Global targetting here...
+
+#class target open
+
+#alias {tar}
+{
+	#var target %0;
+}
+
+#class target close

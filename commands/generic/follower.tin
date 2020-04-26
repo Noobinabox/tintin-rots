@@ -1,0 +1,27 @@
+#nop Aliases for followers setup
+
+#CLASS {follower} OPEN
+
+#alias {fol %1} {
+	follow %1;
+	#var leader %1;
+	#action {$leader attacks} {assist $leader};
+	#action {$leader mounts} {ride};
+	#action {$leader stops riding} {dismount};
+	#action {$leader says 'flee'} {flee;set wimpy 999};
+	#action {$leader says 'regen'} {rr $leader}
+}
+#alias {as} {assist $leader}
+
+#alias {unfol}
+{
+	follow self;
+	#unaction {$leader attacks};
+	#unaction {$leader mounts};
+	#unaction {$leader stops riding};
+	#unaction {$leader says 'flee'};
+	#unaction {$leader says 'regen'};
+	#var leader {self};
+}
+
+#CLASS {follower} CLOSE

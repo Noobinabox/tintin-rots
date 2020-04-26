@@ -1,0 +1,22 @@
+#nop Global actions...
+
+#class actions open
+
+#ACTION {You receive your share of experience -- } {get all.coins all.corpse}
+#action {Your %1 went out.} {get %1 all;hold %1}
+#action {Here we go...} {blow eye;blow branch}
+#action {The %1 seems to be closed.}{#map undo}
+#action {Str: %1/%2, Int: %3/%4, Wil: %5/%6, Dex: %7/%8, Con: %9/%10, Lea: %11/%12}
+{
+	#var statsum 0;
+	updateStatSum %2;
+	updateStatSum %4;
+	updateStatSum %6;
+	updateStatSum %8;
+	updateStatSum %10;
+	updateStatSum %12;
+	#showme {Statsum: $statsum};
+};
+
+
+#class actions close

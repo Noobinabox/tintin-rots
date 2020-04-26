@@ -1,0 +1,50 @@
+#nop Mapping system...
+
+#class mapping open
+
+#action {~%1 (#%2) [ %3, }
+{
+    #map set roomname %1;
+    #map set roomid %2;
+    #switch {"%3"}
+    {
+        #case {"Floor"} {#map set roomsymbol -;#map set roomcolor <fff>};
+        #case {"City"} {#map set roomsymbol -;#map set roomcolor <fff>};
+        #case {"Field"} {#map set roomsymbol ";#map set roomcolor <aff>};
+        #case {"Forest"} {#map set roomsymbol *;#map set roomcolor <aeb>};
+        #case {"Hills"} {#map set roomsymbol h;#map set roomcolor <ebd>};
+        #case {"Mountain"} {#map set roomsymbol ^;#map set roomcolor <eff>};
+        #case {"Water"} {#map set roomsymbol ~;#map set roomcolor <adf>};
+        #case {"Water_noswim"} {#map set roomsymbol ~;#map set roomcolor <aaf>};
+        #case {"Underwater"} {#map set roomsymbol ~;#map set roomcolor <abf>};
+        #case {"Road"} {#map set roomsymbol -;#map set roomcolor <fff>};
+        #case {"Crack"} {#map set roomsymbol c;#map set roomcolor <caa>};
+        #case {"Dense_forest"} {#map set roomsymbol *;#map set roomcolor <abb>};
+        #case {"Swamp"} {#map set roomsymbol %;#map set roomcolor <daf>};
+        #case {"<NONE>"} {#map set roomsymbol -;#map set roomcolor <fff>};
+    }
+}
+
+#alias {gmd %1 %2}
+{
+    #map dig %1;
+    md %1 %2;
+};
+
+#alias {md %1 %2}
+{
+    #map exit %1 {command} {open %2 %1;%1};
+    #map exit %1 {color} {<baa>};
+    #map exitflag %1 avoid;
+};
+
+#alias {savemap}
+{
+    #map write {maps/arda_map.map};
+};
+
+
+#action {You cannot go that way.}{#map undo}
+#action {The %1 seems to be closed.}{#map undo}
+
+#class mapping close

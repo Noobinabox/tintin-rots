@@ -1,0 +1,42 @@
+#nop Global aliases
+
+#class aliases open
+
+#alias {an %1} {stb;ambush %1;stc}
+#alias {updateStatSum %1}
+{
+	#math {statsum} {$statsum + %1};
+};
+#alias {rr} {
+	cast 'regeneration' %0;
+	cast 'vitality' %0;
+}
+
+#alias {{work on}} {
+	#class highlights kill;
+	col off;
+}
+
+#alias {{work off}} {
+	#read {commands/colour/highlights.tin};
+	col on;
+}
+
+#alias {colorpalette}
+{
+     #foreach {a;b;c;d;e;f} {cnt1}
+     {
+          #foreach {a;b;c;d;e;f} {cnt2}
+          {
+               #variable result <000>;
+               #foreach {a;b;c;d;e;f} {cnt3}
+               {
+                    #variable result $result  <$cnt1$cnt2$cnt3> <<888>$cnt1$cnt2$cnt3><088>
+               };
+               #showme $result
+          }
+     }
+}
+
+
+#class aliases close

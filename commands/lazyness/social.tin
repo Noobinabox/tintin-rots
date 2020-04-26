@@ -1,0 +1,27 @@
+#nop Social logging
+
+#class social open
+
+#action {%1 chats %2} {log %0};
+#action {%1 narrates %2} {log %0};
+#action {%1 tells you %2} {log %0};
+#action {You tell %1} {log %0};
+#action {You say %1} {log %0};
+#action {You chat %1} {log %0};
+#action {You narrate %1} {log %0};
+#action {%1 says %2} {log %0};
+#action {%1 whispers to you, %2} {log %0};
+#action {You group-say %1} {log %0};
+#action {%1 group-says %2} {log %0};
+
+#alias {log %1}
+{
+	#line log {logs/social.log} {<caf>@getTime{} <afc>%1};
+};
+
+#alias {clearLog}
+{
+	#system truncate -s 0 logs/social.log
+};
+
+#class social close

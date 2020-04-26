@@ -1,0 +1,14 @@
+#nop Read mapping files...
+
+#class aliases open
+
+#alias {automapping %1}
+{
+    #switch {"%1"}
+    {
+        #case {"on"} {#read {commands/map/mapping.tin};#map flag static off};
+        #case {"off"} {#class mapping kill;#map flag static on};
+    }
+};
+
+#class aliases close

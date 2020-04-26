@@ -1,0 +1,10 @@
+#nop Settings for events
+
+#class events open
+
+#event {MAP ENTER ROOM} {
+	#read {commands/map/map_size.tin};
+	#map map ${MAP_LINES} ${MAP_ROWS} {overwrite} {maps/arda.map};
+}
+
+#class events close

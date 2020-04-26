@@ -1,0 +1,12 @@
+#nop Reading all tin classes in generic...
+
+#read {commands/generic/actions.tin}
+#read {commands/generic/aliases.tin}
+#read {commands/generic/events.tin}
+#read {commands/generic/functions.tin}
+#read {commands/generic/macros.tin}
+#read {commands/generic/doors.tin}
+#read {commands/generic/setup_aliases.tin}
+#read {commands/generic/food.tin}
+
+

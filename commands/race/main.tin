@@ -1,0 +1,15 @@
+#nop Read in all race specific files
+
+#class aliases open
+
+#alias {OrcOn}
+{
+	#read {commands/race/orc.tin};
+};
+
+#alias {OrcOff}
+{
+	#class orc kill;
+};
+
+#class aliases close

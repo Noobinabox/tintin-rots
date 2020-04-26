@@ -1,0 +1,112 @@
+#nop Default local aliases for characters...
+
+#class setup open
+#alias {{setup default}} {
+	col char cyan;
+	col obj green;
+	col roomname bright yellow;
+	col chat bright magenta;
+	set compact on;
+	set spam off;
+}
+
+#alias {{setup alias}} { 
+	alias std set tac def;
+	alias stc set tac careful;
+	alias stn set tac normal;
+	alias sta set tac agg;
+	alias stb set tac agg;
+	alias t track;
+	alias g group;
+	alias dd detail damage;
+	alias dg detail group;
+	alias , dismount;
+	alias . ride;
+	alias lc l in corpse;
+	alias 0 search
+}
+
+
+#alias {{setup mage}} {
+	alias 1 cast 'cure self';
+	alias 2 cast 'vitalize self';
+	alias c cast 'chill ray';
+	alias p cast 'lightning bolt';
+	alias o cast 'magic missile';
+	alias z cast 'reveal life';
+	alias v cast 'flash';
+	alias rc cast 'relocate';
+	alias b cast 'blink';
+	alias f cast 'firebolt';
+	alias ff cast 'fireball';
+	alias ls cast 'lightning strike';
+	alias co cast 'cone of cold';
+	alias id cast 'identify';
+	alias create cast 'create light';
+	alias ll cast 'locate living';
+	alias cs cast 'shield';
+	alias pc prepare 'chill ray';
+	alias pp prepare 'lighting bolt';
+	alias pf prepare 'firebolt';
+	alias pff prepare 'fireball';
+	alias pls prepare 'lightning strike';
+	alias pco prepare 'cone of cold';
+}
+
+#alias {{setup ranger} %1} {
+	alias h hide;
+	alias hw hide well;
+	alias of order follower;
+	alias ofa order follower assist %1;
+}
+
+#alias {{setup mystic} %1} {
+	alias i cast 'insight';
+	alias ii cast 'insight' %1;
+	alias p cast 'poison';
+	alias c cast 'curse';
+	alias f cast 'fear';
+	alias te cast 'terror';
+	alias co cast 'confuse';
+	alias dispel cast 'dispel regeneration' %1;
+	alias dm cast 'detect magic';
+	alias rm cast 'resist magic';
+	alias ev cast 'evasion';
+	alias dh cast 'detect hidden';
+	alias death cast 'death ward';
+	alias prag cast prag;
+	alias gu cast 'guardian';
+	alias slow cast 'slow digestion';
+	alias r cast 'revive' %1;
+	alias h cast 'hallucinate';
+	alias sat cast 'curing saturation';
+	alias rp cast 'remove poison';
+}
+
+#alias {{setup lhuth}} {
+	alias 1 cast 'cure self';
+	alias 2 cast 'vitalize self';
+	alias c cast 'leach';
+	alias p cast 'dark bolt';
+	alias o cast 'word of pain';
+	alias z cast 'word of sight';
+	alias v cast 'word of shock';
+	alias rc cast 'relocate';
+	alias b cast 'blink';
+	alias f cast 'word of agony';
+	alias ff cast 'spear of darkness';
+	alias co cast 'black arrow';
+	alias ce cast 'shout of pain';
+	alias id cast 'identify';
+	alias ll cast 'locate living';
+	alias cs cast 'shield';
+	alias pc prepare 'leach';
+	alias pp prepare 'dark bolt';
+	alias pf prepare 'word of agony';
+	alias pff prepare 'spear of darkness';
+	alias pco prepare 'black arrow';
+	alias pce prepare 'shout of pain';
+}
+
+
+#class setup close

@@ -1,0 +1,43 @@
+#nop Global orc triggers for followers
+
+#class orc open
+
+#alias {{setup orc} %1}
+{
+	alias of order followers;
+	alias ofa order followers assist %1;
+	alias ofr order followers rest;
+	alias ohw order followers hide well;
+	alias of. order followers ride;
+	alias of, order followers dismount;
+}
+#alias {k %1}
+{
+	#var target %1;
+	hit $target;
+	order followers kill $target;
+}
+#alias {regenall}
+{
+	#loop 1 4 orc {cast 'regeneration' $orc\.orc}
+}
+
+#alias {vitall}
+{
+	#loop 1 4 orc {cast vit $orc\.orc}
+}
+
+#alias {insall}
+{
+	#loop 1 4 orc {cast 'insight' $orc\.orc}
+}
+
+#alias {satall}
+{
+	#loop 1 4 orc {cast 'curing saturation' $orc\.orc}
+}
+
+#action {^You stop riding} {order followers dismount}
+#action {^You mount} {order followers ride}
+
+#class orc close

@@ -1,0 +1,4 @@
+#nop Read in all Colour files...
+
+#read {commands/colour/highlights.tin}
+

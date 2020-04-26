@@ -1,0 +1,35 @@
+#nop Viola file...
+
+#class Viola open
+
+#alias {tar %1}
+{
+    #var tar %1;
+}
+
+#alias {cc}
+{
+    cast 'curse' $target;
+}
+
+#alias {hh}
+{
+    cast 'hallucinate' $target;
+}
+
+#alias {ss}
+{
+    cast 'curing saturation $target;
+}
+
+#alias {ff}
+{
+    cast 'fear' $target;
+}
+
+#alias {pp}
+{
+    cast 'poison' $target;
+}
+
+#class Viola close

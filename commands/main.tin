@@ -1,0 +1,19 @@
+#split
+#config {repeat enter} on
+#config command {<acf>}
+
+
+#nop Read in all configuration files...
+
+#read {commands/generic/main.tin}
+#read {commands/exits/main.tin}
+#read {commands/lazyness/main.tin}
+#read {commands/race/main.tin}
+#read {commands/colour/main.tin}
+#read {commands/map/main.tin}
+
+#EVENT {SESSION CONNECTED}
+{
+     #map read {maps/arda_map.map};
+     #map flag static on;
+}

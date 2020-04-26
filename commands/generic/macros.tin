@@ -1,0 +1,17 @@
+#nop Global macros...
+
+#class macros open
+
+#MACRO {\eOn} {get all.coins all.corpse}
+#MACRO {\eOp} {exits}
+#MACRO {\eOq} {xx corpse}
+#MACRO {\eOr} {south}
+#MACRO {\eOs} {down}
+#MACRO {\eOt} {west}
+#MACRO {\eOu} {look}
+#MACRO {\eOv} {east}
+#MACRO {\eOx} {north}
+#MACRO {\eOy} {up}
+#MACRO {`} {#sess rots rotsmud.dyndns.org 3791}
+
+#class macros close

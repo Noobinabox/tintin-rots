@@ -1,0 +1,21 @@
+#nop All highlights
+
+#class highlights open
+
+#HIGHLIGHT {Exits are: %1} {light underscore orange}
+#HIGHLIGHT {You discover a weakness in %1} {light azure}
+#HIGHLIGHT {You find an opening in %1} {light blue}
+#highlight {You rush forward wildly.} {bold azure}
+#HIGHLIGHT {You kick %1} {light lime}
+#HIGHLIGHT {Your riposte %1} {bold azure}
+#highlight {:Hurt} {light bold orange}
+#highlight {:Wounded} {dim bold pink}
+#highlight {:Bloodied} {bold red}
+#highlight {:Awful} {underscore bold red}
+#highlight {:Scratched} {light bold green}
+#highlight {:Bruised} {dim bold yellow}
+#highlight {S:} {light bold azure}
+#highlight {HP} {light bold pink}
+#highlight {You have %1 hit, %2 stamina, %3 moves, %4 spirit.} {bold white}
+
+#class highlights close

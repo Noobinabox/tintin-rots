@@ -1,0 +1,26 @@
+#nop Exits file reader and aliases to turn them on and off
+
+#read {commands/exits/paths.tin}
+
+#class aliases open
+#alias {FarothOn}
+{
+	#read {commands/exits/faroth.tin};
+};
+
+#alias {FarothOff}
+{
+	#class faroth kill;
+};
+
+#alias {ValeOn}
+{
+	#read {commands/exits/vale.tin};
+};
+
+#alias {ValeOff}
+{
+	#class vale kill;
+};
+
+#class aliases close

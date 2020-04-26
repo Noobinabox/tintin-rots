@@ -1,0 +1,19 @@
+#nop Read in all the lazyness files...
+
+
+#read {commands/lazyness/social.tin}
+#read {commands/lazyness/target.tin}
+
+#class aliases open
+
+#alias {{xp on}}
+{
+	#read {commands/lazyness/xptriggers.tin};
+};
+
+#alias {{xp off}}
+{
+	#class xptrigger kill;
+};
+
+#class aliases close

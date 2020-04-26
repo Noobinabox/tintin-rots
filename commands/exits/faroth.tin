@@ -1,0 +1,189 @@
+#nop // Faroth
+
+#class faroth open
+
+#sub {^A Bleached Skeleton    Exits are:%1} {%0: wsnnsnnnswsen}
+#sub {^A Clear Spring    Exits are:%1} {%0: weswsen}
+#sub {^A Frightening Warning    Exits are:%1} {%0: wsnssen}
+#sub {^A Gushing Spring    Exits are:%1} {%0: nssssen}
+#sub {^A Lazy Waterfall    Exits are:%1} {%0: seswsen}
+#sub {^A Low Riverbank    Exits are:%1} {%0: eewen}
+#sub {^A Shallow Bog    Exits are:%1} {%0: nwwen M:wsnwesnsn}
+#sub {^A Stone Quarry    Exits are:%1} {%0: swnwwsen}
+#sub {^Abused Woods    Exits are:%1} {%0: ennnswsen M:sn}
+#sub {^Alter of Bones    Exits are:%1} {%0: snnnsnnnswsen}
+#sub {^Ancient Trees    Exits are:%1} {%0: nswsen}
+#sub {^Bed of Stones    Exits are:%1} {%0: ewen}
+#sub {^Before a Cave    Exits are:%1} {%0: wneen}
+#sub {^Bending River    Exits are:%1} {%0: ewnsnnsnnnswsen}
+#sub {^Between Cliffs    Exits are:%1} {%0: ewnssen}
+#sub {^Blackened Rocks    Exits are:%1} {%0: wnwwsen}
+#sub {^Break in the Trees    Exits are:%1} {%0: n M:wswwnnwnw C:wnwnwnnnn}
+#sub {^Broad Depression    Exits are:%1} {%0: snnnswsen M:wnwnnn}
+#sub {^Broad Forest Trail    Exits are:%1} {%0: nswsen}
+#sub {^Broadening River    Exits are:%1} {%0: neewen}
+#sub {^Broken Earth    Exits are:%1} {%0: esnnsnnnswsen}
+#sub {^Bundles of Trees    Exits are:%1} {%0: wesesneewen}
+#sub {^Burnt Trees    Exits are:%1} {%0: essnsswsen}
+#sub {^Burrowing Trails    Exits are:%1} {%0: nwsewnssen}
+#sub {^Buzzing Woods    Exits are:%1} {%0: swewwen}
+#sub {^Calm River    Exits are:%1} {%0: wneewen}
+#sub {^Circle of Maples    Exits are:%1} {%0: snewwen M:wwwnwnnn}
+#sub {^Circle of Rocks    Exits are:%1} {%0: wennswewwen}
+#sub {^Clear River    Exits are:%1} {%0: esneewen}
+#sub {^Clearing in the Woods    Exits are:%1} {%0: nssssswsen}
+#sub {^Confined Feeling    Exits are:%1} {%0: nnswsen}
+#sub {^Coniferous Trees    Exits are:%1} {%0: newsnnnswsen}
+#sub {^Crowded Foliage    Exits are:%1} {%0: ennswewwen}
+#sub {^Crumbling Woods    Exits are:%1} {%0: enssssswsen}
+#sub {^Crushed Trees    Exits are:%1} {%0: eewsnnnswsen}
+#sub {^Cursed Woods    Exits are:%1} {%0: snnsnnnswsen}
+#sub {^Damp Forest Floor    Exits are:%1} {%0: esen M:wwnnwnw}
+#sub {^Dancing Eyes    Exits are:%1} {%0: wwnsswsen}
+#sub {^Dark Dreary Forest    Exits are:%1} {%0: sssen}
+#sub {^Dark Forest Path    Exits are:%1} {%0: nssen}
+#sub {^Dark River Waters    Exits are:%1} {%0: nnweewen}
+#sub {^Dark and Dreadful Forest    Exits are:%1} {%0: wesen}
+#sub {^Dead Trees    Exits are:%1} {%0: nwwsen}
+#sub {^Deafening Current    Exits are:%1} {%0: weewen}
+#sub {^Decorative Skeletons    Exits are:%1} {%0: esnnnsnnnswsen}
+#sub {^Decrepit Shack    Exits are:%1} {%0: nsewnssen}
+#sub {^Deep Dark Pond    Exits are:%1} {%0: eneen}
+#sub {^Deepening River    Exits are:%1} {%0: seewen}
+#sub {^Deepening Waters    Exits are:%1} {%0: esneewen}
+#sub {^Dense Canopy    Exits are:%1} {%0: enwewwen}
+#sub {^Dimly-lit Woods    Exits are:%1} {%0: ewewen}
+#sub {^Disappearing Trail    Exits are:%1} {%0: sssswsen}
+#sub {^Dry Forest    Exits are:%1} {%0: ssssen}
+#sub {^Echo of Silence    Exits are:%1} {%0: eensewnssen}
+#sub {^Eerie Vapors    Exits are:%1} {%0: nnsswsen}
+#sub {^Endless Trees    Exits are:%1} {%0: ewwen}
+#sub {^Entrance to the Hidden Vale    Exits are:%1} {%0: enneeseeneenesene}
+#sub {^Eryn Lasgalien    Exits are:%1} {%0: ensewnssen}
+#sub {^Eryn Vorn    Exits are:%1} {%0: wsnwnnswewwen}
+#sub {^Eternal Darkness    Exits are:%1} {%0: wewewen M:snsn}
+#sub {^Faint Forest Trail    Exits are:%1} {%0: ewsen}
+#sub {^Fallen Logs    Exits are:%1} {%0: ewsnnnswsen}
+#sub {^Fields of Death    Exits are:%1} {%0: nenwsewnssen}
+#sub {^Fiery Forest    Exits are:%1} {%0: nwwewwen M:nwesnsn}
+#sub {^Flowerless Fields    Exits are:%1} {%0: swsewnssen M:w}
+#sub {^Foggy Woods    Exits are:%1} {%0: nsnwnnswewwen}
+#sub {^Forest Loops    Exits are:%1} {%0: ssnssen M:nsn}
+#sub {^Forest of Dawn    Exits are:%1} {%0: wwewwen M:wesnsn}
+#sub {^Forest of Despair    Exits are:%1} {%0: wnnsnnnswsen}
+#sub {^Forest of Shadows    Exits are:%1} {%0: snsswsen}
+#sub {^Forest of Thorns    Exits are:%1} {%0: nwnnwsewnssen}
+#sub {^Forest of Twilight    Exits are:%1} {%0: sesneewen}
+#sub {^Forested Valley    Exits are:%1} {%0: nnewwen}
+#sub {^Forsaken Forest    Exits are:%1} {%0: nsssnsswsen C:nnn}
+#sub {^Fresh Droppings    Exits are:%1} {%0: nwewwen}
+#sub {^Furry Trees    Exits are:%1} {%0: wnsswsen}
+#sub {^Game Trail    Exits are:%1} {%0: wwsen}
+#sub {^Gloomy Woods    Exits are:%1} {%0: snssen}
+#sub {^Glowing Eyes    Exits are:%1} {%0: wnnwsewnssen}
+#sub {^Golden Leaves    Exits are:%1} {%0: wnwewwen}
+#sub {^Grassy Knoll    Exits are:%1} {%0: nnenwsewnssen}
+#sub {^Heart of Darkness    Exits are:%1} {%0: ssnssen M:wnw}
+#sub {^Holly Bushes    Exits are:%1} {%0: ennnswsen}
+#sub {^Hot Geysers    Exits are:%1} {%0: wssswsen}
+#sub {^Imprinted Tracks    Exits are:%1} {%0: ewnwewen}
+#sub {^Intersecting Trails    Exits are:%1} {%0: nnsnnnswsen}
+#sub {^Intimidating Trees    Exits are:%1} {%0: snssssswsen}
+#sub {^Jagged Rocks    Exits are:%1} {%0: wessnssen M:nwwwnwnnn}
+#sub {^Kill Site    Exits are:%1} {%0: nnnswsen}
+#sub {^Layers of Leaves    Exits are:%1} {%0: nnssssswsen}
+#sub {^Leaving the River    Exits are:%1} {%0: wewen}
+#sub {^Looming Trees    Exits are:%1} {%0: een}
+#sub {^Lost Woods    Exits are:%1} {%0: wssssen}
+#sub {^Lost in the Forest    Exits are:%1} {%0: ewsen}
+#sub {^Luminous Forest    Exits are:%1} {%0: snssen M:nnn}
+#sub {^Marked Grave    Exits are:%1} {%0: eewsen}
+#sub {^Massive Cold Campfire    Exits are:%1} {%0: esnsswsen}
+#sub {^Massive Hives    Exits are:%1} {%0: wnnssssswsen}
+#sub {^Massive Nests    Exits are:%1} {%0: ewnsswsen}
+#sub {^Massive Paw Prints    Exits are:%1} {%0: sen M:nnwnw}
+#sub {^Massive Pines    Exits are:%1} {%0: ewsnnnswsen M:snwesnsn C:nnnn}
+#sub {^Menacing Trees    Exits are:%1} {%0: wewwen M:esnsn}
+#sub {^Misplaced Boulder    Exits are:%1} {%0: newwen M:snwwwnwnnn}
+#sub {^Moldy Mushrooms    Exits are:%1} {%0: sswsen}
+#sub {^Monument Hill    Exits are:%1} {%0: nsssen}
+#sub {^Motionless Trees    Exits are:%1} {%0: nwnsswsen}
+#sub {^Mounds of Sand    Exits are:%1} {%0: ssesneewen M:nw}
+#sub {^Muddy Forest Trail    Exits are:%1} {%0: nwewen}
+#sub {^Muddy Riverway    Exits are:%1} {%0: sesneewen}
+#sub {^Overgrown Forest Path    Exits are:%1} {%0: nsswsen}
+#sub {^Overgrown Graveyard    Exits are:%1} {%0: wen}
+#sub {^Pale Mist    Exits are:%1} {%0: nsnsswsen}
+#sub {^Parched Forest    Exits are:%1} {%0: swewwen}
+#sub {^Patches of Mushrooms    Exits are:%1} {%0: nnwsewnssen}
+#sub {^Piles of Acorns    Exits are:%1} {%0: nsnnsnnnswsen}
+#sub {^Placid Creek    Exits are:%1} {%0: nwsewnssen}
+#sub {^Poisonous Thorns    Exits are:%1} {%0: wnweewen}
+#sub {^Pools of Blood    Exits are:%1} {%0: wsnssssswsen}
+#sub {^Puddles of Mud    Exits are:%1} {%0: ewnnsnnnswsen M:nn}
+#sub {^Rabbit Holes    Exits are:%1} {%0: nnnsnnnswsen M:wnwsnwesnsn C:wnwnnnn}
+#sub {^Raging River    Exits are:%1} {%0: wnsnnsnnnswsen}
+#sub {^Rainbow Woods    Exits are:%1} {%0: ssnnnsnnnswsen M:nwsnwesnsn C:nwnnnn}
+#sub {^Rent Oaks    Exits are:%1} {%0: nwneen M:wnnn C:n}
+#sub {^Rocky Forest Pathway    Exits are:%1} {%0: snwnnswewwen}
+#sub {^Rotting Carcass    Exits are:%1} {%0: wnwewen}
+#sub {^Rows of Stumps    Exits are:%1} {%0: sseen}
+#sub {^Rustling Leaves    Exits are:%1} {%0: esesneewen}
+#sub {^Sand Dunes    Exits are:%1} {%0: ewsnnsnnnswsen}
+#sub {^Sandy Fields    Exits are:%1} {%0: sesewnssen}
+#sub {^Sandy Knoll    Exits are:%1} {%0: nsewnssen}
+#sub {^Scattered Bones    Exits are:%1} {%0: nennnswsen}
+#sub {^Scene of Struggle    Exits are:%1} {%0: swnsswsen}
+#sub {^Shadowed Gully    Exits are:%1} {%0: sewnssen}
+#sub {^Shallow Riverway    Exits are:%1} {%0: sneesen}
+#sub {^Sharp Thorns    Exits are:%1} {%0: nsswsen}
+#sub {^Shifting Sands    Exits are:%1} {%0: wsewnssen}
+#sub {^Shining Waters    Exits are:%1} {%0: nsneewen}
+#sub {^Silent Path    Exits are:%1} {%0: nnsnnsnnnswsen}
+#sub {^Skeletal Trees    Exits are:%1} {%0: snsswsen}
+#sub {^Sleepy Forest    Exits are:%1} {%0: wewwen}
+#sub {^Smell of Rot    Exits are:%1} {%0: wnssssswsen}
+#sub {^Soft Dirt    Exits are:%1} {%0: sewnssen}
+#sub {^Sparkling River    Exits are:%1} {%0: sewnsnnsnnnswsen}
+#sub {^Splintered Trees    Exits are:%1} {%0: neen}
+#sub {^Steep Clifface    Exits are:%1} {%0: nsnsswsen}
+#sub {^Stench of Blood    Exits are:%1} {%0: ssssswsen}
+#sub {^Streams of Wildflowers    Exits are:%1} {%0: nsnnnswsen}
+#sub {^Stuffy Woods    Exits are:%1} {%0: ewwen}
+#sub {^Swaying Treetops    Exits are:%1} {%0: ssnsswsen}
+#sub {^Swirling Breezes    Exits are:%1} {%0: nennswewwen}
+#sub {^Swirling Waters    Exits are:%1} {%0: nweewen}
+#sub {^Tangled Roots    Exits are:%1} {%0: essnssen}
+#sub {^Tangled Underbrush    Exits are:%1} {%0: nsnsswsen}
+#sub {^Taur-en-Faroth    Exits are:%1} {%0: en M:swwnnwnw C:nwnwnnnn}
+#sub {^Taur-im-Duinath    Exits are:%1} {%0: ssswsen}
+#sub {^Thick Brushcover    Exits are:%1} {%0: swsen}
+#sub {^Thick Gnarled Trees    Exits are:%1} {%0: swssssen}
+#sub {^Thin Birches    Exits are:%1} {%0: nnnsnnnswsen}
+#sub {^Thinning Forest    Exits are:%1} {%0: ssen}
+#sub {^Thorned Vines    Exits are:%1} {%0: seen}
+#sub {^Towering Elms    Exits are:%1} {%0: nswewwen}
+#sub {^Tracks in the Sand    Exits are:%1} {%0: nwsewnssen}
+#sub {^Trail of Blood    Exits are:%1} {%0: wsnnnswsen M:wwnwnnn}
+#sub {^Trail of Drool    Exits are:%1} {%0: sswsen}
+#sub {^Twisted Branches    Exits are:%1} {%0: neewsnnnswsen M:n}
+#sub {^Twisted Roots    Exits are:%1} {%0: snsewnssen}
+#sub {^Twisting Forest Trail    Exits are:%1} {%0: esnsswsen}
+#sub {^Undisturbed Forest    Exits are:%1} {%0: eswsen}
+#sub {^Uneven Forest Floor    Exits are:%1} {%0: wwwsen}
+#sub {^Vacant Treetops    Exits are:%1} {%0: ewsnnnswsen}
+#sub {^Vanishing Forest Trail    Exits are:%1} {%0: wsen M:wnnwnw}
+#sub {^Vine-covered River    Exits are:%1} {%0: nseen}
+#sub {^Wall of Rock    Exits are:%1} {%0: wewnssen M:nwnw}
+#sub {^Wall of Vines    Exits are:%1} {%0: wwen}
+#sub {^Warm Breeze    Exits are:%1} {%0: eewsen}
+#sub {^Webbed Trees    Exits are:%1} {%0: nwnnswewwen}
+#sub {^Weedy Path    Exits are:%1} {%0: ensswsen}
+#sub {^Wet Forest    Exits are:%1} {%0: nnnenwsewnssen}
+#sub {^Whispering Trees    Exits are:%1} {%0: sssnsswsen M:nwnnn C:nn}
+#sub {^Wild Brush    Exits are:%1} {%0: nnswewwen M:wsnwwwnwnnn}
+#sub {^Withered Branches    Exits are:%1} {%0: esewnssen}
+#sub {^Withered Branchs    Exits are:%1} {%0: neeen}
+
+
+#class faroth close
