@@ -1,2 +1,4 @@
+# Log and Config files
 *.log
-/logs
+logs/
+commands/map/map_size.tin
