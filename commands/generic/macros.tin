@@ -12,6 +12,6 @@
 #MACRO {\eOv} {east}
 #MACRO {\eOx} {north}
 #MACRO {\eOy} {up}
-#MACRO {`} {#sess rots rotsmud.dyndns.org 3791}
+#MACRO {`} {#sess rots rotsmud.org 3791}
 
 #class macros close

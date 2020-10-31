@@ -8,5 +8,5 @@
 #read {commands/generic/doors.tin}
 #read {commands/generic/setup_aliases.tin}
 #read {commands/generic/food.tin}
-
+#read {commands/generic/follower.tin}
 
