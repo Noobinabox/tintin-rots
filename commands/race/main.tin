@@ -13,3 +13,5 @@
 };
 
 #class aliases close
+
+#read {commands/race/olog.tin};

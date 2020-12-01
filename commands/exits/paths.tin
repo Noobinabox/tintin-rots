@@ -2,163 +2,122 @@
 
 #ALIAS {create path}
 {
-     #class paths open;
-     #path create;
-     #path start;
-     #action {You cannot go that way.} {#path delete};
-     #action {Can not go there mounted.} {#path delete};
-     #action {Your mount cannot swim.} {#path delete};
-     #action {No way! You're fighting for your life!} {#path delete};
-     #action {The %1 seems to be closed} {#path delete}
+    #class paths open;
+    #path create;
+    #path start;
+    #action {You cannot go that way.} {#path delete};
+    #action {Can not go there mounted.} {#path delete};
+    #action {Your mount cannot swim.} {#path delete};
+    #action {No way! You're fighting for your life!} {#path delete};
+    #action {The %1 seems to be closed} {#path delete}
+}
+
+#ALIAS {create path follower}
+{
+    create path;
+    createFollowerPathTriggers
+}
+
+#ALIAS {createFollowerPathTriggers}
+{
+    #action {$leader is leaving east, riding}{#path ins {e}{w};};
+    #action {$leader leaves east}{#path ins {e}{w};};
+    #action {$leader is leaving west, riding}{#path ins {w}{e};};
+    #action {$leader leaves west}{#path ins {w}{e};};
+    #action {$leader is leaving north, riding}{#path ins {n}{s};};
+    #action {$leader leaves north}{#path ins {n}{s};};
+    #action {$leader is leaving south, riding}{#path ins {s}{n};};
+    #action {$leader leaves south}{#path ins {s}{n};};
+    #action {$leader is leaving up, riding}{#path ins {u}{d};};
+    #action {$leader leaves up}{#path ins {u}{d};};
+    #action {$leader is leaving down, riding}{#path ins {d}{u};};
+    #action {$leader leaves down}{#path ins {d}{u};};
+    #action {$leader stops riding}{#path ins {dismount}{ride};dismount;};
+    #action {$leader mounts}{#path ins {ride}{dismount};ride;}
 }
 
 #ALIAS {load %1}
 {
-     #path load %1;
-     #path stop
+    #path load %1;
+    #path stop
 }
-
-#alias {create path follower}
-{
-	create path;
-	createFollowerPathTriggers;
-}
-
-#alias {path stop follower}
-{
-	path stop;
-	uncreateFollowerPathTriggers;
-};
-
-#alias {createFollowerPathTriggers}
-{
-        #action {$leader is leaving east, riding}
-	{
-           #path ins {e}{w};
-	};
-	#action {$leader leaves east}
-	{
-	   #path ins {e}{w};
-	};
-        #action {$leader is leaving west, riding}
-	{
-           #path ins {w}{e};
-	};
-	#action {$leader leaves west}
-	{
-	   #path ins {w}{e};
-	};
-        #action {$leader is leaving north, riding}
-	{
-           #path ins {n}{s};
-	};
-	#action {$leader leaves north}
-	{
-	   #path ins {n}{s};
-	};
-        #action {$leader is leaving south, riding}
-	{
-           #path ins {s}{n};
-	};
-	#action {$leader leaves south}
-	{
-	   #path ins {s}{n};
-	};
-        #action {$leader is leaving up, riding}
-	{
-           #path ins {u}{d};
-	};
-	#action {$leader leaves up}
-	{
-	   #path ins {u}{d};
-	};
-        #action {$leader is leaving down, riding}
-	{
-           #path ins {d}{u};
-	};
-	#action {$leader leaves down}
-	{
-	   #path ins {d}{u};
-	};
-	#action {$leader stops riding}
-	{
-	   #path ins {dismount}{ride};
-	   dismount;
-	};
-	#action {$leader mounts}
-	{
-	   #path ins {ride}{dismount};
-	   ride;
-	};
-}
-
-#alias {uncreateFollowerPathTriggers}
-{
-        #unaction {$leader is leaving east, riding};
-	#unaction {$leader leaves east};
-        #unaction {$leader is leaving west, riding};
-	#unaction {$leader leaves west};
-        #unaction {$leader is leaving north, riding};
-	#unaction {$leader leaves north};
-        #unaction {$leader is leaving south, riding};
-	#unaction {$leader leaves south};
-        #unaction {$leader is leaving up, riding};
-	#unaction {$leader leaves up};
-        #unaction {$leader is leaving down, riding};
-	#unaction {$leader leaves down};
-	#unaction {$leader stops riding};
-	#unaction {$leader mounts};
-};
 
 #ALIAS {path stop}
 {
-     #path stop;
-     #unaction {You cannot go that way.};
-     #unaction {Can not go there mounted.};
-     #unaction {Your mount cannot swim.};
-     #unaction {No way! You're fighting for your life!};
-     #unaction {The %1 seems to be closed}
+    #path stop;
+    #unaction {You cannot go that way.};
+    #unaction {Can not go there mounted.};
+    #unaction {Your mount cannot swim.};
+    #unaction {No way! You're fighting for your life!};
+    #unaction {The %1 seems to be closed}
+}
+
+#ALIAS {path stop follower}
+{
+    path stop;
+    uncreateFollowerPathTriggers
 }
 
 #ALIAS {run %1}
 {
-     #path load %1;
-     #path stop;
-     #path run {0.50}
+    #path load %1;
+    #path stop;
+    #path run {0.50}
 }
 
 #ALIAS {save path %1 %2}
 {
-     #path save forward %1;
-     #path save backward %2
+    #path save forward %1;
+    #path save backward %2
 }
 
 #ALIAS {save paths}
 {
-     #class paths write {commands/exits/paths.tin};
-     #class paths close
+    #class paths write {commands/exits/paths.tin};
+    #class paths close
+}
+
+#ALIAS {uncreateFollowerPathTriggers}
+{
+    #unaction {$leader is leaving east, riding};
+    #unaction {$leader leaves east};
+    #unaction {$leader is leaving west, riding};
+    #unaction {$leader leaves west};
+    #unaction {$leader is leaving north, riding};
+    #unaction {$leader leaves north};
+    #unaction {$leader is leaving south, riding};
+    #unaction {$leader leaves south};
+    #unaction {$leader is leaving up, riding};
+    #unaction {$leader leaves up};
+    #unaction {$leader is leaving down, riding};
+    #unaction {$leader leaves down};
+    #unaction {$leader stops riding};
+    #unaction {$leader mounts}
 }
 
 #MACRO {\}
 {
-     #path walk forward
+    #path walk forward
 }
 
-#VARIABLE         {CatsToFidds}  {e;e;e;e;e;n;n;w;n;w;n;n;e;n}
-#VARIABLE         {CrossroadsToFidds}  {s;s;s;s;e;s;s;e;s;s;s;s;s;s;s;s;s;s;s;s;w;s;s;s;e;s;s;s}
-#VARIABLE         {DFRToMntVillage}  {n;n;e;n;w;n;n;n;n;w;n;n;e;n;n;n;n;n;n;w;w;n;n;n;n;e;n;n}
-#VARIABLE         {DFRToTroy}  {e;s;s;s;s;s;e;s;w;s;s;e;e}
-#VARIABLE         {EasterlingsToFidds}  {e;n;n;n;n;n;n;n;n;n;n;n;n;n;n;w;n;e;n;n}
-#VARIABLE         {FiddsToCats}  {s;w;s;s;e;s;e;s;s;w;w;w;w;w}
-#VARIABLE         {FiddsToCrossroads}  {n;n;n;w;n;n;n;e;n;n;n;n;n;n;n;n;n;n;n;n;w;n;n;w;n;n;n;n}
-#VARIABLE         {FiddsToEasterlings}  {s;s;w;s;e;s;s;s;s;s;s;s;s;s;s;s;s;s;s;w}
-#VARIABLE         {LTToTaben}  {w;w;w;s;s;s;w;w;w;w;n;n;n;n;w;w;n;w;w;w;w;w;w;w;w;w;n;w;n;w}
-#VARIABLE         {LTToThranduil}  {w;w;w;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;n;w;w;w;w;w;w;w;w;w;n;u}
-#VARIABLE         {MntVillageToDFR}  {s;s;w;s;s;s;s;e;e;s;s;s;s;s;s;w;s;s;e;s;s;s;s;e;s;w;s;s}
-#VARIABLE         {RCToVinya}  {e;ride;e;e;s;s;s;s;s;e;s;s;e;e;d;e;e;e;e;d;e;e;s;s;s;e;s;e;s;d;d;e;e;e;e;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e}
-#VARIABLE         {TabenToLT}  {e;s;e;s;e;e;e;e;e;e;e;e;e;s;e;e;s;s;s;s;e;e;e;e;n;n;n;e;e;e}
-#VARIABLE         {ThranduilToLT}  {d;s;e;e;e;e;e;e;e;e;e;s;e;e;e;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;e;e;e}
-#VARIABLE         {TroyToDFR}  {w;w;n;n;e;n;w;n;n;n;n;n;w}
-#VARIABLE         {VinyaToRC}  {w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;d;w;w;w;w;u;u;n;w;n;w;n;n;n;w;w;u;w;w;w;w;u;w;w;n;n;w;n;n;n;n;n;w;w;dismount;w}
+#VARIABLE {CatsToFidds} {e;e;e;e;e;n;n;w;n;w;n;n;e;n}
+#VARIABLE {CrossroadsToFidds} {s;s;s;s;e;s;s;e;s;s;s;s;s;s;s;s;s;s;s;s;w;s;s;s;e;s;s;s}
+#VARIABLE {DFRToMntVillage} {n;n;e;n;w;n;n;n;n;w;n;n;e;n;n;n;n;n;n;w;w;n;n;n;n;e;n;n}
+#VARIABLE {DFRToTroll} {e;e;e;e;n;n;n;e;n;n;n;n;w;n;e;n;e;n;n;w;w;n;n;n;n;e;n;n;e;e;s;e;e;n;n;n;d;n;e}
+#VARIABLE {DFRToTroy} {e;s;s;s;s;s;e;s;w;s;s;e;e}
+#VARIABLE {EasterlingsToFidds} {e;n;n;n;n;n;n;n;n;n;n;n;n;n;n;w;n;e;n;n}
+#VARIABLE {FiddsToCats} {s;w;s;s;e;s;e;s;s;w;w;w;w;w}
+#VARIABLE {FiddsToCrossroads} {n;n;n;w;n;n;n;e;n;n;n;n;n;n;n;n;n;n;n;n;w;n;n;w;n;n;n;n}
+#VARIABLE {FiddsToEasterlings} {s;s;w;s;e;s;s;s;s;s;s;s;s;s;s;s;s;s;s;w}
+#VARIABLE {LTToTaben} {w;w;w;s;s;s;w;w;w;w;n;n;n;n;w;w;n;w;w;w;w;w;w;w;w;w;n;w;n;w}
+#VARIABLE {LTToThranduil} {w;w;w;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;n;w;w;w;w;w;w;w;w;w;n;u}
+#VARIABLE {MntVillageToDFR} {s;s;w;s;s;s;s;e;e;s;s;s;s;s;s;w;s;s;e;s;s;s;s;e;s;w;s;s}
+#VARIABLE {RCToVinya} {e;ride;e;e;s;s;s;s;s;e;s;s;e;e;d;e;e;e;e;d;e;e;s;s;s;e;s;e;s;d;d;e;e;e;e;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e}
+#VARIABLE {TabenToLT} {e;s;e;s;e;e;e;e;e;e;e;e;e;s;e;e;s;s;s;s;e;e;e;e;n;n;n;e;e;e}
+#VARIABLE {ThranduilToLT} {d;s;e;e;e;e;e;e;e;e;e;s;e;e;e;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;e;e;e}
+#VARIABLE {TrollToDFR} {w;s;u;s;s;s;w;w;n;w;w;s;s;w;s;s;s;s;e;e;s;s;w;s;w;s;e;s;s;s;s;w;s;s;s;w;w;w;w}
+#VARIABLE {TroyToDFR} {w;w;n;n;e;n;w;n;n;n;n;n;w}
+#VARIABLE {VinyaToRC} {w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;d;w;w;w;w;u;u;n;w;n;w;n;n;n;w;w;u;w;w;w;w;u;w;w;n;n;w;n;n;n;n;n;w;w;dismount;w}
+#VARIABLE {food} {flesh}
 
 #CLASS {paths} CLOSE

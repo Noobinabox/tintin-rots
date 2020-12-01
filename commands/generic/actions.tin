@@ -18,5 +18,9 @@
 	#showme {Statsum: $statsum};
 };
 
+#ACTION {You have %1/%2 hit, %3/%4 stamina, %5/%6 moves}
+{
+    #echo {{%1/%2 HP, %5/%6 MV> }{-1}{printed}}
+}
 
 #class actions close

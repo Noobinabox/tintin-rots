@@ -1,0 +1,67 @@
+#CLASS {olog} OPEN
+
+#ACTION {You arch back and swing your weapon with great velocity!}
+{
+    #ticker {cleave}{#echo {<fca>--->CLEAVE READY!<---};#untick {cleave};}{31};
+		#delay {26}{#echo {<fca>--->CLEAVE 5 SECONDS!<---}};
+}
+
+#ACTION {You enter a frenzied state, filling your body with overwhelming power!}
+{
+    #ticker {frenzy}{#echo {<faa>--->FRENZY READY!<---};#untick {frenzy};}{601};
+		#delay {556}{#echo {<faa>--->FRENZY 5 SECONDS!<---}};
+}
+
+#ACTION {You jump into the air adn slam down feet first onto the ground!}
+{
+    #ticker {stomp}{#echo {<acf>--->STOMP READY!<---};#untick {stomp};}{61};
+		#delay {56}{#echo {<acf>--->STOMP 5 SECONDS!<---}};
+}
+
+#ACTION {You smash %1 face in, with your mighty blow!}
+{
+    #ticker {smash}{#echo {<afc>--->SMASH READY!<---};#untick {smash};}{61};
+		#delay {56}{#echo {<afc>--->SMASH 5 SECONDS!<---}};
+}
+
+#ALIAS {cos}
+{
+    cleave;
+    #delay {3}{stomp};
+    #delay {6}{smash;swing}
+}
+
+#ALIAS {cp}
+{
+    cleave;
+    swing %0
+}
+
+#ALIAS {ocs}
+{
+    stomp;
+    #delay {3}{cleave};
+    #delay {6}{smash;swing}
+}
+
+#ALIAS {op}
+{
+    stomp;
+    swing %0
+}
+
+#ALIAS {soc}
+{
+    smash;
+    #delay {3}{stomp};
+    #delay {6}{cleave;swing}
+}
+
+#ALIAS {sp}
+{
+    smash %0;
+    swing %0
+}
+
+
+#CLASS {olog} CLOSE

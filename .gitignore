@@ -1,4 +1,5 @@
 # Log and Config files
 *.log
 logs/
+logs/social.log
 commands/map/map_size.tin
