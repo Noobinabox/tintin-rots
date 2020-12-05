@@ -3,6 +3,8 @@
 
 #read {commands/lazyness/social.tin}
 #read {commands/lazyness/target.tin}
+#read {commands/lazyness/weaponswap.tin}
+#read {commands/lazyness/targetsystem.tin}
 
 #class aliases open
 

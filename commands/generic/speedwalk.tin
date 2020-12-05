@@ -1,0 +1,10 @@
+#class speedwalk open
+
+#alias {^.%1$}
+{
+	#config speedwalk on;
+	%1;
+	#config speedwalk off;
+};
+
+#class speedwalk close

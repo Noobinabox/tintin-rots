@@ -1,0 +1,168 @@
+#class targetsystem open
+
+#var {char}{0}
+#var {room}{0}
+#var {char_in_room}{0}
+
+#nop
+{
+	This action is used to get the room title and reset all the
+	targetting system information.
+
+	!For this to work roomnames need to be set to bright yellow.
+}
+#action {~\e[01m\e[33m%1}
+{
+	#var {room}{%1};
+	#math {char_in_room}{$char_in_room=0};
+}
+
+#nop
+{
+	This action is used to get the current mobs in the room. It will
+	assign them to the targetting system for easy actions.
+
+	!For this to work characters need to be set to bright cyan.
+}
+#action {~\e[01m\e[36m%1}
+{
+	#math {char_in_room}{$char_in_room+1};
+	#if {$char_in_room == 1}
+	{
+		#unvar targets;
+	};
+	#local {character}{%1};
+	#var {char}{$character};
+	setTargetNumber $character;
+	assignTarget $character;
+	
+
+	#nop This needs to be last to remove normal output;
+	#line gag;
+}
+
+#alias {setTargetNumber {.*}}
+{
+	#line {ignore}{#showme {\e[01m\e[36m($char_in_room) %1}};
+}
+
+#nop
+{
+	This holds all the regex expressions for finding the correct
+	keyword to target the mobile.
+};
+#alias {assignTarget {.*}}
+{
+	#regex {%1}{{A|An|The} {\w+} {\w+} {.*}.{$}}
+	{
+		addTargetName &3 &2;
+	};
+	#regex {%1}{{A|An|The} {\w+} {\w+}, {.*}.{$}}
+	{
+		addTargetName &3 &2;
+	};
+	#regex {%1}{{A|An|The} {\w+}, {\w+} {\w+} {.*}.{$}}
+	{
+		addTargetName &4 &3;
+	};
+	#regex {%1}{{A|An|The} {\w+}-{\w+} {\w+} {.*}.{$}}
+	{
+		addTargetName &4;
+	};
+	#regex {%1}{{A|An|The} {\w+} {\w+}-{\w+} {\w+} {.*}.{$}}
+	{
+		addTargetName &5;
+	};
+	#regex {%1}{{A|An|The} {\w+}, {\w+}-{\w+} {\w+} {.*}.}
+	{
+		addTargetName &5;
+	};
+}
+
+#alias {addTargetName}
+{
+	#if {@is_keyword_valid{%1} == 1}
+	{
+		#var {targets[$char_in_room]}{{name}{%1}{num}{@findTotalTargetsInTable{%1}}};
+	};
+	#else
+	{
+		#var {targets[$char_in_room]}{{name}{%2}{num}{@findTotalTargetsInTable{%2}}};
+	};
+}
+
+#function {findTotalTargetsInTable}
+{
+  #var {tar_num}{1};
+	#foreach {$targets[%*]}{target}
+	{
+		#regex {$target[name]}{{^}%1{$}}
+		{
+			#math {tar_num}{$tar_num+1};
+		};
+	};
+
+	#return $tar_num;
+}
+
+#function {is_keyword_valid}
+{
+	#list {badwords}{find}{{^}%1{$}}{tmp};
+	#if {$tmp > 0}
+	{
+		#return 0;
+	};
+
+	#return 1;
+}
+
+
+#nop
+{
+	All the targetting aliases used by player.
+};
+
+#alias {{^}kt{$}}
+{
+	kill $targets[1][num].$targets[1][name];
+};
+
+#alias {{^}k{\d}{$}}
+{
+	kill $targets[%2][num].$targets[%2][name];
+};
+
+#alias {{^}lt{$}}
+{
+	exam $targets[1][num].$targets[1][name];
+};
+
+#alias {{^}l{\d}{$}}
+{
+	exam $targets[%2][num].$targets[%2][name];
+};
+
+#nop
+{
+	List of keywords that aren't good for targetting.
+};
+#list {badwords}{add}{purplish};
+#list {badwords}{add}{a};
+#list {badwords}{add}{an};
+#list {badwords}{add}{plays};
+#list {badwords}{add}{and};
+#list {badwords}{add}{grazes};
+#list {badwords}{add}{outline};
+#list {badwords}{add}{leans};
+#list {badwords}{add}{looking};
+#list {badwords}{add}{of};
+#list {badwords}{add}{is};
+#list {badwords}{add}{runs};
+#list {badwords}{add}{gnaws};
+#list {badwords}{add}{approaches};
+#list {badwords}{add}{sitting};
+#list {badwords}{add}{stands};
+#list {badwords}{add}{patrols};
+
+
+#class targetsystem close

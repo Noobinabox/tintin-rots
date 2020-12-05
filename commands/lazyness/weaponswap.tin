@@ -1,0 +1,57 @@
+#class weapon open
+
+#var {primary}{}
+#var {secondary}{}
+#var {hitter}{}
+#var {shield}{1}
+
+#alias {primary %1}
+{
+	#var {primary}{%1};
+}
+
+#alias {secondary %1}
+{
+	#var {secondary}{%1};
+}
+
+#alias {hitter %1}
+{
+	#var {hitter}{%1};
+}
+
+#alias {wp}
+{
+	wield $primary;
+}
+
+#alias {ws}
+{
+	wield $secondary;
+}
+
+#alias {wt}
+{
+	#if {$shield == 1}
+	{
+		rem shield;
+		wield $hitter;
+		#var {shield}{0};
+	};
+	#else
+	{
+		wield $hitter;
+	};
+}
+
+#action {You start to use %1 as a shield.}
+{
+	#var {shield}{1};
+}
+
+#action {You stop using %1 shield.}
+{
+	#var {shield}{0};
+}
+
+#class weapon close
