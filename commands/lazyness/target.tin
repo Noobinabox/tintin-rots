@@ -2,9 +2,19 @@
 
 #class target open
 
+#var {target}{0};
+#var {isTargetSet}{0};
+
 #alias {tar}
 {
+	#var isTargetSet 1;
 	#var target %0;
+}
+
+#alias {untar}
+{
+	#var isTargetSet 0;
+	#var {target}{};
 }
 
 #class target close

@@ -109,15 +109,17 @@
 #VARIABLE {FiddsToCats} {s;w;s;s;e;s;e;s;s;w;w;w;w;w}
 #VARIABLE {FiddsToCrossroads} {n;n;n;w;n;n;n;e;n;n;n;n;n;n;n;n;n;n;n;n;w;n;n;w;n;n;n;n}
 #VARIABLE {FiddsToEasterlings} {s;s;w;s;e;s;s;s;s;s;s;s;s;s;s;s;s;s;s;w}
+#VARIABLE {FiddsToNestle} {s;w;s;s;e;s;s;s;s;s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;u;n;n;w;w;w;w;n;n;n;w;w}
 #VARIABLE {LTToTaben} {w;w;w;s;s;s;w;w;w;w;n;n;n;n;w;w;n;w;w;w;w;w;w;w;w;w;n;w;n;w}
 #VARIABLE {LTToThranduil} {w;w;w;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;n;w;w;w;w;w;w;w;w;w;n;u}
 #VARIABLE {MntVillageToDFR} {s;s;w;s;s;s;s;e;e;s;s;s;s;s;s;w;s;s;e;s;s;s;s;e;s;w;s;s}
+#VARIABLE {NestleToFidds} {e;e;s;s;s;e;e;e;e;s;s;d;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;n;n;n;n;n;w;n;n;e;n}
 #VARIABLE {RCToVinya} {e;ride;e;e;s;s;s;s;s;e;s;s;e;e;d;e;e;e;e;d;e;e;s;s;s;e;s;e;s;d;d;e;e;e;e;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e}
 #VARIABLE {TabenToLT} {e;s;e;s;e;e;e;e;e;e;e;e;e;s;e;e;s;s;s;s;e;e;e;e;n;n;n;e;e;e}
 #VARIABLE {ThranduilToLT} {d;s;e;e;e;e;e;e;e;e;e;s;e;e;e;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;e;e;e}
 #VARIABLE {TrollToDFR} {w;s;u;s;s;s;w;w;n;w;w;s;s;w;s;s;s;s;e;e;s;s;w;s;w;s;e;s;s;s;s;w;s;s;s;w;w;w;w}
 #VARIABLE {TroyToDFR} {w;w;n;n;e;n;w;n;n;n;n;n;w}
 #VARIABLE {VinyaToRC} {w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;d;w;w;w;w;u;u;n;w;n;w;n;n;n;w;w;u;w;w;w;w;u;w;w;n;n;w;n;n;n;n;n;w;w;dismount;w}
-#VARIABLE {food} {flesh}
+#VARIABLE {food} {steak}
 
 #CLASS {paths} CLOSE

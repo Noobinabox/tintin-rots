@@ -1,8 +1,9 @@
 #class targetsystem open
 
-#var {char}{0}
-#var {room}{0}
-#var {char_in_room}{0}
+#var {char}{0};
+#var {room}{0};
+#var {char_in_room}{0};
+#var {targets}{0};
 
 #nop
 {
@@ -14,6 +15,15 @@
 #action {~\e[01m\e[33m%1}
 {
 	#var {room}{%1};
+	#math {char_in_room}{$char_in_room=0};
+}
+
+#nop
+{
+	This is used to reset after casting word of sight for targets.
+}
+#action {Your mind probes the area seeking other souls.}
+{
 	#math {char_in_room}{$char_in_room=0};
 }
 
@@ -94,9 +104,9 @@
 #function {findTotalTargetsInTable}
 {
   #var {tar_num}{1};
-	#foreach {$targets[%*]}{target}
+	#foreach {$targets[%*]}{numTarget}
 	{
-		#regex {$target[name]}{{^}%1{$}}
+		#regex {$numTarget[name]}{{^}%1{$}}
 		{
 			#math {tar_num}{$tar_num+1};
 		};
@@ -115,16 +125,76 @@
 
 	#return 1;
 }
+#class targetsystem close
 
+
+#class ts-aliases open
 
 #nop
 {
 	All the targetting aliases used by player.
 };
 
-#alias {{^}kt{$}}
+#alias {checkForMainTarget %1}
 {
-	kill $targets[1][num].$targets[1][name];
+	#if {isTargetSet == 1}
+	{
+		%1 $target;
+	};
+	#else
+	{
+		%1 $targets[1][num].$targets[1][name];
+	};
+};
+
+#alias {^pt$}
+{
+	checkForMainTarget p;
+};
+
+#alias {^ft$}
+{
+	checkForMainTarget f;
+};
+
+#alias {^bt$}
+{
+	checkForMainTarget b;
+};
+
+#alias {^kt$}
+{
+	checkForMainTarget k;
+};
+
+#alias {^lt$}
+{
+	checkForMainTarget exam;
+};
+
+#alias {^lt$}
+{
+	checkForMainTarget exam;
+};
+
+#alias {^qt$}
+{
+	checkForMainTarget q;
+};
+
+#alias {{^}f{\d}{$}}
+{
+	f $targets[%2][num].$targets[%2][name];
+};
+
+#alias {{^}p{\d}{$}}
+{
+	p $targets[%2][num].$targets[%2][name];
+};
+
+#alias {{^}b{\d}{$}}
+{
+	b $targets[%2][num].$targets[%2][name];
 };
 
 #alias {{^}k{\d}{$}}
@@ -132,14 +202,14 @@
 	kill $targets[%2][num].$targets[%2][name];
 };
 
-#alias {{^}lt{$}}
-{
-	exam $targets[1][num].$targets[1][name];
-};
-
 #alias {{^}l{\d}{$}}
 {
 	exam $targets[%2][num].$targets[%2][name];
+};
+
+#alias {{^}q{\d}{$}}
+{
+	q $targets[%2][num].$targets[%2][name];
 };
 
 #nop
@@ -164,5 +234,4 @@
 #list {badwords}{add}{stands};
 #list {badwords}{add}{patrols};
 
-
-#class targetsystem close
+#class ts-aliases close

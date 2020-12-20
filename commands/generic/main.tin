@@ -9,4 +9,3 @@
 #read {commands/generic/setup_aliases.tin}
 #read {commands/generic/food.tin}
 #read {commands/generic/follower.tin}
-#read {commands/generic/speedwalk.tin}

@@ -25,7 +25,7 @@ function tm {
 	tmux -f "$tmux_conf" "$@"
 }
 
-konsole -e "${cur}/lib/map.sh" &
+st -e "${cur}/lib/map.sh" &
 
 # Start the tmux session
 tm kill-session -t "$session" > /dev/null 2>&1 || true

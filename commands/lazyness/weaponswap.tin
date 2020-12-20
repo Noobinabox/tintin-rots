@@ -23,6 +23,11 @@
 #alias {wp}
 {
 	wield $primary;
+	#if {$shield == 0}
+	{
+		wear shield;
+		#var {shield}{1};
+	};
 }
 
 #alias {ws}

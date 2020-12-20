@@ -2,7 +2,7 @@
 
 #class setup open
 #alias {{setup default}} {
-	col char cyan;
+	col char bright cyan;
 	col obj green;
 	col roomname bright yellow;
 	col chat bright magenta;
@@ -23,7 +23,9 @@
 	alias , dismount;
 	alias . ride;
 	alias lc l in corpse;
-	alias 0 search
+	alias 0 search;
+	alias df drink waterskin;
+	alias ds drink waterskin;
 }
 
 
