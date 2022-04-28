@@ -157,6 +157,11 @@
 	checkForMainTarget f;
 };
 
+#alias {^at$}
+{
+	checkForMainTarget a;
+};
+
 #alias {^bt$}
 {
 	checkForMainTarget b;
@@ -182,6 +187,16 @@
 	checkForMainTarget q;
 };
 
+#alias {^xt$}
+{
+	checkForMainTarget x;
+};
+
+#alias {{^}x{\d}{$}}
+{
+	x $targets[%2][num].$targets[%2][name];
+};
+
 #alias {{^}f{\d}{$}}
 {
 	f $targets[%2][num].$targets[%2][name];
@@ -190,6 +205,11 @@
 #alias {{^}p{\d}{$}}
 {
 	p $targets[%2][num].$targets[%2][name];
+};
+
+#alias {{^}a{\d}{$}}
+{
+	a $targets[%2][num].$targets[%2][name];
 };
 
 #alias {{^}b{\d}{$}}

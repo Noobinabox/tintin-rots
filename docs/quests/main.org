@@ -1,0 +1,221 @@
+#+TITLE: Main Notes for Return of the Shadow
+#+AUTHOR: Maga
+#+DESCRIPTION: Contains all quest location and information that I currently know
+
+* Table of Content
+** [ ] [[Blue Candle]]
+** [ ] [[Slick Blue Flask]]
+** [ ] [[Unkempt Dwarf]]
+** [ ] [[Silver Embroidered Pipeweed Satchel]]
+** [ ] [[Small Jewelry Box]]
+** [ ] [[Terra]]
+** [ ] [[Thog]]
+** [ ] [[Durg]]
+** [ ] [[Pewter Tankard / Goblet / Tin]]
+** [ ] [[Leather Satchel]]
+** [ ] [[Silver Medallions]]
+** [ ] [[Kraken]]
+** [ ] [[Warg Chieftain]]
+** [ ] [[Angmacar]]
+** [ ] [[Snakeskin Belt]]
+** [ ] [[Warlock]]
+** [ ] [[Interloper]]
+** [ ] [[Plate for Pale]]
+** [ ] [[Temple]]
+** [ ] [[Ancient Tree]]
+** [ ] [[Maze]]
+** [ ] [[Long Dark Snakeskin]]
+** [ ] [[Goblin Gate Staves]]
+** [ ] [[Confuse / Guardian Guildmaster]]
+** [ ] [[Nettles]]
+** [ ] [[Glowing Rock Lantern]]
+** [ ] [[Kabaal]]
+** [ ] [[Loose Dark Cowl]]
+** [ ] [[Vaz]]
+** [ ] [[Half Orc Chieftain]]
+** [ ] [[Fell Beast]]
+** [ ] [[Bazarat]]
+** [ ] [[Lunaron]]
+** [ ] [[Spirit Queen]]
+** [ ] [[Spirit King]]
+** [ ] [[Ruby Necklace]]
+** [ ] [[Healer Quest]]
+** [ ] [[Rumblethump]]
+** [ ] [[Dragon Dagger]]
+** [ ] [[Elven Spetum]]
+** [ ] [[Ancient Spider]]
+** [ ] [[Silver Circlet]]
+** [ ] [[Gnarled Oak Tree]]
+** [ ] [[Bone Scuplture]]
+** [ ] [[Drauglin]]
+** [ ] [[Cold Drake]]
+** [ ] [[Troll Matron]]
+** [ ] [[Swamp Troll]]
+** [ ] [[Ghrisk]]
+** [ ] [[Silver Flask]]
+** [ ] [[Skeleton Knight]]
+** [ ] [[Pale Woman]]
+** [ ] [[Red Silk Sash]]
+** [ ] [[Bandit Camp]]
+** [ ] [[Silver Leaf]]
+** [ ] [[Fungal]]
+** [ ] [[Catacomb]]
+** [ ] [[Fine Jeweled Breastplate]]
+** [ ] [[Blue and Gold Armor]]
+** [ ] [[Dark Runed Armor]]
+** [ ] [[Fine chain Armor]]
+** [ ] [[Spec Zone Spiders]]
+** [ ] [[Luurmag]]
+** [ ] [[Easterlings]]
+** [ ] [[Mumak]]
+** [ ] [[Red Leather Cap]]
+** [ ] [[Ungumbar]]
+** [ ] [[Noldor Weapon Turn In]]
+** [ ] [[Blue Marble Ring]]
+** [ ] [[Red Wool Scarves]]
+** [ ] [[Moonblade / Shimmering Cloak Enchanted]]
+** [ ] [[Mithril Buckle]]
+** [ ] [[Dwarven War Axe]]
+** [ ] [[Dwarven Hammer]]
+** [ ] [[Dwarven Battle Axe]]
+** [ ] [[Porcelian Doll]]
+** [ ] [[Soft Leather Gloves]]
+** [ ] [[Garland]]
+** [ ] [[Mage Tower]]
+** [ ] [[Engraved Staff]]
+** [ ] [[Peodore]]
+** [ ] [[White Walking Staff]]
+
+* Blue Candle
+
+{part 1} start vinya fountain - Knock heavygate, 7n 2e 2n, op dirtygate, 4n w n, op hutdoor w, w, op piledwood, s, kill zark, get locket cor.
+{part 2} start Mb fountain - 6n 2w n, op gate, 3n, op door, n, give locket woman.
+
+* Slick Blue Flask
+
+start Vinya fountain - 14w 10s 2e s e 2s, op backdoor, s, op frontdoor, 2s e, op largerock, e, op rockslab, 3e 3n, op thickvines, n, op tangledwood, 2n e n d n w, op muddyrock, w, op tunnel, w, op bigrocks, 3w n 4e n 2e, op bandeddoor, n, op door, u, k hag, get bag cor, get flask bag.
+
+* Unkempt Dwarf
+
+start Vinya fountain - 14w 9s 3w 4s e 2s 3w s, op crack, d, 2n, op door, k dwarf. {etched girdle and two handed hammer load here}/ exit unkempt - s w s w. op rubble, w, op stones, w , op trapdoor, u.
+
+* Silver Embroidered Pipeweed Satchel
+
+{part 1} start Vinya fountain - 2e 4s e 6s w 3s w 3s e 9s e 2s w s e 4s w 3s e 5s w 5s e 2s e s {dism here} 15e 2s e s 5e 3s, op smallgate, s, op bale, d, k smuggler, get bushel cor.
+{part 2} start from where you killed smuggler - u 7n, op rounddoor, e n, give bushel Tobolodo.
+
+* Small Jewelry Box
+
+start Vinya fountain - 14e s 11e n 12 e 11 n 13e, pick mudwall, op mudwall, 2e, get key, 17w, un trapdoor, op trapdoor, d, op brick, w, k ghost, get box.
+
+* Terra
+
+start Ancient Streambed - s, op brush, 5s w 2s e 9s e s 2w, op slab, d, s, k Terra, get phial cor, get dagger cor.
+
+* Thog
+start Vinya fountain - 14e s 11e n 3e, pick gate, op gate, 2s, op portcullis, s, op steeldoor, e s u n w, pick door, op door, w, kill Lourdes, get key cor, e s w, un oakdoor, op oakdoor, w, k Thog.
+
+* Durg
+
+start Ancient Streambed - 2w n w n 5w 4s, op gate, 4s u n, pick oak, op oak, kill wight, get ring cor, un slab, op slab, d. {Heavy Metal pieces load here.}
+
+* Pewter Tankard / Goblet / Tin
+
+{Load 1} start The Crossroads - 4n 12w 3n 2e, op gate, n, pick frontdoor, op frontdoor, n, kill rat, get key cor, 2s 3w s, op pillar, d, n, op rockwall, n, un slab, op slab, u n, pick door, op door, n, get wine, get pipeweed, get beer.
+{Load 2} start Outside Fidd's - s w 2s e 14s w, pick woodendoor, op woodendoor, w, pick portcullis, op portcullis, w s 2w, get wine, get beer, get pipeweed.
+{Load 3} start Narrowing Road - n w 3n e 4n 8e 4n e 2n 3e, say dwarf (you will be transported east), op marbleslab, 4e s w s, op servanthatch, e s, op hiddendoor, e n e 2n 2e 2n, op door, w, get wine, get beer, get pipeweed.
+{Load 4} start Narrowing Road - n w 3n e 4n 8e 4n e 2n 3e, say dwarf (you will be transported east), op marbleslab, 4e s w s, op servanthatch, e s, op hiddendoor, e n e 2n 2e 3n e, op dungpile, s, get wine, get beer, get pipeweed.
+{Turn in} start Laketown fountain - 6s w s, op door, e, give beerexa /wine/pipeweed boffo.
+
+* Leather Satchel
+
+{Load 1} start The Crossroads - 4n 12w 3n 2e, op gate, n, pick frontdoor, op frontdoor, n, kill rat, get key cor, 2s 3w s, op pillar, d, n, op rockwall, n, un slab, op slab, u n, pick door, op door, n, get salt.
+{Load 2} start Outside Fidd's - s w 2s e 14s w, pick woodendoor, op woodendoor, w, pick portcullis, op portcullis, w s 2w, get salt.
+{Load 3} start Narrowing Road - n w 3n e 4n 8e 4n e 2n 3e, say dwarf (you will be transported east), op marbleslab, 4e s w s, op servanthatch, e s, op hiddendoor, e n e 2n 2e 2n, op door, w, get salt.
+{Load 4} start Narrowing Road - n w 3n e 4n 8e 4n e 2n 3e, say dwarf (you will be transported east), op marbleslab, 4e s w s, op servanthatch, e s, op hiddendoor, e n e 2n 2e 3n e, op dungpile, s, get salt.
+        {Turn in} start Laketown fountain - 5s 2e, op door, s, give salt woman.
+
+* Silver Medallions
+
+{Part 1} start Rc main room - open barricade 3w 2n w, dism, n 6w n w 3n 2w 2n w u w d, open looserubble, s e 3s e, open great boulder, d, open stoneboulder, w 3n 2e s 3e 2n, open smoothrock, e, kill Gorgurakh, get key cor.
+{Part 2} start Rc main room - op barricade 3w 2n w, dism, n, 2e, 4n, un goldenstone, op goldenstone, d 3e s e, op bloodypillar, s, kill skeleton, get key cor, n w n, (kill skeleton in this room), un iceblock, op iceblock, e, k spider, get all.key cor, un chamberdoor, op chamberdoor, u, un chest, op chest, get medallion chest.
+
+* Kraken
+
+start Rc main room - 3e 5s e 3n u 3n e n 5e s 6e n 4e s e 2s w s w s, need to swim here, w d w s 5w 2n 3w 2s 3w n, kill jelly, butcher corpse, {need this key to loot kraken}, 3w n, kill kraken, n, un chest, op chest, get all chest.
+
+* Warg Chieftain
+
+{Part 1} start Rc main room - 3w 2n w, dism, n 15w s w s w s w 2n w n, {this is safe room from chieftain round one, warg partols can enter this room, be careful}, n, kill chieftan, he will flee after a time to w n w of where you fought him, he will spawn adds here, kill chieftan, get sash cor, get shield cor, but cor.
+{Part 2} start Rc main room - s e, give fur man.
+
+* Angmacar
+
+{Phase 1} {Keys} - start Crossroads - 4n 12w 3n 2e, op gate, n, pick frontdoor, op frontdoor, n, kill rat, get key cor, 2s 3w s, op pillar, d n, op rockwall, n, un slab, op slab, u, (Taben loads in this area and sneaks.} kill taben, get key cor, n, pick door, op door, un chest, op chest, get all.key chest, 2s d 2s u w 6n e 5n w, op redoor, n e, kill chorley, get key cor, w 2s 5e n, op door, w, un chest, op chest, get all.key chest, un trapdoor, op trapdoor, d e, get key, e, op rounddoor, e s, op hiddendoor, e u, kill tree, get key cor, d, un whitedoor, op whitedoor, 3s u, un chest, op chest, get all.key chest.
+{Fighting Angmacar} - start OFR Forks - 3s 3e 4s e 2s e, un woodendoors, op woodendoors, 2e, op door, n, op slidingdoor, w, un trapdoor, op trapdoor, u, un chest, op chest, get all.key chest, d, un hiddentrapdoor, op hiddentrapdoor, op stonedoor, 2n, op stonedoor, n, op tapestry, n, kill angmacar, get key cor, un chest, op chest, get hammer chest, get all.metal chest.
+Phase 2} {Summoning 2nd Angmacar} start Narrowing Road - n w 3n 5w, op thorns w, 4n 5w, kn duckboards, d, op door, w n, kn door, n, (n *Watcher blocks the way north, i blink past him) e, pick door, op door, n 3w 2s, kn door, s, (this room is also block s, try to blink s), kill summoner, get key cor, n, say open, 3n 3e s w s, say open, 2s, op door, e, op trapdoor, u 2w 4n e, op oak, e, un secretoakdoor, op secretoakdoor, s, give hammer spirit, (gives you sickle), head back to the summoner you got key from and give him sickle. (this will spawn 2nd version of angmacar.)
+{Fighting 2nd Angmacar} start OFR Forks - 3s 3e 4s e 2s e, un woodendoors, op woodendoors, 2e, op door, n, op slidingdoor, w d, op stonedoor, 2n, op stonedoor, n, op tapestry, n, op coffinpanel, d, w, op door, w, k angmacar, get all cor. (i wouldnt fight him in there and he tracks this time.)
+{Ornate Pitchfork} start Narrowing Road - n w 3n 5w, op thorns w, 4n 5w, kn duckboards, d, op door, w n, kn door, n, give hammer watcher.
+
+* Snakeskin Belt
+
+{part 1} start OFR Forks - 9s e s e s e 3s e 2s w 2s w 2s w s w s 6w 2s e 3s 6w s 3w s 2w, dism, {need to swim here. if no swim there are rafts nearby from "Next to the Pond" 2n 3w s, dism, w, op vines, s, 2 rafts in a chest.} w 2d 3w, {this is safe room} u, kill anaconda, e n e n, op scales, d, get key cor, u, un hatch, op hatch, 3w, op vines, s.
+{part 2} start Dale Foutain - n 2e, op door, n, w, give snakeskin man.
+
+* Warlock
+
+start OFR Forks - 9s e s e s e 3s e 2s w 2s w 2s w s w s 6w 2s e 3s 6w s 3w s 2w, dism, w 2d 3w u e n e n, op scales, d, get key cor, u, un hatch, op hatch, 3w, op vines, s 3e n e 2s 2e n 3e n 5e, un gate, op gate, 2s 2w, op blackdoor, 2w s, op woodendoor, e, op trapdoor, d, op stones, 3e, op rubble, e d, op irondoor, e, k voryln, get all.ring cor, op hiddendoor, u.
+
+* Interloper
+
+start OFR Forks - 4e 2s 3e n e 2n, op stonewall, w s, kill man. get sleeves/ring/belt cor.
+
+* Temple
+
+*NOTE* Items Needed before entering the zone = Silver flask, Slick Blue flask w/slime, Glass phial, Blue Candle, Glass Jar.
+Directions to entrance - start Narrowing Road - n w 3n e 4n 8e 4n e 2n 3e 2n w 3n, kill giant, get key cor, un portcullis, op portcullis, 3n, un glassdoor, op glassdoor, (swimming needed) n e 3n w n 4w n 3e n 2w, op gate, w, pick doubledoors, op doubledoors, n. (this brings you inside)
+Directions to Statue for clay - from just inside temple - 7n w s, op wall, w s, kill white, butcher cor.
+Turn in item order - start entrance to temple - n e, give clay man, w 4n 2w, give blue flask man, s, give jar man, w d 2w, get beaker, give beaker man, get bottle, 2e u e n 2e 4s e s u, op woodendoor, e, op door, e, give candle man, 2w d n w, op goldendoor, w, give phial man, e 3n, give silver flask man, 3n. (give the new items to man.)
+Clay - Goes to Golem for Supple Mithril Sandals (2 people required)
+Brazier of Fire - Goes to Serpent for Fine Embroidered Robe
+Bottle of Air - Goes to Dark Wraith for Silver Candlestick (mystic required)
+Glass Vial - Goes to Serpent for Hourglass
+Hourglass - Goes to Soul Apprentice for Enruned Wooden Staff (mystic required)
+
+* Ancient Tree
+
+start Ancient Streambed - s, op brush, 5s 8w 2s, k tree, butcher cor.
+
+* Maze
+
+start Ancient Streambed - s, op brush, 5s 8w 2s, op ancientslab, d.
+
+#+begin_src
+.-.-.- this is demonic spider   .-+-. this is mage load for sword       .      this is golem load, butcher golem, your looking for the cross
+                                    |                                   | |
+                                    .                                   +-+-.
+                                                                        | |
+                                                                        + . .
+#+end_src
+
+
+
+* Long Dark Snakeskin
+
+* Goblin Gate Staves
+
+* Confuse / Guardian Guildmaster
+
+* Nettles
+
+* Glowing Rock Lantern
+
+* Kabaal
+
+* Plate for Pale
+
+{Part 1} start OFR Forks - 9s e s e s e 3s e 2s w 2s w 2s w s w s 6w 2s e 3s 6w s 3w s 2w, dism, w 2d 3w u e n e n, op scales, d, get key cor, u, un hatch, op hatch, 3w, op vines, s 3e n e 2s 2e n 3e n 5e, un gate, op gate, 2s 2w, op blackdoor, 2w s, op woodendoor, e, op trapdoor, d, op stones, 3e, op rubble, e d, op irondoor, e, k voryln, get key cor, op hiddendoor, u.
+{Part 2} start Outside of Fidd's - 3n w 2n 3w 2n, op irongate, 2w, un stonedoor, op stonedoor w n, get plate.
+
+* Elven Spetum
+

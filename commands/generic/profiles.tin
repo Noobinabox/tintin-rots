@@ -1,0 +1,35 @@
+#nop Load Profiles
+#class profile open
+
+#nop // Post login
+#action {Here we go...} {post_login}
+#action {Reconnecting.} {post_login}
+
+#alias load_profile {
+	#unaction {You are %%1 %%2, a %%3 (%%4) %%5 %%6.} {load_profile %%1};
+	#read {profiles/%1.tin};
+
+	#nop // Temporarily suppress output to prevent spam at login;
+	#gag %%1;
+	#delay {.01} {#ungag %%1}
+}
+
+#alias post_login {
+	#unaction {Here we go...};
+	#unaction {Reconnecting.};
+
+	#nop // Initialize the ticker;
+	#nop // TODO: Convert login initialization to a substitution that calls;
+	#nop // a function so that multiple things can tigger;
+
+	#nop // Load profile;
+	#action {You are %%1 %%2, a %%3 (%%4) %%5 %%6.} {load_profile %%1};
+
+	#nop // Blow out your dragon's eye if you have one;
+	blow eye;
+
+	#nop // Continue the process;
+	info
+}
+
+#class profile close

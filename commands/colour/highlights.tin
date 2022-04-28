@@ -17,5 +17,6 @@
 #highlight {S:} {light bold azure}
 #highlight {HP} {light bold pink}
 #highlight {You have %1 hit, %2 stamina, %3 moves, %4 spirit.} {bold white}
+#highlight {Statsum: %d}{ Jade }
 
 #class highlights close

@@ -9,3 +9,5 @@
 #read {commands/generic/setup_aliases.tin}
 #read {commands/generic/food.tin}
 #read {commands/generic/follower.tin}
+#read {commands/generic/leader.tin}
+#read {commands/generic/profiles.tin}

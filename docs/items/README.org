@@ -1,0 +1,14 @@
+#+TITLE: Return of the Shadow Items
+#+AUTHOR: Maga
+
+* ITEMS
+
+** Table of Contents [1/8]
+*** TODO [[file:armour.org][Armour]]
+*** TODO Clothing
+*** TODO Containers
+*** TODO Food
+*** DONE [[file:light.org][Light]]
+*** TODO Magic
+*** TODO Shields
+*** TODO Weapons

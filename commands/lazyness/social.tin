@@ -9,7 +9,7 @@
 #action {You say %1} {log %0};
 #action {You chat %1} {log %0};
 #action {You narrate %1} {log %0};
-#action {%1 says %2} {log %0};
+#action {%1 says '%2} {log %0};
 #action {%1 whispers to you, %2} {log %0};
 #action {You group-say %1} {log %0};
 #action {%1 group-says %2} {log %0};

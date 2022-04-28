@@ -11,6 +11,7 @@
 #read {commands/race/main.tin}
 #read {commands/colour/main.tin}
 #read {commands/map/main.tin}
+#read {commands/tmp/character.tin}
 
 #EVENT {SESSION CONNECTED}
 {

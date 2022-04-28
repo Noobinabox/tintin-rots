@@ -2,24 +2,38 @@
 
 #read {commands/exits/paths.tin}
 
+#nop Highlights for Exit Toggles
+#class highlights open
+
+#high {Faroth Exists On} { Jade };
+#high {Faroth Exists Off} { Red };
+#high {Vale Exists On} { Jade };
+#high {Vale Exists Off} { Red };
+
+#class highlights close
+
 #class aliases open
 #alias {FarothOn}
 {
+    #show {Faroth Exists On};
 	#read {commands/exits/faroth.tin};
 };
 
 #alias {FarothOff}
 {
+    #show {Faroth Exists Off};
 	#class faroth kill;
 };
 
 #alias {ValeOn}
 {
+    #show {Vale Exists On};
 	#read {commands/exits/vale.tin};
 };
 
 #alias {ValeOff}
 {
+    #show {Vale Exists Off};
 	#class vale kill;
 };
 

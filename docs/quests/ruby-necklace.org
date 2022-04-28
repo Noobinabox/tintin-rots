@@ -1,0 +1,18 @@
+#+TITLE: Ruby Necklace
+#+AUTHOR: Maga
+
+* Ruby Necklace
+This is the quest to obtain the ruby necklace which is a mystic neckslot item.
+
+~NOTE~: This item can be turned in by darkies for an [elfskin necklace]
+
+** Load Rate
+Standard
+
+** Location
+East of Ancient Streambed and just north of blind spider zone inside a hidden door leading down.
+
+*** Starting Location : Ancient Streambed
+
+#+begin_src
+5e s 9e 2n w s; open thorns; d; open stonedoor; s; kill figure; get ruby

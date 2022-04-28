@@ -1,0 +1,11 @@
+#+TITLE: Return of the Shadow Notes
+#+AUTHOR: Maga
+
+
+Listed below is my working knowledge of items, quests, and super mobs. Some of the super mobs was original documented by Blent, but has been adapted to org files by myself.
+
+* Table of Content [0/4]
+** [ ] [[file:items/README.org][Items]]
+** [ ] [[Logs]]
+** [ ] [[Quests]]
+** [ ] [[file:smobs/README.org][Super Mobs]]

@@ -1,0 +1,346 @@
+#+TITLE: Return of the Shadow Armour
+#+AUTHOR: Maga
+#+DESCRIPTION: Contains a full list of armour in the game as of <2022-04-28 Thu>
+
+* Armour
+
+** Table of Contents [0/6]
+*** TODO [[Arms]]
+*** TODO [[Hands]]
+*** TODO [[Body]]
+*** TODO [[Head]]
+*** TODO [[Legs]]
+*** TODO [[Feet]]
+
+* Arms [9/17] :armour:arms:
+** DONE [[a thick pair of leather sleeves]]
+** DONE [[a pair of blue and gold emblazoned vambraces]]
+** DONE [[a pair of heavy iron arm plates]]
+** DONE [[a pair of obsidian vambraces]]
+** DONE [[a pair of dark runed vambraces]]
+** DONE [[a pair of fine, chainmail sleeves]]
+** DONE [[a heavy pair of metal arm braces]]
+** DONE [[a pair of ebony vambraces]]
+** DONE [[a pair of etched leather sleeves]]
+** TODO [[a heavy pair of chain mail sleeves]]
+** TODO [[a pair of metal arm braces]]
+** TODO [[a pair of chain mail sleeves]]
+** TODO [[a thin pair of metal arm braces]]
+** TODO [[a thin pair of chain sleeves]]
+** TODO [[a pair of thick leather arm bracers]]
+** TODO [[a pair of leather sleeves]]
+** TODO [[a thin pair of leather sleeves]]
+
+*** a pair of etched leather sleeves :leather:
+
+These sleeves are of a tough leather, giving adequate protection to the
+wearer and covered with odd symbols and words etched into the leather.
+
+**** Specifications
+- This piece of armour is made of leather, and weighs 2.2lbs.
+- This piece of armour can be taken and worn on the arms.
+
+| Specification  |   Value |
+|----------------+---------|
+| Weight         | 2.2 lbs |
+| Absorbtion     |      30 |
+| Min Absorbtion |       1 |
+| Encumberance   |       1 |
+| Dodge          |       0 |
+
+*** a pair of ebony vambraces :metal:
+
+These vambraces seem to be made of some sort of strange, yet extremely
+strong and thick, ebony metal. They are extremely resilient, and would provide
+excellent protection upon the arms for the wearer.
+
+**** Specifications
+
+- This piece of armour is made of metal, and weighs 14.0lbs.
+- This piece of armour can be taken and worn on the arms.
+
+| Specification  |  Value |
+|----------------+--------|
+| Weight         | 14 lbs |
+| Absorbtion     |     56 |
+| Min Absorbtion |      4 |
+| Encumberance   |      5 |
+| Dodge          |      0 |
+
+*** a heavy pair of metal arm braces :metal:
+
+Extremely thick and heavy, these braces offer excellect protection, yet are
+extremely encumbering.
+
+**** Specifications
+
+- This piece of armour is made of metal, and weighs 14.0lbs.
+- This piece of armour can be taken and worn on the arms.
+
+| Specification  |  Value |
+|----------------+--------|
+| Weight         | 14 lbs |
+| Absorbtion     |     56 |
+| Min Absorbtion |      4 |
+| Encumberance   |      5 |
+| Dodge          |      0 |
+
+*** a pair of fine, chainmail sleeves :chain:
+
+You feel certain the object you have is a pair of fine, chainmail sleeves.
+
+**** Specifications
+
+- This piece of armour is made of chain, and weighs 7.5lbs.
+- This piece of armour can be taken and worn on the arms.
+
+| Specification  |   Value |
+|----------------+---------|
+| Weight         | 7.5 lbs |
+| Absorbtion     |      46 |
+| Min Absorbtion |       2 |
+| Encumberance   |       3 |
+| Dodge          |       0 |
+
+*** a pair of dark runed vambraces :metal:
+
+These dark runed vambraces have an antique look about them, they were
+crafted many a year ago when fashions were different. The metal is thick yet
+very light for its apparent thickness. The dark metal has three silvery
+threads of runed symbols which flow down the vambraces terminating where the
+gauntlets would begin.
+
+**** Specifications
+
+- This piece of armour is made of metal, and weighs 14.0lbs.
+- This piece of armour can be taken and worn on the arms.
+
+| Specification  |  Value |
+|----------------+--------|
+| Weight         | 14 lbs |
+| Absorbtion     |     57 |
+| Min Absorbtion |      4 |
+| Encumberance   |      5 |
+| Dodge          |      0 |
+
+*** a pair of obsidian vambraces :glass:
+
+These protective vambraces offer resistance for the wearer's arms. The
+black metal is cold to the touch and is surprisingly light.
+
+**** Specifications
+
+- This piece of armour is made of metal, and weighs 13.5lbs.
+- This piece of armour can be taken and worn on the arms.
+
+| Specification  |    Value |
+|----------------+----------|
+| Weight         | 13.5 lbs |
+| Absorbtion     |       59 |
+| Min Absorbtion |        4 |
+| Encumberance   |        5 |
+| Dodge          |        0 |
+
+*** a pair of heavy iron arm plates :metal:
+
+These extremely bulky pieces of metal have been crafted to fit around the
+arms to provide incredibly protection that will deflect even the most mighty
+of blows in combat. The metal used is iron, which surprisingly given the age
+of the plates shows no signs of rusting. Perhaps vestigial magics preserve the
+quality of this ancient armour.
+
+**** Specifications
+
+- This piece of armour is made of metal, and weighs 16.0lbs.
+- This piece of armour can be taken and worn on the arms.
+
+| Specification  |  Value |
+|----------------+--------|
+| Weight         | 16 lbs |
+| Absorbtion     |     55 |
+| Min Absorbtion |      6 |
+| Encumberance   |      6 |
+| Dodge          |      0 |
+
+*** a thick pair of leather sleeves :leather:
+
+Thick and heavy, these sleeves offer quite a bit of protection without
+sacrificing much comfort.
+
+**** Specifications
+
+- This piece of armour is made of leather
+- This piece of armour can be taken and worn on the arms
+
+| Specification  |                  Value |
+|----------------+------------------------|
+| Weight         |                3.1 lbs |
+| Absorbtion     |                     23 |
+| Min Absorbtion |                      1 |
+| Encumberance   |                      1 |
+| Dodge          |                      0 |
+
+*** a pair of blue and gold emblazoned vambraces :metal:
+
+Plates of strong steel coated with golden leaf and blue enamel
+combine to make beautiful yet robust pieces of armour.
+The arm plates along are extremely robust but these have had
+small roundels added at the shoulders and elbows to provide
+additional protection to these sensitive and vulnerable areas,
+the result is restricted movement but far superior absoprtion.
+
+**** Specifications
+
+- This piece of armour is made of metal
+- This piece of armour can be taken and worn on the arms.
+- This item has the following affections.
+  - -2 to MOVE
+
+| Specification  |  Value |
+|----------------+--------|
+| Weight         | 16 lbs |
+| Absorbtion     |     55 |
+| Min Absorbtion |      6 |
+| Encumberance   |      6 |
+| Dodge          |     -1 |
+
+* Body [0/24] :armour:body:
+** TODO [[a dark runed breastplate]]
+** TODO [[a lavishly jewelled breastplate]]
+** TODO [[an obsidian breastplate]]
+** TODO [[a light mithril mail shirt]]
+** TODO [[a blue and gold emblazoned breastplate]]
+** TODO [[a thick iron breastplate]]
+** TODO [[a black chain jerkin]]
+** TODO [[an aged mithril chest plate]]
+** TODO [[a fine, chainmail shirt]]
+** TODO [[a thick metal breastplate]]
+** TODO [[an ebony breastplate]]
+** TODO [[a light metal breastplate]]
+** TODO [[an etched leather jerkin]]
+** TODO [[a thick chain mail hauberk]]
+** TODO [[a metal breastplate]]
+** TODO [[a well made breastplate]]
+** TODO [[a heavy leather jerkin]]
+** TODO [[a chain mail jerkin]]
+** TODO [[a thin metal breastplate]]
+** TODO [[a thin chain mail shirt]]
+** TODO [[a thick leather breastplate]]
+** TODO [[a leather jerkin]]
+** TODO [[a light leather vest]]
+** TODO [[a hide vest]]
+
+* Hands [0/19] :armour:hands:
+** TODO [[a pair of blue and gold emblazoned gauntlets]]
+** TODO [[a pair of obsidian gauntlets]]
+** TODO [[a pair of dark runed gauntlets]]
+** TODO [[a pair of thick iron gauntlets]]
+** TODO [[a pair of spiked chain gauntlets]]
+** TODO [[a pair of fine, chainmail gauntlets]]
+** TODO [[a pair of thick metal gauntlets]]
+** TODO [[a pair of etched leather gloves]]
+** TODO [[a pair of chain mail gloves]]
+** TODO [[a pair of metal gauntlets]]
+** TODO [[a pair of heavy leather gloves]]
+** TODO [[a pair of thick chain gloves]]
+** TODO [[a pair of thin metal gauntlets]]
+** TODO [[a thin pair of chain mail gloves]]
+** TODO [[a thick pair of leather gloves]]
+** TODO [[a pair of leather gloves]]
+** TODO [[a pair of thin leather gloves]]
+** TODO [[a pair of smooth, leather gloves]]
+** TODO [[a pair of ebony spiked gauntlets]]
+
+* Head [0/37] :armour:head:
+** TODO [[a mithril mask]]
+** TODO [[an iron mask]]
+** TODO [[a dark, runed visor]]
+** TODO [[a straw mask]]
+** TODO [[a blue and gold emblazoned helmet]]
+** TODO [[an obsidian helmet]]
+** TODO [[a black chain mask]]
+** TODO [[a red leather cap]]
+** TODO [[a fine, chainmail coif]]
+** TODO [[a thick metal helm]]
+** TODO [[an ebony spiked helm]]
+** TODO [[an etched leather helm]]
+** TODO [[a light, winged mithril helm]]
+** TODO [[a silver circlet]]
+** TODO [[a ceremonial headwrap]]
+** TODO [[a glittering crown]]
+** TODO [[a thick chain coif]]
+** TODO [[a metal helmet]]
+** TODO [[a well made metal helmet]]
+** TODO [[a reinforced leather helmet]]
+** TODO [[a chain mail coif]]
+** TODO [[a bejewelled golden crown]]
+** TODO [[a thin metal helmet]]
+** TODO [[a helm with the black fang emblem]]
+** TODO [[an orcish metal helm]]
+** TODO [[an iron helmet set with an S-rune]]
+** TODO [[a thin chain coif]]
+** TODO [[a heavy, horned cap]]
+** TODO [[a garland of small yellow flowers]]
+** TODO [[an obsidian amulet]]
+** TODO [[a thick leather helm]]
+** TODO [[a corroded diadem]]
+** TODO [[a light leather cap]]
+** TODO [[a sinister death mask]]
+** TODO [[a leather helmet]]
+** TODO [[an animal skin cap]]
+** TODO [[a loose, dark cowl]]
+
+* Legs [0/23] :armour:legs:
+** TODO [[a pair of blue and gold emblazoned greaves]]
+** TODO [[a pair of dark runed greaves]]
+** TODO [[a pair of heavy iron leg plates]]
+** TODO [[a pair of obsidian greaves]]
+** TODO [[a fine, chainmail skirt]]
+** TODO [[a pair of fine, chainmail leggings]]
+** TODO [[a heavy pair of metal leg plates]]
+** TODO [[a pair of ebony greaves]]
+** TODO [[a pair of etched leather pants]]
+** TODO [[a thick pair of chain mail leggings]]
+** TODO [[a pair of metal leg plates]]
+** TODO [[a hardened pair of leather pants]]
+** TODO [[a pair of chain mail leggings]]
+** TODO [[a pair of thin metal leg plates]]
+** TODO [[a pair of thin chain mail leggings]]
+** TODO [[a thick pair of leather pants]]
+** TODO [[a pair of leather pants]]
+** TODO [[a leather skirt]]
+** TODO [[a pair of long hairy breeches]]
+** TODO [[a pair of thin leather breeches]]
+** TODO [[a short leather skirt]]
+** TODO [[a ragged leather skirt]]
+
+* Feet [0/30] :armour:feet:
+** TODO [[light mithril mail boots]]
+** TODO [[a pair of black chain mail boots]]
+** TODO [[a pair of blue and gold emblazoned boots]]
+** TODO [[a pair of dark runed boots]]
+** TODO [[a pair of thick iron boots]]
+** TODO [[a pair of obsidian boots]]
+** TODO [[a pair of fine, chainmail boots]]
+** TODO [[a pair of heavy, metal boots]]
+** TODO [[a pair of ebony spiked boots]]
+** TODO [[a pair of supple black slippers]]
+** TODO [[a pair of etched leather boots]]
+** TODO [[a pair of light sandals]]
+** TODO [[a pair of weatherbeaten leather boots]]
+** TODO [[a pair of shiny black boots]]
+** TODO [[a pair of supple leather boots]]
+** TODO [[a pair of supple leather sandals]]
+** TODO [[a pair of metal boots]]
+** TODO [[a pair of thick chain boots]]
+** TODO [[a pair of heavy leather boots]]
+** TODO [[a pair of chain mail boots]]
+** TODO [[a pair of thin metal boots]]
+** TODO [[a pair of light sandals]]
+** TODO [[a pair of thin chain mail boots]]
+** TODO [[a pair of thick, fur boots]]
+** TODO [[a pair of leather boots]]
+** TODO [[a pair of iron-shod boots]]
+** TODO [[a pair of soft leather boots]]
+** TODO [[a pair of black, padded boots]]
+** TODO [[a pair of stout leather boots]]

@@ -1,0 +1,63 @@
+#nop Leader Class
+
+#class leader open
+
+#var buffer 0;
+#var follower_check "";
+
+
+#high {Buffer Mode Disabled.}{Red};
+#high {Buffer Mode Enabled.}{Jade};
+
+#nop Keymapping ||
+#macro {^||} {
+	#if {$buffer > 0} {
+		#var buffer 0;
+		#show Buffer Mode Disabled.
+	};
+	#else {
+		#var buffer 1;
+		#show Buffer Mode Enabled.
+	};
+}
+
+#nop Reset Followers
+#action {Your group consists of:} {
+	#var follower "";
+}
+
+#nop Capture Group Followers
+#action {HP:%1,%2S:%3, MV:%4 -- %5} {
+	#var follower_check %5;
+	#if {$buffer > 0} {
+		#var follower[$follower_check] 0;
+	};
+	#var follower_check "";
+};
+
+#nop Rescue Followers
+#action {%1 turns to fight %2!} {
+	#var follower_check %2;
+    #if {$buffer > 0} {
+        #foreach {$follower} {name} {
+            #if {"$name" == "$follower_check"} {
+                #show Rescuing $name!;
+                rescue $name;
+            };
+        };
+    };
+	#var follower_check "";
+}
+
+#nop Rescue Followers
+#action {%1 attacks %2!} {
+	#var follower_check %2;
+	#if {$buffer > 0} {
+		#if {&follower[$follower_check] > 1} {
+			rescue $follower_check;
+		};
+	};
+	#var follower_check "";
+}
+
+#class leader close

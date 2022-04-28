@@ -1,0 +1,18 @@
+#+TITLE: Blue Candle
+#+AUTHOR: Maga
+
+
+* Blue Candle
+This is the quest to obtain the blue candle which is a light source, better than torches
+
+** Load Rate
+Standard
+
+** Location
+East of Ancient Streambed and just north of blind spider zone inside a hidden door leading down.
+
+*** Starting Location : Ancient Streambed
+
+#+begin_src
+5e s 9e 2n w s; open thorns; d; open stonedoor; s; kill figure; get ruby
+#+end_src

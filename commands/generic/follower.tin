@@ -2,25 +2,30 @@
 
 #CLASS {follower} OPEN
 
+#nop Actions for Following Leader
+#action {$leader attacks} {assist $leader};
+#action {$leader mounts} {ride};
+#action {$leader stops riding} {dismount};
+#action {$leader says 'flee'} {flee;set wimpy 999};
+#action {$leader says 'regen'} {rr $leader};
+
+#high {Leader Set: %1} { Jade };
+#high {Leader Unset} { Red };
+
+#alias {as} {assist $leader}
+
+#nop Set Leader
 #alias {fol %1} {
 	follow %1;
 	#var leader %1;
-	#action {$leader attacks} {assist $leader};
-	#action {$leader mounts} {ride};
-	#action {$leader stops riding} {dismount};
-	#action {$leader says 'flee'} {flee;set wimpy 999};
-	#action {$leader says 'regen'} {rr $leader}
+    #show {Leader Set: $leader};
 }
-#alias {as} {assist $leader}
 
+#nop Unset Leader
 #alias {unfol}
 {
 	follow self;
-	#unaction {$leader attacks};
-	#unaction {$leader mounts};
-	#unaction {$leader stops riding};
-	#unaction {$leader says 'flee'};
-	#unaction {$leader says 'regen'};
+    #show {Leader Unset};
 	#var leader {self};
 }
 

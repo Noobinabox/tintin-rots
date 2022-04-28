@@ -1,0 +1,184 @@
+#+TITLE: Return of the Shadow Light Sources
+#+AUTHOR: Maga
+
+* Light Sources
+
+** Table of Contents
+
+***  [[a blue candle]]
+***  [[a dragon's eye]]
+***  [[a glowing rock lantern]]
+***  [[a glass phial]]
+***  [[a silver candlestick]]
+***  [[a smooth grey branch]]
+***  [[a torch]]
+***  [[a crude torch]]
+***  [[a small candle]]
+***  [[a lucent blue flame]]
+
+* a blue candle
+
+    This deep blue candle stands only 2 inches high and about an inch in
+diameter. The wick is very thick and has a faint chemical smell. Along one
+side of the candle small runes can be seen etched into the wax, many of which
+have already melted away
+
+** Specifications
+
+- This light source is made of the usual stuff
+- This light source can be taken
+- This source of light is magical in nature, and could last a number of months
+
+| Specifications | Values  |
+|----------------+---------|
+| Weight         | 0.1 lbs |
+| Hours          | 750     |
+
+* a dragon's eye
+
+    The iris has been carved out of the eye of a dragon. Its color is dark red
+and it glows faintly, lighting the surrounding area.
+
+- This light source is made of the usual stuff, and weighs 0.1lbs.
+- This light source can be taken.
+- This source of light is magical in nature, and may never go out.
+
+| Specifications | Values          |
+|----------------+-----------------|
+| Weight         | 0.1 lbs         |
+| Hours          | 1000            |
+
+This item has the following affections.
+ - +1 to BITVECTOR
+
+* a glowing rock lantern
+
+   This small blue lantern seems to be made of solid rock. A small clear gem
+is embedded in the center of the stone and seems to be the source of the
+light. A small piece of rope has been carefully placed into the top of the
+lantern making it possible to wear it.
+
+- This light source is made of stone, and weighs 1.0lbs.
+- This light source can be taken.
+- This source of light is magical in nature, and may never go out.
+
+| Specifications | Values          |
+|----------------+-----------------|
+| Weight         | 0.1 lbs         |
+| Hours          | 1000            |
+
+* a glass phial
+
+   This small, glass tube is about 8 inches tall and 1 inch in diameter.  The
+glass is not very thick, giving the phial a fragile appearance.  The phial
+seems to eminate some sort of mystical energy.
+
+- This light source is made of glass, and weighs 0.2lbs.
+- This light source can be taken.
+- This source of light is magical in nature, and may never go out.
+
+| Specifications | Values  |
+|----------------+---------|
+| Weight         | 0.2 lbs |
+| Hours          | 6000    |
+
+* a silver candlestick
+
+   This plain silver candlestick possesses no candle, but when held a small
+white flame erupts from its pinnacle. The light created by this flame will
+illuminate the darkest of nights. Using the candle you feel you are able to
+see even that which is hidden in the darkest of shadows.
+
+- This light source is made of metal, and weighs 0.1lbs.
+- This light source can be taken.
+- This source of light is magical in nature, and may never go out.
+
+| Specifications | Values  |
+|----------------+---------|
+| Weight         | 0.2 lbs |
+| Hours          | 10000   |
+
+This item has the following attributes.
+- It cannot be used to aid the shadow.
+
+* a smooth grey branch
+
+   This branch is long, smooth, and incredibly lightweight. It clearly comes
+from a very fine tree, and appears to be quite solid.
+
+- This light source is made of wood, and weighs 0.2lbs.
+- This light source can be taken.
+- This source of light is magical in nature, and may never go out.
+
+| Specifications | Values          |
+|----------------+-----------------|
+| Weight         | 0.2 lbs         |
+| Hours          | 6000            |
+
+This item has the following affections.
+ - +1 to VISION
+
+* a torch
+
+   This is a two foot, thick stick with the end wrapped in cloth.  The cloth
+is foul smelling, having been dipped into an oily substance at some time.
+
+- This light source is made of wood, and weighs 0.5lbs.
+- This light source can be taken.
+- This source of light is quite weak, and will not last long.
+
+| Specifications | Values  |
+|----------------+---------|
+| Weight         | 0.5 lbs |
+| Hours          | 19      |
+
+* a crude torch
+
+    This crude torch has been simply made from a branch and other naturally
+occuring items.
+
+- This light source is made of wood, and weighs 0.3lbs.
+- This light source can be taken.
+- This source of light is weak, and will not last very long.
+
+| Specifications | Values  |
+|----------------+---------|
+| Weight         | 0.3 lbs |
+| Hours          | 9       |
+
+* a small candle
+
+    You feel certain the object you have is a small candle.
+Made of white wax, this candle is very plain.
+
+- This light source is made of the usual stuff, and weighs 0.0lbs.
+- This light source can be taken.
+- This source of light is weak, and will not last very long.
+
+| Specifications | Values  |
+|----------------+---------|
+| Weight         | 0.0 lbs |
+| Hours          | 8       |
+
+* a lucent blue flame
+
+   The product of one skilled in the arcane arts, this flame is somehow
+tangible, yet intangible in itself. When placing the palm below it, it allows
+itself to be carried, yet it weighs nearly nothing. It produces no heat, glows
+a palid blue, and the sensation of waving one's hand through the air is the
+only effect that can be sensed. When grasped, the intensity of the light it
+produces manifolds itself to vast amplitudes, and can be utilized to see in
+conditions where normal sight fails.
+
+- This light source is made of the usual stuff, and weighs 0.0lbs.
+- This light source can be taken.
+- This source of light is quite weak, and will not last long.
+
+| Specifications | Values  |
+|----------------+---------|
+| Weight         | 0.0 lbs |
+| Hours          | 19      |
+
+This item has the following attributes.
+- It is magical in nature.
+- It cannot be stored for rent.

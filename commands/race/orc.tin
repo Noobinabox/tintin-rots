@@ -17,6 +17,7 @@
 	hit $target;
 	order followers kill $target;
 }
+
 #alias {regenall}
 {
 	#loop 1 4 orc {cast 'regeneration' $orc\.orc}
@@ -37,7 +38,7 @@
 	#loop 1 4 orc {cast 'curing saturation' $orc\.orc}
 }
 
-#action {^You stop riding} {order followers dismount}
-#action {^You mount} {order followers ride}
+#action {You stop riding} {order followers dismount}
+#action {You mount} {order followers ride}
 
 #class orc close

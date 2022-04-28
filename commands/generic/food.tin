@@ -2,6 +2,8 @@
 
 #class food open
 
+#var food;
+
 #alias {food %1} {#var food %1}
 #alias {gg} {get $food all;eat $food}
 

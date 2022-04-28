@@ -105,11 +105,13 @@
 #VARIABLE {DFRToMntVillage} {n;n;e;n;w;n;n;n;n;w;n;n;e;n;n;n;n;n;n;w;w;n;n;n;n;e;n;n}
 #VARIABLE {DFRToTroll} {e;e;e;e;n;n;n;e;n;n;n;n;w;n;e;n;e;n;n;w;w;n;n;n;n;e;n;n;e;e;s;e;e;n;n;n;d;n;e}
 #VARIABLE {DFRToTroy} {e;s;s;s;s;s;e;s;w;s;s;e;e}
+#VARIABLE {DaleToLT} {w;w;w;w;s;s;e;s;s;w;s;w;w;w;w;n;s;w;w;s;s;s;w;s;s;e;e;e;e;s;e;e;e}
 #VARIABLE {EasterlingsToFidds} {e;n;n;n;n;n;n;n;n;n;n;n;n;n;n;w;n;e;n;n}
 #VARIABLE {FiddsToCats} {s;w;s;s;e;s;e;s;s;w;w;w;w;w}
 #VARIABLE {FiddsToCrossroads} {n;n;n;w;n;n;n;e;n;n;n;n;n;n;n;n;n;n;n;n;w;n;n;w;n;n;n;n}
 #VARIABLE {FiddsToEasterlings} {s;s;w;s;e;s;s;s;s;s;s;s;s;s;s;s;s;s;s;w}
 #VARIABLE {FiddsToNestle} {s;w;s;s;e;s;s;s;s;s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;u;n;n;w;w;w;w;n;n;n;w;w}
+#VARIABLE {LTToDale} {w;w;w;n;w;w;w;w;n;n;e;n;n;n;e;e;n;s;e;e;e;e;n;e;n;n;w;n;n;e;e;e;e}
 #VARIABLE {LTToTaben} {w;w;w;s;s;s;w;w;w;w;n;n;n;n;w;w;n;w;w;w;w;w;w;w;w;w;n;w;n;w}
 #VARIABLE {LTToThranduil} {w;w;w;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;n;w;w;w;w;w;w;w;w;w;n;u}
 #VARIABLE {MntVillageToDFR} {s;s;w;s;s;s;s;e;e;s;s;s;s;s;s;w;s;s;e;s;s;s;s;e;s;w;s;s}
@@ -120,6 +122,5 @@
 #VARIABLE {TrollToDFR} {w;s;u;s;s;s;w;w;n;w;w;s;s;w;s;s;s;s;e;e;s;s;w;s;w;s;e;s;s;s;s;w;s;s;s;w;w;w;w}
 #VARIABLE {TroyToDFR} {w;w;n;n;e;n;w;n;n;n;n;n;w}
 #VARIABLE {VinyaToRC} {w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;d;w;w;w;w;u;u;n;w;n;w;n;n;n;w;w;u;w;w;w;w;u;w;w;n;n;w;n;n;n;n;n;w;w;dismount;w}
-#VARIABLE {food} {steak}
 
 #CLASS {paths} CLOSE
