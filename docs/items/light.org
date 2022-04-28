@@ -4,8 +4,7 @@
 * Light Sources
 
 ** Table of Contents
-
-***  [[a blue candle][a blue candle]]
+*** [[id:a-blue-candle][a blue candle]]
 ***  [[a dragon's eye]]
 ***  [[a glowing rock lantern]]
 ***  [[a glass phial]]
@@ -17,6 +16,9 @@
 ***  [[a lucent blue flame]]
 
 * a blue candle
+:PROPERTIES:
+:ID: h:a-blue-candle
+:END:
 
     This deep blue candle stands only 2 inches high and about an inch in
 diameter. The wick is very thick and has a faint chemical smell. Along one
@@ -35,6 +37,9 @@ have already melted away
 | Hours          | 750     |
 
 * a dragon's eye
+:PROPERTIES:
+:ID:       1032c613-0220-4049-bf8b-d48764be14f3
+:END:
 
     The iris has been carved out of the eye of a dragon. Its color is dark red
 and it glows faintly, lighting the surrounding area.
