@@ -1,0 +1,24 @@
+#nop Spell Highlights
+
+#class spell-highlight open;
+
+#nop Chill Ray
+#high {%1 shudders as your chill ray strikes it.} { <aef> };
+#high {Your chill ray leaves a layer of frost on the corpse %1} { <aef> };
+
+#nop Firebolt
+#high {Your firebolt scorches %1} { <fac> };
+#high {Your firebolt burns %1 to ashes.} { <fac> };
+
+#nop Shield Down
+#sub {Your magical shield dissolves.} {Your magical shield dissolves. <--- SHIELD DOWN};
+#high {<--- SHIELD DOWN} { light bold underscore Jade };
+
+#nop Lightning Bolt
+#high {Your lightning bolt strikes %1, bullseye!} { <ffc> };
+#high {Your lightning bolt electrocutes %1 to death.} { <ffc> };
+
+#nop Fireball
+#high {You smirk as your fireball explodes in the face of %1.} { <faa> };
+
+#class spell-highlight close;

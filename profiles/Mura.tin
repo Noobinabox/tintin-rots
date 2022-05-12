@@ -1,0 +1,9 @@
+#nop Mura configuration
+
+#class Mura open
+
+#var primary {moon};
+#var secondary {flint};
+#var hitter {longbow};
+
+#class Mura close

@@ -38,5 +38,26 @@
      }
 }
 
+#nop Ride
+#alias {^.$} {
+    ride;
+}
+
+#nop Dismount
+#alias {^,$} {
+    dismount;
+}
+
+#nop Speed Walk
+#alias {^.%p} {
+    #config speedwalk on;
+    %1;
+    #config speedwalk off;
+}
+
+#nop Reload All
+#alias {^reload$} {
+    #read {commands/main.tin};
+}
 
 #class aliases close

@@ -4,7 +4,7 @@
 * Light Sources
 
 ** Table of Contents
-*** [[id:a-blue-candle][a blue candle]]
+*** [a blue candle](#a-blue-candle)
 ***  [[a dragon's eye]]
 ***  [[a glowing rock lantern]]
 ***  [[a glass phial]]

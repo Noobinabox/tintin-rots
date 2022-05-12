@@ -29,6 +29,15 @@
 
 #nop
 {
+	This is used to reset after casting reveal for targets.
+}
+#action {A surge of light reveals to you every corner of the room.}
+{
+	#math {char_in_room}{$char_in_room=0};
+}
+
+#nop
+{
 	This action is used to get the current mobs in the room. It will
 	assign them to the targetting system for easy actions.
 
@@ -157,6 +166,11 @@
 	checkForMainTarget f;
 };
 
+#alias {^ct$}
+{
+	checkForMainTarget c;
+};
+
 #alias {^at$}
 {
 	checkForMainTarget a;
@@ -205,6 +219,11 @@
 #alias {{^}p{\d}{$}}
 {
 	p $targets[%2][num].$targets[%2][name];
+};
+
+#alias {{^}c{\d}{$}}
+{
+	c $targets[%2][num].$targets[%2][name];
 };
 
 #alias {{^}a{\d}{$}}

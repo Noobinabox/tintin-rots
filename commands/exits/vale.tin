@@ -2,103 +2,202 @@
 
 #class vale open
 
-#sub {^A Rotting windfall    Exits:%1} {%0: sennsenenw}
-#sub {^A Turn    Exits:%1} {%0: eeewennw}
-#sub {^A small Knoll    Exits:%1} {%0: swnnsnww}
-#sub {^A small spring    Exits:%1} {%0: nnnw}
-#sub {^A stagnant Odor    Exits:%1} {%0: nsnsnww}
-#sub {^A strange Barrow    Exits:%1} {%0: wnsssnesw}
-#sub {^A strange Vapour    Exits:%1} {%0: esw}
-#sub {^An Inverted Forest    Exits:%1} {%0: wsew}
-#sub {^An Old Camp    Exits:%1} {%0: wnesnesw}
-#sub {^Ash Pit    Exits:%1} {%0: nnw}
-#sub {^Bearded Old Man    Exits:%1} {%0: snewennw}
-#sub {^Black Ferns    Exits:%1} {%0: ennnnnww}
-#sub {^Black Vines    Exits:%1} {%0: snnww}
-#sub {^Black wood    Exits:%1} {%0: nwesew}
-#sub {^Bleeding Trees    Exits:%1} {%0: sewenw}
-#sub {^Bog of Darkness    Exits:%1} {%0: nnsenenw}
-#sub {^Broken Land    Exits:%1} {%0: snnnww}
-#sub {^Broken Rocks    Exits:%1} {%0: wesew}
-#sub {^Brothel of Trees    Exits:%1} {%0: nnww}
-#sub {^Charred Trees    Exits:%1} {%0: esew}
-#sub {^Choked Path    Exits:%1} {%0: nsnww}
-#sub {^Churning Trees    Exits:%1} {%0: wweesnesw}
-#sub {^Circle of Trees    Exits:%1} {%0: sew}
-#sub {^Cluster of Oaks    Exits:%1} {%0: snesw}
-#sub {^Crowded Forest Floor    Exits:%1} {%0: wwnesnesw}
-#sub {^Cul De sac    Exits:%1} {%0: wennw}
-#sub {^Dark Forest Path    Exits:%1} {%0: snsnww}
-#sub {^Dark Green Moss    Exits:%1} {%0: nww}
-#sub {^Dark Halls    Exits:%1} {%0: nsesew}
-#sub {^Dark Hollow    Exits:%1} {%0: nnsewenw}
-#sub {^Dark Track    Exits:%1} {%0: wnesew}
-#sub {^Dark Valley Forest    Exits:%1} {%0: nenw}
-#sub {^Darkling Path    Exits:%1} {%0: wenw}
-#sub {^Dead Trees    Exits:%1} {%0: nsssnesw}
-#sub {^Dense Dark Forest    Exits:%1} {%0: ennsewenw}
-#sub {^Dense Dark woodland    Exits:%1} {%0: nesew}
-#sub {^Dense Underbrush    Exits:%1} {%0: wnnsnww}
-#sub {^Disturbing Undergrowth    Exits:%1} {%0: nnsssnesw}
-#sub {^Disturbing noises    Exits:%1} {%0: ssnesw}
-#sub {^Dusky wood    Exits:%1} {%0: snsnsnww}
-#sub {^Dusty Hollow    Exits:%1} {%0: ennw}
-#sub {^Eerie Marsh    Exits:%1} {%0: wsnewnnw}
-#sub {^Endless Path    Exits:%1} {%0: ennw}
-#sub {^Eryn Lome    Exits:%1} {%0: snennw}
-#sub {^Eryn wethrin    Exits:%1} {%0: ssw}
-#sub {^Fallen Trees    Exits:%1} {%0: snww}
-#sub {^False Hope    Exits:%1} {%0: nnnww}
-#sub {^Forest Guardians    Exits:%1} {%0: nsewenw}
-#sub {^Forest of endless night    Exits:%1} {%0: ewenw}
-#sub {^Ghastly Trees    Exits:%1} {%0: nesw}
-#sub {^Grasping Thorns    Exits:%1} {%0: nnnnnww}
-#sub {^Hairy Trees    Exits:%1} {%0: esew}
-#sub {^Heartless Trees    Exits:%1} {%0: snewenw}
-#sub {^Into the swamp    Exits:%1} {%0: nwsnewnnw}
-#sub {^Leaving the swamp    Exits:%1} {%0: sesew}
-#sub {^Malevolent Pines    Exits:%1} {%0: ensnsnww}
-#sub {^Massive Oak    Exits:%1} {%0: enw}
-#sub {^Mat of Death    Exits:%1} {%0: enwesew}
-#sub {^Mist Covered Bog    Exits:%1} {%0: newennw}
-#sub {^Mist    Exits:%1} {%0: nesnesw}
-#sub {^Moist Breeze    Exits:%1} {%0: eewennw}
-#sub {^Moody Trees    Exits:%1} {%0: nwenw}
-#sub {^Muddy Path    Exits:%1} {%0: wwww}
-#sub {^Obsidian wood    Exits:%1} {%0: enenw}
-#sub {^Old Forest    Exits:%1} {%0: ewennw}
-#sub {^Opressive Feeling    Exits:%1} {%0: www}
-#sub {^Outside a Cave    Exits:%1} {%0: ennsenenw}
-#sub {^Pale Mists    Exits:%1} {%0: ew}
-#sub {^Pale shroud    Exits:%1} {%0: weesnesw}
-#sub {^Pressing Darkness    Exits:%1} {%0: nweesnesw}
-#sub {^Random stones    Exits:%1} {%0: newenw}
-#sub {^Reaching Branches    Exits:%1} {%0: wssw}
-#sub {^Returning to the Forest    Exits:%1} {%0: wenw}
-#sub {^Ring of stones    Exits:%1} {%0: ssnww}
-#sub {^Rising Forest    Exits:%1} {%0: newennw}
-#sub {^Rockey Forest Floor    Exits:%1} {%0: esnnww}
-#sub {^Row of elms    Exits:%1} {%0: ww}
-#sub {^Sea of Trees    Exits:%1} {%0: sesw}
-#sub {^Shifting Trees    Exits:%1} {%0: nnnnww}
-#sub {^Sickly Forest    Exits:%1} {%0: nnsnww}
-#sub {^Silent Trees    Exits:%1} {%0: snnnw}
-#sub {^Sleeping Forest    Exits:%1} {%0: eesnesw}
-#sub {^Smell of Decay    Exits:%1} {%0: eewenw}
-#sub {^Solid Ground Once Again    Exits:%1} {%0: nnewennw}
-#sub {^Split Path    Exits:%1} {%0: wnnww}
-#sub {^Strange Lights    Exits:%1} {%0: enewennw}
-#sub {^Sunken Path    Exits:%1} {%0: sssewsswwnwnsnnsnnw}
-#sub {^Sureal Forest    Exits:%1} {%0: swenw}
-#sub {^Taur nu Fuin    Exits:%1} {%0: ssewsswwnwnsnnsnnw}
-#sub {^Taur nu Morna    Exits:%1} {%0: sw}
-#sub {^The Barrier    Exits:%1} {%0: sssnww}
-#sub {^The Ground Grows soft    Exits:%1} {%0: nsnnnnww}
-#sub {^Thick Underbrush    Exits:%1} {%0: snnnnww}
-#sub {^Timeless Trees    Exits:%1} {%0: snenw}
-#sub {^Twisted Pines    Exits:%1} {%0: sssnesw}
-#sub {^Unclimable Cliff    Exits:%1} {%0: esnesw}
-#sub {^Unkempt Forest    Exits:%1} {%0: nw}
-#sub {^Weaving Mists    Exits:%1} {%0: nsssnesw}
+#sub {A Bald Boulder    Exits are: N E} {A Bald Boulder -  Room Exits: N E  Front: ensesw  Back: None}
+#sub {A Break in the Forest    Exits are: N E S} {A Break in the Forest -  Room Exits: N E S  Front: nnnnww  Back: e}
+#sub {A Busy Place    Exits are: N E} {A Busy Place -  Room Exits: N E  Front: new  Back: None}
+#sub {A Creepy Thicket    Exits are: N E W} {A Creepy Thicket -  Room Exits: N E W  Front: wsssnesw  Back: nnesew}
+#sub {A Dark Track    Exits are: N W} {A Dark Track -  Room Exits: N W  Front: wnesew  Back: None}
+#sub {A Deep Depression    Exits are: N W} {A Deep Depression -  Room Exits: N W  Front: wwewenw  Back: None}
+#sub {A Gruesome Scene    Exits are: N S} {A Gruesome Scene -  Room Exits: N S  Front: sesnnww  Back: None}
+#sub {A Large Depression    Exits are: S W} {A Large Depression -  Room Exits: S W  Front: sesw  Back: None}
+#sub {A Musty Smell    Exits are: N E} {A Musty Smell -  Room Exits: N E  Front: nwssw  Back: None}
+#sub {A Narrow Run    Exits are: E S} {A Narrow Run -  Room Exits: E S  Front: ewnesew  Back: None}
+#sub {A Rocky Outcrop    Exits are: E S} {A Rocky Outcrop -  Room Exits: E S  Front: enwsnww  Back: None}
+#sub {A Rotting Windfall    Exits are: N S W} {A Rotting Windfall -  Room Exits: N S W  Front: wsnnnw  Back: None}
+#sub {A Small Clearing    Exits are: N E} {A Small Clearing -  Room Exits: N E  Front: nssnnnww  Back: None}
+#sub {A Small Knoll    Exits are: N S} {A Small Knoll -  Room Exits: N S  Front: nsenenw  Back: None}
+#sub {A Small Spring    Exits are: N E} {A Small Spring -  Room Exits: N E  Front: nnnw  Back: None}
+#sub {A Stagnant Odor    Exits are: N S} {A Stagnant Odor -  Room Exits: N S  Front: nsnsnww  Back: None}
+#sub {A Strange Barrow    Exits are: N W} {A Strange Barrow -  Room Exits: N W  Front: nwwwww  Back: None}
+#sub {A Strange Vapour    Exits are: N E S W} {A Strange Vapour -  Room Exits: N E S W  Front: esw  Back: None}
+#sub {A Stray Boulder    Exits are: E S W} {A Stray Boulder -  Room Exits: E S W  Front: sewnnsnnnww  Back: None}
+#sub {A Tragic Scene    Exits are: N E S} {A Tragic Scene -  Room Exits: N E S  Front: ssnww  Back: eeneenesene}
+#sub {A Turn    Exits are: E W} {A Turn -  Room Exits: E W  Front: wsesew  Back: None}
+#sub {Accursed Vale    Exits are: N E} {Accursed Vale -  Room Exits: N E  Front: nwsew  Back: None}
+#sub {An Ancient Ossuary    Exits are: E S W} {An Ancient Ossuary -  Room Exits: E S W  Front: wesnnww  Back: None}
+#sub {An Inverted Forest    Exits are: S W} {An Inverted Forest -  Room Exits: S W  Front: wsew  Back: None}
+#sub {An Old Camp    Exits are: E S W} {An Old Camp -  Room Exits: E S W  Front: wwesew  Back: None}
+#sub {Another Dead End    Exits are: E S W} {Another Dead End -  Room Exits: E S W  Front: sssnww  Back: seeneenesene}
+#sub {Ash Pit    Exits are: N E S} {Ash Pit -  Room Exits: N E S  Front: nnw  Back: None}
+#sub {Baleful Darkness    Exits are: E S} {Baleful Darkness -  Room Exits: E S  Front: ennnnww  Back: None}
+#sub {Bearded Old Man    Exits are: N E S} {Bearded Old Man -  Room Exits: N E S  Front: newnnewennw  Back: None}
+#sub {Black Ferns    Exits are: N E} {Black Ferns -  Room Exits: N E  Front: ewwnnww  Back: None}
+#sub {Black Vines    Exits are: E S} {Black Vines -  Room Exits: E S  Front: nnsew  Back: None}
+#sub {Black Wood    Exits are: N E W} {Black Wood -  Room Exits: N E W  Front: nwesew  Back: None}
+#sub {Bleeding Trees    Exits are: S W} {Bleeding Trees -  Room Exits: S W  Front: sewenw  Back: None}
+#sub {Bog of Darkness    Exits are: N S W} {Bog of Darkness -  Room Exits: N S W  Front: wwesewenw  Back: None}
+#sub {Brackish Waters    Exits are: S W} {Brackish Waters -  Room Exits: S W  Front: wnnsnnnww  Back: None}
+#sub {Breathing Forest    Exits are: E S} {Breathing Forest -  Room Exits: E S  Front: ssnennw  Back: None}
+#sub {Broken Land    Exits are: N S W} {Broken Land -  Room Exits: N S W  Front: snnnww  Back: None}
+#sub {Broken Rocks    Exits are: N S W} {Broken Rocks -  Room Exits: N S W  Front: wesew  Back: None}
+#sub {Brothel of Trees    Exits are: N E S W} {Brothel of Trees -  Room Exits: N E S W  Front: nnww  Back: None}
+#sub {Change in Course    Exits are: N E W} {Change in Course -  Room Exits: N E W  Front: nnnewennw  Back: None}
+#sub {Charred Trees    Exits are: N E} {Charred Trees -  Room Exits: N E  Front: esew  Back: None}
+#sub {Choked Path    Exits are: N S W} {Choked Path -  Room Exits: N S W  Front: nsnww  Back: None}
+#sub {Churning Trees    Exits are: S W} {Churning Trees -  Room Exits: S W  Front: wensnww  Back: None}
+#sub {Circle of Trees    Exits are: E S W} {Circle of Trees -  Room Exits: E S W  Front: sew  Back: None}
+#sub {Cluster of Oaks    Exits are: N E S W} {Cluster of Oaks -  Room Exits: N E S W  Front: snesw  Back: None}
+#sub {Conic Mushrooms    Exits are: N S} {Conic Mushrooms -  Room Exits: N S  Front: ssnenw  Back: None}
+#sub {Corrupt Trees    Exits are: N S} {Corrupt Trees -  Room Exits: N S  Front: nsesnnww  Back: None}
+#sub {Crowded Forest Floor    Exits are: N S W} {Crowded Forest Floor -  Room Exits: N S W  Front: nsnenw  Back: None}
+#sub {Crowded Path    Exits are: N S} {Crowded Path -  Room Exits: N S  Front: swnwenw  Back: None}
+#sub {Cul De Sac    Exits are: E W} {Cul De Sac -  Room Exits: E W  Front: wennw  Back: None}
+#sub {Curving Path    Exits are: N S} {Curving Path -  Room Exits: N S  Front: snewennw  Back: None}
+#sub {Damp Woods    Exits are: E S} {Damp Woods -  Room Exits: E S  Front: eeesw  Back: None}
+#sub {Dark Dense Forest    Exits are: N E W} {Dark Dense Forest -  Room Exits: N E W  Front: wessesw  Back: None}
+#sub {Dark Forest Continues    Exits are: N E S} {Dark Forest Continues -  Room Exits: N E S  Front: essnenw  Back: esene}
+#sub {Dark Forest Path    Exits are: S W} {Dark Forest Path -  Room Exits: S W  Front: snsnww  Back: None}
+#sub {Dark Green Moss    Exits are: N S} {Dark Green Moss -  Room Exits: N S  Front: nww  Back: nwnneeseeneenesene}
+#sub {Dark Halls    Exits are: N E} {Dark Halls -  Room Exits: N E  Front: nsesew  Back: None}
+#sub {Dark Hollow    Exits are: N E} {Dark Hollow -  Room Exits: N E  Front: nnsewenw  Back: None}
+#sub {Dark Massive Forest    Exits are: N S W} {Dark Massive Forest -  Room Exits: N S W  Front: ssesw  Back: None}
+#sub {Dark Pit    Exits are: N E S} {Dark Pit -  Room Exits: N E S  Front: nennw  Back: None}
+#sub {Dark Putrid Waters    Exits are: N S} {Dark Putrid Waters -  Room Exits: N S  Front: ssesew  Back: None}
+#sub {Dark Valley Forest    Exits are: N S W} {Dark Valley Forest -  Room Exits: N S W  Front: nenw  Back: None}
+#sub {Darkling Path    Exits are: N S W} {Darkling Path -  Room Exits: N S W  Front: wenw  Back: None}
+#sub {Darkness    Exits are: E S W} {Darkness -  Room Exits: E S W  Front: wnnww  Back: None}
+#sub {Dead Trees    Exits are: N E} {Dead Trees -  Room Exits: N E  Front: esewenw  Back: None}
+#sub {Decaying Marsh    Exits are: N S} {Decaying Marsh -  Room Exits: N S  Front: nwnnsnnnww  Back: None}
+#sub {Deep in the Swamp    Exits are: N E W} {Deep in the Swamp -  Room Exits: N E W  Front: ennsnnnww  Back: None}
+#sub {Deep Moss    Exits are: N W} {Deep Moss -  Room Exits: N W  Front: nwsnww  Back: None}
+#sub {Deep Waters    Exits are: E S W} {Deep Waters -  Room Exits: E S W  Front: eennsnnnww  Back: None}
+#sub {Dense Brush    Exits are: E S} {Dense Brush -  Room Exits: E S  Front: eeessesw  Back: None}
+#sub {Dense Dark Woodland    Exits are: N E S} {Dense Dark Woodland -  Room Exits: N E S  Front: nesew  Back: None}
+#sub {Dense Underbrush    Exits are: N W} {Dense Underbrush -  Room Exits: N W  Front: wnnsnww  Back: None}
+#sub {Dim Vale    Exits are: S W} {Dim Vale -  Room Exits: S W  Front: snnw  Back: None}
+#sub {Dire Trees    Exits are: E S W} {Dire Trees -  Room Exits: E S W  Front: esssnww  Back: eseeneenesene}
+#sub {Distrubing Noises    Exits are: N S W} {Distrubing Noises -  Room Exits: N S W  Front: ssnesw  Back: None}
+#sub {Disturbing Undergrowth    Exits are: N S} {Disturbing Undergrowth -  Room Exits: N S  Front: nnsssnesw  Back: None}
+#sub {Drier Marshland    Exits are: N E S} {Drier Marshland -  Room Exits: N E S  Front: eewsesew  Back: None}
+#sub {Drifting Track    Exits are: N E W} {Drifting Track -  Room Exits: N E W  Front: eewsesew  Back: None}
+#sub {Dripping Moss    Exits are: E S W} {Dripping Moss -  Room Exits: E S W  Front: wsnnww  Back: eenesene}
+#sub {Dusky Wood    Exits are: E S W} {Dusky Wood -  Room Exits: E S W  Front: eessesw  Back: None}
+#sub {Dusty Hollow    Exits are: E S} {Dusty Hollow -  Room Exits: E S  Front: ennw  Back: None}
+#sub {Dusty Smell    Exits are: N S} {Dusty Smell -  Room Exits: N S  Front: sewwnnww  Back: None}
+#sub {Eerie Marsh    Exits are: E S W} {Eerie Marsh -  Room Exits: E S W  Front: ssnnewennw  Back: None}
+#sub {Endless Path    Exits are: N E} {Endless Path -  Room Exits: N E  Front: ennw  Back: None}
+#sub {Entrance to Path    Exits are: E W} {Entrance to Path -  Room Exits: E W  Front: eesw  Back: None}
+#sub {Entrance to the Hidden Vale    Exits are: E W} {Entrance to the Hidden Vale -  Room Exits: E W  Front: None  Back: enneeseeneenesene}
+#sub {Eryn Lome    Exits are: N E S W} {Eryn Lome -  Room Exits: N E S W  Front: snennw  Back: None}
+#sub {Eryn Wethrin    Exits are: E S} {Eryn Wethrin -  Room Exits: E S  Front: esnennw  Back: None}
+#sub {Faint Path    Exits are: E W} {Faint Path -  Room Exits: E W  Front: esnennw  Back: None}
+#sub {Fallen Leaves    Exits are: N S W} {Fallen Leaves -  Room Exits: N S W  Front: snwsnww  Back: None}
+#sub {Fallen Trees    Exits are: N E S W} {Fallen Trees -  Room Exits: N E S W  Front: snww  Back: None}
+#sub {False Hope    Exits are: N W} {False Hope -  Room Exits: N W  Front: nnnww  Back: None}
+#sub {Flooded Forest    Exits are: E S} {Flooded Forest -  Room Exits: E S  Front: snnnewennw  Back: None}
+#sub {Forest Guardians    Exits are: N S W} {Forest Guardians -  Room Exits: N S W  Front: nsewenw  Back: None}
+#sub {Forest Ledge    Exits are: E S} {Forest Ledge -  Room Exits: E S  Front: senenw  Back: None}
+#sub {Forest of Despair    Exits are: N E} {Forest of Despair -  Room Exits: N E  Front: nnnww  Back: None}
+#sub {Forest of Endless Night    Exits are: N E S} {Forest of Endless Night -  Room Exits: N E S  Front: ewenw  Back: None}
+#sub {Game Trail    Exits are: E W} {Game Trail -  Room Exits: E W  Front: ewennw  Back: eneenesene}
+#sub {Ghastly Trees    Exits are: N W} {Ghastly Trees -  Room Exits: N W  Front: nesw  Back: None}
+#sub {Giant Ancient Trees    Exits are: N E W U} {Giant Ancient Trees -  Room Exits: N E W U  Front: nnnnnww  Back: ne}
+#sub {Gleaming Eyes    Exits are: N E S} {Gleaming Eyes -  Room Exits: N E S  Front: snenw  Back: ene}
+#sub {Gloomy Trees    Exits are: E S} {Gloomy Trees -  Room Exits: E S  Front: esnnnww  Back: None}
+#sub {Grasping Thorns    Exits are: N W} {Grasping Thorns -  Room Exits: N W  Front: wwnnww  Back: None}
+#sub {Hairy Trees    Exits are: N E S} {Hairy Trees -  Room Exits: N E S  Front: esew  Back: None}
+#sub {Heartless Trees    Exits are: S W} {Heartless Trees -  Room Exits: S W  Front: wnnwenw  Back: None}
+#sub {Hedge of Thorns    Exits are: N E S W} {Hedge of Thorns -  Room Exits: N E S W  Front: sessesw  Back: None}
+#sub {High Up In a Tree    Exits are: D} {High Up In a Tree -  Room Exits: D  Front: dnnnnnww  Back: None}
+#sub {Hollow Tree    Exits are: N S} {Hollow Tree -  Room Exits: N S  Front: nsew  Back: None}
+#sub {Inky Forest    Exits are: N W} {Inky Forest -  Room Exits: N W  Front: wnewennw  Back: None}
+#sub {Inside the Cave    Exits are: S} {Inside the Cave -  Room Exits: S  Front: sewwesewenw  Back: None}
+#sub {Into the Swamp    Exits are: N E W} {Into the Swamp -  Room Exits: N E W  Front: ennsnnnww  Back: None}
+#sub {Leaving the Hidden Vale    Exits are: E W} {Leaving the Hidden Vale -  Room Exits: E W  Front: wnnnnww  Back: None}
+#sub {Leaving the Swamp    Exits are: N E S W} {Leaving the Swamp -  Room Exits: N E S W  Front: sesew  Back: None}
+#sub {Lords of the Night    Exits are: E S} {Lords of the Night -  Room Exits: E S  Front: esswnwenw  Back: None}
+#sub {Lost Amongst the Giants    Exits are: E S W} {Lost Amongst the Giants -  Room Exits: E S W  Front: wnnewennw  Back: None}
+#sub {Lost in the Valley    Exits are: E S} {Lost in the Valley -  Room Exits: E S  Front: ensesw  Back: None}
+#sub {Malevolent Pines    Exits are: E W} {Malevolent Pines -  Room Exits: E W  Front: ensnsnww  Back: None}
+#sub {Massive Oaks    Exits are: N E} {Massive Oaks -  Room Exits: N E  Front: enw  Back: None}
+#sub {Mat of Death    Exits are: E S} {Mat of Death -  Room Exits: E S  Front: enwesew  Back: None}
+#sub {Maze of Bracken    Exits are: N S} {Maze of Bracken -  Room Exits: N S  Front: nsnnnww  Back: None}
+#sub {Mirkwood    Exits are: E S} {Mirkwood -  Room Exits: E S  Front: ssnnww  Back: None}
+#sub {Mist    Exits are: N E W} {Mist -  Room Exits: N E W  Front: wesew  Back: None}
+#sub {Mist Covered Bog    Exits are: N S} {Mist Covered Bog -  Room Exits: N S  Front: newennw  Back: None}
+#sub {Moist Breeze    Exits are: N E} {Moist Breeze -  Room Exits: N E  Front: eewennw  Back: None}
+#sub {Moody Trees    Exits are: N E S} {Moody Trees -  Room Exits: N E S  Front: nwenw  Back: None}
+#sub {Mosquito Infested Waters    Exits are: N S W} {Mosquito Infested Waters -  Room Exits: N S W  Front: nsnnewennw  Back: None}
+#sub {Mossy Trees    Exits are: N E} {Mossy Trees -  Room Exits: N E  Front: ewnnwenw  Back: None}
+#sub {Motionless Swamp    Exits are: N E W} {Motionless Swamp -  Room Exits: N E W  Front: nnsnnnww  Back: None}
+#sub {Muddy Path    Exits are: N S W} {Muddy Path -  Room Exits: N S W  Front: wwww  Back: None}
+#sub {Murky Waters    Exits are: N E} {Murky Waters -  Room Exits: N E  Front: eeennsnnnww  Back: None}
+#sub {Obsidian Wood    Exits are: E S} {Obsidian Wood -  Room Exits: E S  Front: enenw  Back: None}
+#sub {Old Forest    Exits are: E S} {Old Forest -  Room Exits: E S  Front: ewennw  Back: None}
+#sub {On Spongy Ground    Exits are: N E W} {On Spongy Ground -  Room Exits: N E W  Front: ewnnsnnnww  Back: None}
+#sub {Opaque Darkness    Exits are: N E W} {Opaque Darkness -  Room Exits: N E W  Front: esesw  Back: None}
+#sub {Oppressive Feeling    Exits are: E W} {Oppressive Feeling -  Room Exits: E W  Front: www  Back: None}
+#sub {Outside a Cave    Exits are: N E} {Outside a Cave -  Room Exits: N E  Front: ewwesewenw  Back: None}
+#sub {Overt Malice    Exits are: N E} {Overt Malice -  Room Exits: N E  Front: nnwenw  Back: None}
+#sub {Pale Mist    Exits are: N E S} {Pale Mist -  Room Exits: N E S  Front: ew  Back: None}
+#sub {Pale Shroud    Exits are: E S W} {Pale Shroud -  Room Exits: E S W  Front: ensnww  Back: None}
+#sub {Patch of Mushrooms    Exits are: S W} {Patch of Mushrooms -  Room Exits: S W  Front: wwnew  Back: None}
+#sub {Pressing Darkness    Exits are: N E S} {Pressing Darkness -  Room Exits: N E S  Front: nensnww  Back: None}
+#sub {Quiet Corner    Exits are: N E W} {Quiet Corner -  Room Exits: N E W  Front: essesw  Back: None}
+#sub {Random Stones    Exits are: N E} {Random Stones -  Room Exits: N E  Front: newenw  Back: None}
+#sub {Reaching Branches    Exits are: N S W} {Reaching Branches -  Room Exits: N S W  Front: wssw  Back: None}
+#sub {Returning to the Forest    Exits are: N E W} {Returning to the Forest -  Room Exits: N E W  Front: wenw  Back: eeseeneenesene}
+#sub {Ring of Stones    Exits are: N S} {Ring of Stones -  Room Exits: N S  Front: ssnww  Back: None}
+#sub {Rising Forest    Exits are: N E S W} {Rising Forest -  Room Exits: N E S W  Front: newennw  Back: None}
+#sub {Rocky Forest Floor    Exits are: E S W} {Rocky Forest Floor -  Room Exits: E S W  Front: esnnww  Back: None}
+#sub {Rotting Beeches    Exits are: N E W} {Rotting Beeches -  Room Exits: N E W  Front: wnew  Back: None}
+#sub {Rotting Treestump    Exits are: N S W} {Rotting Treestump -  Room Exits: N S W  Front: nsesw  Back: None}
+#sub {Row of Elms    Exits are: E S W} {Row of Elms -  Room Exits: E S W  Front: ww  Back: wnneeseeneenesene}
+#sub {Scarred Land    Exits are: N S W} {Scarred Land -  Room Exits: N S W  Front: sswnwenw  Back: None}
+#sub {Sea of Trees    Exits are: N S} {Sea of Trees -  Room Exits: N S  Front: sesw  Back: None}
+#sub {Shadowy Hues    Exits are: S W} {Shadowy Hues -  Room Exits: S W  Front: wsnww  Back: None}
+#sub {Shallow Waters    Exits are: E S W} {Shallow Waters -  Room Exits: E S W  Front: wennsnnnww  Back: None}
+#sub {Sharp Spears    Exits are: N E} {Sharp Spears -  Room Exits: N E  Front: nwwesew  Back: None}
+#sub {Shifting Trees    Exits are: N S W} {Shifting Trees -  Room Exits: N S W  Front: nnnnww  Back: None}
+#sub {Sickly Forest    Exits are: N E S} {Sickly Forest -  Room Exits: N E S  Front: nnsnww  Back: None}
+#sub {Silent Arena    Exits are: N S} {Silent Arena -  Room Exits: N S  Front: nsessesw  Back: None}
+#sub {Silent Trees    Exits are: E S} {Silent Trees -  Room Exits: E S  Front: snnnw  Back: None}
+#sub {Sleeping Forest    Exits are: E S} {Sleeping Forest -  Room Exits: E S  Front: eswwww  Back: None}
+#sub {Slushy Ground    Exits are: N S} {Slushy Ground -  Room Exits: N S  Front: snwenw  Back: None}
+#sub {Smell of Decay    Exits are: E W} {Smell of Decay -  Room Exits: E W  Front: wewenw  Back: None}
+#sub {Snare of Pines    Exits are: E S W} {Snare of Pines -  Room Exits: E S W  Front: ssnenw  Back: sene}
+#sub {Solid Ground Once Again    Exits are: N E S} {Solid Ground Once Again -  Room Exits: N E S  Front: nnewennw  Back: None}
+#sub {Split Path    Exits are: E W} {Split Path -  Room Exits: E W  Front: wnnww  Back: None}
+#sub {Spongy Ground    Exits are: N E S W} {Spongy Ground -  Room Exits: N E S W  Front: sssesw  Back: None}
+#sub {Strange Lights    Exits are: N E S} {Strange Lights -  Room Exits: N E S  Front: nwenw  Back: neeseeneenesene}
+#sub {Strange Marsh    Exits are: N S W} {Strange Marsh -  Room Exits: N S W  Front: snnewennw  Back: None}
+#sub {Strangled Forest    Exits are: N E} {Strangled Forest -  Room Exits: N E  Front: eswwww  Back: None}
+#sub {Sunken Path    Exits are: N E S W} {Sunken Path -  Room Exits: N E S W  Front: wennnnww  Back: None}
+#sub {Surreal Forest    Exits are: N E S} {Surreal Forest -  Room Exits: N E S  Front: ennww  Back: None}
+#sub {Taur-e-Duath    Exits are: N W} {Taur-e-Duath -  Room Exits: N W  Front: nesnennw  Back: None}
+#sub {Taur-nu-Fuin    Exits are: E S W} {Taur-nu-Fuin -  Room Exits: E S W  Front: wesewenw  Back: None}
+#sub {Taur-nu-Morna    Exits are: N S W} {Taur-nu-Morna -  Room Exits: N S W  Front: sw  Back: None}
+#sub {The Barrier    Exits are: N S} {The Barrier -  Room Exits: N S  Front: sssnww  Back: None}
+#sub {The Channel    Exits are: E W} {The Channel -  Room Exits: E W  Front: ewnnewennw  Back: None}
+#sub {The Dark Wood    Exits are: N E S} {The Dark Wood -  Room Exits: N E S  Front: swesew  Back: None}
+#sub {The Great Pine    Exits are: N E W} {The Great Pine -  Room Exits: N E W  Front: esnww  Back: None}
+#sub {The Great Pine    Exits are: N E W} {The Great Pine -  Room Exits: N E W  Front: esnww  Back: None}
+#sub {The Ground Grows Soft    Exits are: N W} {The Ground Grows Soft -  Room Exits: N W  Front: nnnenw  Back: None}
+#sub {The Path    Exits are: N S W} {The Path -  Room Exits: N S W  Front: wnwenw  Back: None}
+#sub {Thick Bramble    Exits are: N E} {Thick Bramble -  Room Exits: N E  Front: ewnnww  Back: None}
+#sub {Thick Underbrush    Exits are: N S} {Thick Underbrush -  Room Exits: N S  Front: nnenw  Back: None}
+#sub {Thick, Dark Forest    Exits are: N S} {Thick, Dark Forest -  Room Exits: N S  Front: sennww  Back: None}
+#sub {Thin Trail On Hill    Exits are: N E S W} {Thin Trail On Hill -  Room Exits: N E S W  Front: w  Back: nneeseeneenesene}
+#sub {Thundering Darkness    Exits are: N E S} {Thundering Darkness -  Room Exits: N E S  Front: nssnenw  Back: None}
+#sub {Timeless Trees    Exits are: N S} {Timeless Trees -  Room Exits: N S  Front: snenw  Back: None}
+#sub {Tortured Land    Exits are: E S} {Tortured Land -  Room Exits: E S  Front: swesew  Back: None}
+#sub {Twisted Pines    Exits are: N E S} {Twisted Pines -  Room Exits: N E S  Front: sssnesw  Back: None}
+#sub {Twisted Trail    Exits are: N E W} {Twisted Trail -  Room Exits: N E W  Front: nessnenw  Back: nesene}
+#sub {Unclimbable Cliff    Exits are: N E S W} {Unclimbable Cliff -  Room Exits: N E S W  Front: swwww  Back: None}
+#sub {Unkempt Forest    Exits are: N S W} {Unkempt Forest -  Room Exits: N S W  Front: nw  Back: nnneeseeneenesene}
+#sub {Vigilent Forest    Exits are: N E W} {Vigilent Forest -  Room Exits: N E W  Front: wennw  Back: neenesene}
+#sub {Weaving Mists    Exits are: E S W} {Weaving Mists -  Room Exits: E S W  Front: nsssnesw  Back: None}
+#sub {West of the Thicket    Exits are: N W} {West of the Thicket -  Room Exits: N W  Front: nswesew  Back: None}
+#sub {Whispering Pines    Exits are: S W} {Whispering Pines -  Room Exits: S W  Front: wewnesew  Back: None}
 
 #class vale close

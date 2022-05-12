@@ -1,0 +1,97 @@
+#nop Deedlit Profile
+
+#class Deedlit open
+
+#nop Setting food
+#var food {waybread};
+
+
+#nop Wear Armour
+#alias {wa} {
+    wear all.chainmail;
+}
+
+#nop Remove Armour
+#alias {ra} {
+    remove all.chainmail;
+}
+
+#nop Spec Fire
+#alias {{reset fire}} {
+    #show {<f0f8>Reseting to Fire Spec...};
+    tell angel pracreset;
+    spec fire;
+    prac blaze;
+    setup practices;
+}
+
+#nop Spec Battle Magic
+#alias {{reset battle magic}} {
+    #show {<f0f8>Reseting to Battle Magic Spec...};
+    tell angel pracreset;
+    spec battle magic;
+    setup practices;
+}
+
+#nop Spec Cold
+#alias {{reset cold}} {
+    #show {<f0f8>Reseting to Cold Spec...};
+    tell angel pracreset;
+    spec cold;
+    setup practices;
+}
+
+#nop Spec Lightning
+#alias {{reset lightning}} {
+    #show {<f0f8>Reseting to Lightning Spec...};
+    tell angel pracreset;
+    spec lightning;
+    setup practices;
+}
+
+#alias {{setup practices}} {
+    setup default mage;
+    setup default mystic;
+    setup default warrior;
+    setup default ranger;
+}
+
+#alias {{setup default mage}} {
+    #5 prac reveal life;
+    #5 prac locate living;
+    #5 prac cure self;
+    #5 prac chill ray;
+    #5 prac blink;
+    #5 prac lightning bolt;
+    #5 prac vitalize self;
+    #5 prac flash;
+    #5 prac earthquake;
+    #5 prac create light;
+    #5 prac firebolt;
+    #5 prac relocate;
+    #5 prac fireball;
+    #5 prac shield;
+}
+
+#alias {{setup default mystic}} {
+    #7 prac remove poison;
+}
+
+#alias {{setup default warrior}} {
+    #10 prac concussion;
+    #15 prac parry;
+    #15 prac berserk;
+    #15 prac bash;
+}
+
+#alias {{setup default ranger}} {
+    prac swimming;
+    #5 prac pick;
+    #30 prac dodge;
+    #18 prac fast attack;
+    #20 prac ride;
+    #11 prac track;
+    #10 prac search;
+}
+
+#class Deedlit close

@@ -1,5 +1,9 @@
 #CLASS {paths} OPEN
 
+#nop Ride and Dismount Swapping for mapping
+#pathdir {dismount}{ride};
+#pathdir {ride}{dismount};
+
 #ALIAS {create path}
 {
     #class paths open;
@@ -62,13 +66,17 @@
 {
     #path load %1;
     #path stop;
-    #path run {0.50}
+    #path run {0.50};
+    #action {No way! You're fighting for your life!} {#path stop;#path move -1;};
+    #delay {90} {#unaction {No way! You're fighting for your life!}};
 }
 
 #ALIAS {save path %1 %2}
 {
     #path save forward %1;
-    #path save backward %2
+    #path save backward %2;
+    #tab {%1};
+    #tab {%2}
 }
 
 #ALIAS {save paths}
@@ -100,6 +108,30 @@
     #path walk forward
 }
 
+#TAB {CatsToFidds}
+#TAB {CrossroadsToFidds}
+#TAB {DFRToMntVillage}
+#TAB {DFRToTroll}
+#TAB {DFRToTroy}
+#TAB {DaleToLT}
+#TAB {EasterlingsToFidds}
+#TAB {FiddsToCats}
+#TAB {FiddsToCrossroads}
+#TAB {FiddsToEasterlings}
+#TAB {FiddsToNestle}
+#TAB {LTToDale}
+#TAB {LTToTaben}
+#TAB {LTToThranduil}
+#TAB {MntVillageToDFR}
+#TAB {NestleToFidds}
+#TAB {RCToVinya}
+#TAB {TabenToLT}
+#TAB {ThranduilToLT}
+#TAB {ThranduilToVale}
+#TAB {TrollToDFR}
+#TAB {TroyToDFR}
+#TAB {ValeToThranduil}
+#TAB {VinyaToRC}
 #VARIABLE {CatsToFidds} {e;e;e;e;e;n;n;w;n;w;n;n;e;n}
 #VARIABLE {CrossroadsToFidds} {s;s;s;s;e;s;s;e;s;s;s;s;s;s;s;s;s;s;s;s;w;s;s;s;e;s;s;s}
 #VARIABLE {DFRToMntVillage} {n;n;e;n;w;n;n;n;n;w;n;n;e;n;n;n;n;n;n;w;w;n;n;n;n;e;n;n}
@@ -119,8 +151,10 @@
 #VARIABLE {RCToVinya} {e;ride;e;e;s;s;s;s;s;e;s;s;e;e;d;e;e;e;e;d;e;e;s;s;s;e;s;e;s;d;d;e;e;e;e;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e}
 #VARIABLE {TabenToLT} {e;s;e;s;e;e;e;e;e;e;e;e;e;s;e;e;s;s;s;s;e;e;e;e;n;n;n;e;e;e}
 #VARIABLE {ThranduilToLT} {d;s;e;e;e;e;e;e;e;e;e;s;e;e;e;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;e;e;e}
+#VARIABLE {ThranduilToVale} {d;s;w;w;w;w;w;n;w;w;s;n;n;w;w;s;w;w;s;w;w;s;s;s;s;w;s;s;s;s;s;s;s;s;s;w;s;w;s}
 #VARIABLE {TrollToDFR} {w;s;u;s;s;s;w;w;n;w;w;s;s;w;s;s;s;s;e;e;s;s;w;s;w;s;e;s;s;s;s;w;s;s;s;w;w;w;w}
 #VARIABLE {TroyToDFR} {w;w;n;n;e;n;w;n;n;n;n;n;w}
+#VARIABLE {ValeToThranduil} {n;e;n;e;n;n;n;n;n;n;n;n;n;e;n;n;n;n;e;e;n;e;e;n;e;e;s;s;n;e;e;s;e;e;e;e;e;n;u}
 #VARIABLE {VinyaToRC} {w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;d;w;w;w;w;u;u;n;w;n;w;n;n;n;w;w;u;w;w;w;w;u;w;w;n;n;w;n;n;n;n;n;w;w;dismount;w}
 
 #CLASS {paths} CLOSE

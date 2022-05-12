@@ -1,0 +1,124 @@
+#nop Skjor configuration
+
+#class Skjor open
+
+#var primary {gleaming};
+#var secondary {ancient};
+#var hitter {spear};
+#var food {cram};
+
+#nop Highlight All Special Aliases
+#high {^Bash Swing Swing$} { Jade }
+#high {^Bash Swing$} { Jade }
+#high {^HEAL!$} { Jade }
+
+#nop Wear Armor
+#alias {wa} {
+	wear all.obsidian;
+	wear all.heavy;
+};
+
+#nop Remove Armor
+#alias {ra} {
+	remove all.obsidian;
+	remove all.heavy;
+};
+
+#nop Bash Swing Swing
+#alias {swp} {
+	bash;
+	sw;
+	sw;
+    #show {Bash Swing Swing};
+}
+
+#nop Bash Swing
+#alias {sp} {
+	bash;
+	sw;
+    #show {Bash Swing};
+}
+
+
+#nop Specialize Wild Fighting
+#alias {{respec wild}} {
+    tell angel pracreset;
+    spec wild;
+    lead horse;
+    lead 2.horse;
+    generic_warrior_pracs;
+    generic_ranger_pracs;
+    generic_mystic_pracs;
+    generic_mage_pracs;
+    #14 prac wild swing;
+}
+
+#nop Specialize Weapon Master
+#alias {{respec weapon}} {
+    tell angel pracreset;
+    spec weapon master;
+    lead horse;
+    lead 2.horse;
+    generic_warrior_pracs;
+    generic_ranger_pracs;
+    generic_mystic_pracs;
+    generic_mage_pracs;
+    #10 prac kick;
+}
+
+#nop Specialize Defender
+#alias {{respec defender}} {
+    tell angel pracreset;
+    spec defender;
+    lead horse;
+    lead 2.horse;
+    generic_warrior_pracs;
+    generic_ranger_pracs;
+    generic_mystic_pracs;
+    generic_mage_pracs;
+    #10 prac defend;
+}
+
+#nop Practice Warrior Skills
+#alias {{generic_warrior_pracs}} {
+    #36 prac weapon;
+    #5 prac two;
+    #14 prac berserk;
+    #14 prac bash;
+    #14 prac parry;
+    #18 prac find weakness;
+    #5 prac rescue;
+    prac swim;
+}
+
+#nop Practice Ranger Skills
+#alias {{generic_ranger_pracs}} {
+    #24 prac fast attack;
+    #5 prac pick;
+    #10 prac ride;
+    #20 prac dodge;
+    #10 prac track;
+    #10 prac search;
+    #20 prac travelling;
+}
+
+#nop Practice Mystic Powers
+#alias {{generic_mystic_pracs}} {
+    #5 prac remove poison;
+}
+
+#nop Practice Mage Spells
+#alias {{generic_mage_pracs}} {
+    #10 prac cure self;
+    #10 prac vitalize self;
+}
+
+#nop Healing Spam
+#alias {^heal$} {
+    ra;
+    #8 cs;
+    wa;
+    #show {HEAL!};
+}
+
+#class Skjor close

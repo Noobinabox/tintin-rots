@@ -1,0 +1,88 @@
+#nop Mugluk Profile
+#class Mugluk open;
+
+#high {The whole place is ablaze with fire, the flames reaching to you.} { bold Red };
+#high {chill ray} { <aef> };
+#high {searing darkness} { <f888> };
+
+#alias {{reset darkness}} {
+    #show {<F0F8>Reseting to Darkness Spec...};
+    tell angel pracreset;
+    spec darkness;
+    mage prac set;
+    mystic prac set;
+    warrior prac set;
+    ranger prac set;
+}
+
+#alias {{reset regeneration}} {
+    #show {<F0F8>Reseting to Regeneration Spec...};
+    tell angel pracreset;
+    spec regeneration;
+    mage prac set;
+    mystic prac set;
+    warrior prac set;
+    ranger prac set;
+}
+
+#alias {{reset fire}} {
+    #show {<F0F8>Reseting to Fire Spec...};
+    tell angel pracreset;
+    spec fire;
+    prac blaze;
+    mage prac set;
+    mystic prac set;
+    warrior prac set;
+    ranger prac set;
+}
+
+#alias {{mage prac set}} {
+    #show {<F0F8>Practicing Mage Spells...};
+    #7 prac searing darkness;
+    #7 prac shield;
+    #7 prac dark bolt;
+    #7 prac chill ray;
+    #7 prac cure self;
+    #7 prac vitalize self;
+    #7 prac reveal life;
+    #7 prac earthquake;
+    #7 prac relocate;
+    #7 prac blink;
+    #7 prac identify;
+    #7 prac summon;
+}
+
+#alias {{mystic prac set}} {
+    #show {<F0F8>Practicing Mystic Spells...};
+    #7 prac regeneration;
+    #7 prac poison;
+    #7 prac vit;
+    #7 prac curing saturation;
+    #2 prac remove poison;
+    #7 prac insight;
+    #7 prac fear;
+    #7 prac terror;
+    #7 prac hall;
+    #7 prac curse;
+    #2 prac resist magic;
+    #2 prac slow;
+    #2 prac detect hidden;
+    #4 prac revive;
+}
+
+#alias {{warrior prac set}} {
+    #show {<F0F8>Practicing Warrior Skills...};
+    #10 prac concussion;
+    #10 prac parry;
+}
+
+#alias {{ranger prac set}} {
+    #show {<F0F8>Practicing Ranger Skills...};
+    prac swim;
+    prac pick;
+    #20 prac dodge;
+    #20 prac ride;
+}
+
+
+#class Mugluk close;
