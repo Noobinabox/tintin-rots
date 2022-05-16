@@ -1,0 +1,16 @@
+#class Zuka open
+
+#var food { flesh };
+
+#alias {wa} {
+    wear all.chain;
+    wear all.mithril;
+}
+
+#alias {ra} {
+   wear all.cotton;
+   wear slippers;
+   wear shiny;
+}
+
+#class Zuka close

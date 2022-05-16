@@ -9,11 +9,13 @@
 #nop Wear Armour
 #alias {wa} {
     wear all.chainmail;
+    wear all.metal;
 }
 
 #nop Remove Armour
 #alias {ra} {
     remove all.chainmail;
+    remove all.metal;
 }
 
 #nop Spec Fire
@@ -71,10 +73,12 @@
     #5 prac relocate;
     #5 prac fireball;
     #5 prac shield;
+    #5 prac summon;
 }
 
 #alias {{setup default mystic}} {
     #7 prac remove poison;
+    #5 prac prag;
 }
 
 #alias {{setup default warrior}} {
@@ -88,7 +92,7 @@
     prac swimming;
     #5 prac pick;
     #30 prac dodge;
-    #18 prac fast attack;
+    #19 prac fast attack;
     #20 prac ride;
     #11 prac track;
     #10 prac search;

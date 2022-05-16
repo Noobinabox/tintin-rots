@@ -21,4 +21,11 @@
 #nop Fireball
 #high {You smirk as your fireball explodes in the face of %1.} { <faa> };
 
+#nop Darkbolt
+#high {Your dark bolt hits %1 body.} { <cce> };
+#high {Your dark bolt slays %1.} { <cce> };
+
+#nop Blaze
+#high {The whole place is ablaze with fire, the flames reaching to you.} { bold Red };
+
 #class spell-highlight close;

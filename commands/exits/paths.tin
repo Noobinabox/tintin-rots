@@ -1,9 +1,5 @@
 #CLASS {paths} OPEN
 
-#nop Ride and Dismount Swapping for mapping
-#pathdir {dismount}{ride};
-#pathdir {ride}{dismount};
-
 #ALIAS {create path}
 {
     #class paths open;
@@ -68,7 +64,7 @@
     #path stop;
     #path run {0.50};
     #action {No way! You're fighting for your life!} {#path stop;#path move -1;};
-    #delay {90} {#unaction {No way! You're fighting for your life!}};
+    #delay {90} {#unaction {No way! You're fighting for your life!}}
 }
 
 #ALIAS {save path %1 %2}
@@ -108,12 +104,17 @@
     #path walk forward
 }
 
+#PATHDIR {dismount} {ride} {0}
+#PATHDIR {ride} {dismount} {0}
+#TAB {BedToDFR}
 #TAB {CatsToFidds}
 #TAB {CrossroadsToFidds}
+#TAB {DFRToBed}
 #TAB {DFRToMntVillage}
 #TAB {DFRToTroll}
 #TAB {DFRToTroy}
 #TAB {DaleToLT}
+#TAB {DocksToRicketyBridge}
 #TAB {EasterlingsToFidds}
 #TAB {FiddsToCats}
 #TAB {FiddsToCrossroads}
@@ -124,7 +125,10 @@
 #TAB {LTToThranduil}
 #TAB {MntVillageToDFR}
 #TAB {NestleToFidds}
+#TAB {OakToRicketyBridge}
 #TAB {RCToVinya}
+#TAB {RicketyBridgeToDocks}
+#TAB {RicketyBridgeToOak}
 #TAB {TabenToLT}
 #TAB {ThranduilToLT}
 #TAB {ThranduilToVale}
@@ -132,12 +136,15 @@
 #TAB {TroyToDFR}
 #TAB {ValeToThranduil}
 #TAB {VinyaToRC}
+#VARIABLE {BedToDFR} {e;e;e;e;e;s;e;e;e;e;e;e;e;e;e;e;e;n;e;n;n;e;e;n;e;e;e;s;e;n;e;e;e;n;e;e;e;e;e;s;e;s;s;e;s;e;e;e;e;e;e;s;e;e;n;e;e;e;e;e;e;e}
 #VARIABLE {CatsToFidds} {e;e;e;e;e;n;n;w;n;w;n;n;e;n}
 #VARIABLE {CrossroadsToFidds} {s;s;s;s;e;s;s;e;s;s;s;s;s;s;s;s;s;s;s;s;w;s;s;s;e;s;s;s}
+#VARIABLE {DFRToBed} {w;w;w;w;w;w;w;s;w;w;n;w;w;w;w;w;w;n;w;n;n;w;n;w;w;w;w;w;s;w;w;w;s;w;n;w;w;w;s;w;w;s;s;w;s;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;w;w}
 #VARIABLE {DFRToMntVillage} {n;n;e;n;w;n;n;n;n;w;n;n;e;n;n;n;n;n;n;w;w;n;n;n;n;e;n;n}
 #VARIABLE {DFRToTroll} {e;e;e;e;n;n;n;e;n;n;n;n;w;n;e;n;e;n;n;w;w;n;n;n;n;e;n;n;e;e;s;e;e;n;n;n;d;n;e}
 #VARIABLE {DFRToTroy} {e;s;s;s;s;s;e;s;w;s;s;e;e}
 #VARIABLE {DaleToLT} {w;w;w;w;s;s;e;s;s;w;s;w;w;w;w;n;s;w;w;s;s;s;w;s;s;e;e;e;e;s;e;e;e}
+#VARIABLE {DocksToRicketyBridge} {e;n;n;e;e;e;e;e;e;s;e;e;e;e;e;s;e;s;e;e;e;e;s;e;e;e;n;e;n;e;e;e;e;e;n;e;s;e;e;e;s;e;e;e;e;e;s;e;s;e;e;s;e;e;e;s;e;s;e;e;e;e;s;s;s;s;e;e;e;e;e;e;e;e;e;e;n;e;e;e;e}
 #VARIABLE {EasterlingsToFidds} {e;n;n;n;n;n;n;n;n;n;n;n;n;n;n;w;n;e;n;n}
 #VARIABLE {FiddsToCats} {s;w;s;s;e;s;e;s;s;w;w;w;w;w}
 #VARIABLE {FiddsToCrossroads} {n;n;n;w;n;n;n;e;n;n;n;n;n;n;n;n;n;n;n;n;w;n;n;w;n;n;n;n}
@@ -148,7 +155,10 @@
 #VARIABLE {LTToThranduil} {w;w;w;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;n;w;w;w;w;w;w;w;w;w;n;u}
 #VARIABLE {MntVillageToDFR} {s;s;w;s;s;s;s;e;e;s;s;s;s;s;s;w;s;s;e;s;s;s;s;e;s;w;s;s}
 #VARIABLE {NestleToFidds} {e;e;s;s;s;e;e;e;e;s;s;d;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;n;n;n;n;n;w;n;n;e;n}
+#VARIABLE {OakToRicketyBridge} {s;s;w;w;w;w;w;s;s;n;w;w;w;w;w;w;w;w;w;s;s;n;w;w;w;s;s;w;w;w;s;s;w;w;w;w;n;n;w;s;w;s;w;w;w;n;w;s;w;w;w;n;w;n;w;n;n;w;w;w;n;w;w}
 #VARIABLE {RCToVinya} {e;ride;e;e;s;s;s;s;s;e;s;s;e;e;d;e;e;e;e;d;e;e;s;s;s;e;s;e;s;d;d;e;e;e;e;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e}
+#VARIABLE {RicketyBridgeToDocks} {w;w;w;w;s;w;w;w;w;w;w;w;w;w;w;n;n;n;n;w;w;w;w;n;w;n;w;w;w;n;w;w;n;w;n;w;w;w;w;w;n;w;w;w;n;w;s;w;w;w;w;w;s;w;s;w;w;w;n;w;w;w;w;n;w;n;w;w;w;w;w;n;w;w;w;w;w;w;s;s;w}
+#VARIABLE {RicketyBridgeToOak} {e;e;s;e;e;e;s;s;e;s;e;s;e;e;e;n;e;s;e;e;e;n;e;n;e;s;s;e;e;e;e;n;n;e;e;e;n;n;e;e;e;s;n;n;e;e;e;e;e;e;e;e;e;s;n;n;e;e;e;e;e;n;n}
 #VARIABLE {TabenToLT} {e;s;e;s;e;e;e;e;e;e;e;e;e;s;e;e;s;s;s;s;e;e;e;e;n;n;n;e;e;e}
 #VARIABLE {ThranduilToLT} {d;s;e;e;e;e;e;e;e;e;e;s;e;e;e;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;e;e;e}
 #VARIABLE {ThranduilToVale} {d;s;w;w;w;w;w;n;w;w;s;n;n;w;w;s;w;w;s;w;w;s;s;s;s;w;s;s;s;s;s;s;s;s;s;w;s;w;s}
@@ -156,5 +166,13 @@
 #VARIABLE {TroyToDFR} {w;w;n;n;e;n;w;n;n;n;n;n;w}
 #VARIABLE {ValeToThranduil} {n;e;n;e;n;n;n;n;n;n;n;n;n;e;n;n;n;n;e;e;n;e;e;n;e;e;s;s;n;e;e;s;e;e;e;e;e;n;u}
 #VARIABLE {VinyaToRC} {w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;d;w;w;w;w;u;u;n;w;n;w;n;n;n;w;w;u;w;w;w;w;u;w;w;n;n;w;n;n;n;n;n;w;w;dismount;w}
+#VARIABLE {targets}
+{
+    {1} 
+    {
+        {name} {bat}
+        {num} {1}
+    }
+}
 
 #CLASS {paths} CLOSE

@@ -55,6 +55,27 @@
 	alias pco prepare 'cone of cold';
 }
 
+#alias {{setup hai mage}} {
+	alias 1 cast 'cure self';
+	alias 2 cast 'vitalize self';
+	alias c cast 'chill ray';
+	alias p cast 'dark bolt';
+	alias o cast 'magic missile';
+	alias z cast 'reveal life';
+	alias v cast 'flash';
+	alias rc cast 'relocate';
+	alias b cast 'blink';
+    alias sd cast 'searing darkness';
+	alias co cast 'cone of cold';
+	alias id cast 'identify';
+	alias create cast 'create light';
+	alias ll cast 'locate living';
+	alias cs cast 'shield';
+	alias pc prepare 'chill ray';
+	alias pp prepare 'dark bolt';
+    alias psd prepare 'searing darkness';
+	alias pco prepare 'cone of cold';
+}
 #alias {{setup ranger} %1} {
 	alias h hide;
 	alias hw hide well;

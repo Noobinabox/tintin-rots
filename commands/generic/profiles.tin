@@ -6,7 +6,7 @@
 #action {Reconnecting.} {post_login}
 
 #alias load_profile {
-	#unaction {You are %%1 %%2, a %%3 (%%4) %%5 %%6.} {load_profile %%1};
+	#unaction {You are %%1 %%2, {a|an} %%3 (%%4) %%5 %%6.} {load_profile %%1};
 	#read {profiles/%1.tin};
 
 	#nop // Temporarily suppress output to prevent spam at login;
@@ -23,7 +23,7 @@
 	#nop // a function so that multiple things can tigger;
 
 	#nop // Load profile;
-	#action {You are %%1 %%2, a %%3 (%%4) %%5 %%6.} {load_profile %%1};
+	#action {You are %%1 %%2, {a|an} %%3 (%%4) %%5 %%6.} {load_profile %%1};
 
 	#nop // Blow out your dragon's eye if you have one;
 	blow eye;
