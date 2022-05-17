@@ -1,7 +1,6 @@
 #nop Mugluk Profile
 #class Mugluk open;
 
-#high {The whole place is ablaze with fire, the flames reaching to you.} { bold Red };
 #high {chill ray} { <aef> };
 #high {searing darkness} { <f888> };
 

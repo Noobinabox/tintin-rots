@@ -8,7 +8,7 @@
     #action {You cannot go that way.} {#path delete};
     #action {Can not go there mounted.} {#path delete};
     #action {Your mount cannot swim.} {#path delete};
-    #action {No way! You're fighting for your life!} {#path delete};
+    #action {No way! You're fighting for your %1!} {#path delete} {1};
     #action {The %1 seems to be closed} {#path delete}
 }
 
@@ -48,7 +48,7 @@
     #unaction {You cannot go that way.};
     #unaction {Can not go there mounted.};
     #unaction {Your mount cannot swim.};
-    #unaction {No way! You're fighting for your life!};
+    #unaction {No way! You're fighting for your %1!};
     #unaction {The %1 seems to be closed}
 }
 
@@ -60,11 +60,11 @@
 
 #ALIAS {run %1}
 {
+    #showme {<F0F8>Running %1...};
+    #variable running 1;
     #path load %1;
     #path stop;
-    #path run {0.50};
-    #action {No way! You're fighting for your life!} {#path stop;#path move -1;};
-    #delay {90} {#unaction {No way! You're fighting for your life!}}
+    #path run {0.50}
 }
 
 #ALIAS {save path %1 %2}
@@ -99,6 +99,16 @@
     #unaction {$leader mounts}
 }
 
+#EVENT {END OF PATH}
+{
+    #variable running 0
+}
+
+#EVENT {END OF RUN}
+{
+    #variable running 0
+}
+
 #MACRO {\}
 {
     #path walk forward
@@ -107,6 +117,9 @@
 #PATHDIR {dismount} {ride} {0}
 #PATHDIR {ride} {dismount} {0}
 #TAB {BedToDFR}
+#TAB {BlindsToBone}
+#TAB {BoneToBlinds}
+#TAB {BoneToGlob}
 #TAB {CatsToFidds}
 #TAB {CrossroadsToFidds}
 #TAB {DFRToBed}
@@ -120,6 +133,7 @@
 #TAB {FiddsToCrossroads}
 #TAB {FiddsToEasterlings}
 #TAB {FiddsToNestle}
+#TAB {GlobToBone}
 #TAB {LTToDale}
 #TAB {LTToTaben}
 #TAB {LTToThranduil}
@@ -137,6 +151,9 @@
 #TAB {ValeToThranduil}
 #TAB {VinyaToRC}
 #VARIABLE {BedToDFR} {e;e;e;e;e;s;e;e;e;e;e;e;e;e;e;e;e;n;e;n;n;e;e;n;e;e;e;s;e;n;e;e;e;n;e;e;e;e;e;s;e;s;s;e;s;e;e;e;e;e;e;s;e;e;n;e;e;e;e;e;e;e}
+#VARIABLE {BlindsToBone} {e;e;n;w;n;w;w;s;w;w;w;n;n;n;n;w;w;w;n;w;w;n;e;e;n;n;w;w;n;e;e;w;n;n;w;w;n;w;s;s}
+#VARIABLE {BoneToBlinds} {n;n;e;s;e;e;s;s;e;w;w;s;e;e;s;s;w;w;s;e;e;s;e;e;e;s;s;s;s;e;e;e;n;e;e;s;e;s;w;w}
+#VARIABLE {BoneToGlob} {n;n;e;s;e;e;s;w;w;s;s;w;s;e;s;w;s;s;w;w;s;w;n;w;w;w;w;w;w;w;s;w}
 #VARIABLE {CatsToFidds} {e;e;e;e;e;n;n;w;n;w;n;n;e;n}
 #VARIABLE {CrossroadsToFidds} {s;s;s;s;e;s;s;e;s;s;s;s;s;s;s;s;s;s;s;s;w;s;s;s;e;s;s;s}
 #VARIABLE {DFRToBed} {w;w;w;w;w;w;w;s;w;w;n;w;w;w;w;w;w;n;w;n;n;w;n;w;w;w;w;w;s;w;w;w;s;w;n;w;w;w;s;w;w;s;s;w;s;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;w;w}
@@ -150,6 +167,7 @@
 #VARIABLE {FiddsToCrossroads} {n;n;n;w;n;n;n;e;n;n;n;n;n;n;n;n;n;n;n;n;w;n;n;w;n;n;n;n}
 #VARIABLE {FiddsToEasterlings} {s;s;w;s;e;s;s;s;s;s;s;s;s;s;s;s;s;s;s;w}
 #VARIABLE {FiddsToNestle} {s;w;s;s;e;s;s;s;s;s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;u;n;n;w;w;w;w;n;n;n;w;w}
+#VARIABLE {GlobToBone} {e;n;e;e;e;e;e;e;e;s;e;n;e;e;n;n;e;n;w;n;e;n;n;e;e;n;w;w;n;w;s;s}
 #VARIABLE {LTToDale} {w;w;w;n;w;w;w;w;n;n;e;n;n;n;e;e;n;s;e;e;e;e;n;e;n;n;w;n;n;e;e;e;e}
 #VARIABLE {LTToTaben} {w;w;w;s;s;s;w;w;w;w;n;n;n;n;w;w;n;w;w;w;w;w;w;w;w;w;n;w;n;w}
 #VARIABLE {LTToThranduil} {w;w;w;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;n;w;w;w;w;w;w;w;w;w;n;u}
@@ -166,13 +184,6 @@
 #VARIABLE {TroyToDFR} {w;w;n;n;e;n;w;n;n;n;n;n;w}
 #VARIABLE {ValeToThranduil} {n;e;n;e;n;n;n;n;n;n;n;n;n;e;n;n;n;n;e;e;n;e;e;n;e;e;s;s;n;e;e;s;e;e;e;e;e;n;u}
 #VARIABLE {VinyaToRC} {w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;d;w;w;w;w;u;u;n;w;n;w;n;n;n;w;w;u;w;w;w;w;u;w;w;n;n;w;n;n;n;n;n;w;w;dismount;w}
-#VARIABLE {targets}
-{
-    {1} 
-    {
-        {name} {bat}
-        {num} {1}
-    }
-}
+#VARIABLE {running} {0}
 
 #CLASS {paths} CLOSE
