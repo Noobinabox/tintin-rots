@@ -1,5 +1,28 @@
 #CLASS {paths} OPEN
 
+#ACTION {No way!  You're fighting for your life!}
+{
+    #path stop;
+    #path move -1
+}
+{1}
+
+
+#ALIAS {set speed fast} {
+    #show {<F0F8>Setting Travelling Speed Fast...};
+    #var runSpeed 0;
+}
+
+#alias {set speed normal} {
+    #show {<F0F8>Setting Travelling Speed Normal...};
+    #var runSpeed 0.50;
+}
+
+#alias {set speed slow} {
+    #show {<F0F8>Setting Travelling Speed Slow...};
+    #var runSpeed 1;
+}
+
 #ALIAS {create path}
 {
     #class paths open;
@@ -64,7 +87,7 @@
     #variable running 1;
     #path load %1;
     #path stop;
-    #path run {0.50}
+    #path run {$runSpeed}
 }
 
 #ALIAS {save path %1 %2}
@@ -134,9 +157,11 @@
 #TAB {FiddsToEasterlings}
 #TAB {FiddsToNestle}
 #TAB {GlobToBone}
+#TAB {GlobToMageTower}
 #TAB {LTToDale}
 #TAB {LTToTaben}
 #TAB {LTToThranduil}
+#TAB {MageTowerToGlob}
 #TAB {MntVillageToDFR}
 #TAB {NestleToFidds}
 #TAB {OakToRicketyBridge}
@@ -168,9 +193,11 @@
 #VARIABLE {FiddsToEasterlings} {s;s;w;s;e;s;s;s;s;s;s;s;s;s;s;s;s;s;s;w}
 #VARIABLE {FiddsToNestle} {s;w;s;s;e;s;s;s;s;s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;u;n;n;w;w;w;w;n;n;n;w;w}
 #VARIABLE {GlobToBone} {e;n;e;e;e;e;e;e;e;s;e;n;e;e;n;n;e;n;w;n;e;n;n;e;e;n;w;w;n;w;s;s}
+#VARIABLE {GlobToMageTower} {e;s;w;s;e;s;w;w;n;w;w;s;w;e;n;w;w;s;w;w;w;w;w;w;n;w;w;w;w;n;n;w;w;w;w;w;n;w;s;n;w;w;s;s;s;e;s;s;s;s;w;w;w;w;w;n;w;w;w;w;n}
 #VARIABLE {LTToDale} {w;w;w;n;w;w;w;w;n;n;e;n;n;n;e;e;n;s;e;e;e;e;n;e;n;n;w;n;n;e;e;e;e}
 #VARIABLE {LTToTaben} {w;w;w;s;s;s;w;w;w;w;n;n;n;n;w;w;n;w;w;w;w;w;w;w;w;w;n;w;n;w}
 #VARIABLE {LTToThranduil} {w;w;w;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;w;w;w;n;w;w;w;w;w;w;w;w;w;n;u}
+#VARIABLE {MageTowerToGlob} {s;e;e;e;e;s;e;e;e;e;e;n;n;n;n;w;n;n;n;e;e;s;n;e;s;e;e;e;e;e;s;s;e;e;e;e;s;e;e;e;e;e;e;n;e;e;s;w;e;n;e;e;s;e;e;n;w;n;e;n;w}
 #VARIABLE {MntVillageToDFR} {s;s;w;s;s;s;s;e;e;s;s;s;s;s;s;w;s;s;e;s;s;s;s;e;s;w;s;s}
 #VARIABLE {NestleToFidds} {e;e;s;s;s;e;e;e;e;s;s;d;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;n;n;n;n;n;w;n;n;e;n}
 #VARIABLE {OakToRicketyBridge} {s;s;w;w;w;w;w;s;s;n;w;w;w;w;w;w;w;w;w;s;s;n;w;w;w;s;s;w;w;w;s;s;w;w;w;w;n;n;w;s;w;s;w;w;w;n;w;s;w;w;w;n;w;n;w;n;n;w;w;w;n;w;w}
@@ -185,5 +212,6 @@
 #VARIABLE {ValeToThranduil} {n;e;n;e;n;n;n;n;n;n;n;n;n;e;n;n;n;n;e;e;n;e;e;n;e;e;s;s;n;e;e;s;e;e;e;e;e;n;u}
 #VARIABLE {VinyaToRC} {w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;d;w;w;w;w;u;u;n;w;n;w;n;n;n;w;w;u;w;w;w;w;u;w;w;n;n;w;n;n;n;n;n;w;w;dismount;w}
 #VARIABLE {running} {0}
+#VARIABLE {runSpeed} {0.75}
 
 #CLASS {paths} CLOSE

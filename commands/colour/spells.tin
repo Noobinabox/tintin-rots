@@ -3,7 +3,7 @@
 #class spell-highlight open;
 
 #nop Chill Ray
-#high {%1 shudders as your chill ray strikes it.} { <aef> };
+#high {%1 shudders as your chill ray strikes %2.} { <aef> };
 #high {Your chill ray leaves a layer of frost on the corpse %1} { <aef> };
 
 #nop Firebolt

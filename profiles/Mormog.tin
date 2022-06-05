@@ -1,0 +1,62 @@
+#class Mormog open
+
+#var food { flesh };
+
+#alias {wa} {
+    wear all.chain;
+    wear all.mithril;
+}
+
+#alias {ra} {
+   wear all.cotton;
+   wear slippers;
+   wear shiny;
+}
+
+#alias {reset battle magic} {
+    tell angel pracreset;
+    spec battle magic;
+    reset default;
+}
+
+#alias {reset default} {
+    setup default mage;
+    setup default mystic;
+    setup default ranger;
+    setup default warrior;
+}
+
+#alias {setup default mage} {
+    #5 prac summon;
+    #5 prac reveal life;
+    #5 prac locate living;
+    #5 prac cure self;
+    #5 prac chill ray;
+    #5 prac vitalize self;
+    #5 prac earthquake;
+    #5 prac dark bolt;
+    #5 prac searing darkness;
+    #5 prac shield;
+}
+
+#alias {setup default mystic} {
+    #5 prac remove poison;
+}
+
+#alias {setup default ranger} {
+    #5 prac dodge;
+    #10 prac fast attack;
+    #5 prac pick;
+    #10 prac search;
+    #15 prac ride;
+    prac swim;
+}
+
+
+#alias {setup default warrior} {
+    #10 prac concussion;
+    #10 prac berserk;
+    #10 prac parry;
+}
+
+#class Mormog close
